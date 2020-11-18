@@ -33,7 +33,7 @@ Ongoing projects
 ---
 
 * **COVID-19 Risk Modelling**: 
-As part of a collaboration with the hospitals in Zealand region of Denmark, we are modelling COVID-19 risk from clinical and image data. I am contributing to the team focusing on [using chest X-rays](https://raghavian.github.io/publication/2020-01-01-Lung-Segmentation-from-Chest-X-rays-using-Variational-Data-Imputation) at admission to model risk of COVID-19.
+As part of a collaboration with the hospitals in Zealand region of Denmark, we are modelling COVID-19 risk from [clinical](https://raghavian.github.io/publication/2020-10-COVID) and image data. I am contributing to the team focusing on [using chest X-rays](https://raghavian.github.io/publication/2020-01-01-Lung-Segmentation-from-Chest-X-rays-using-Variational-Data-Imputation) at admission to model risk of COVID-19.
 
 * **Uncertainty Quantification**:
 Medical image segmentation with well calibrated and meaningful uncertainty estimation can be more useful in clinical settings. For example, we present a [probabilistic segmentation model](https://raghavian.github.io/publication/2020-07-uqFlow) that uses normalizing flows to improve the diversity of segmented samples.
