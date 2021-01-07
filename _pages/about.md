@@ -12,7 +12,7 @@ Bio
 
 Raghavendra Selvan (Raghav) is currently an Assistant Professor at the University of Copenhagen, with joint responsibilities at the Machine Learning Section (Dept. of Computer Science), Kiehn Lab (Department of Neuroscience) and the Data Science Laboratory. He received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
 
-His current research interests are broadly pertaining Bayesian Machine Learning (with a focus on Medical image analysis), Graph-based learning, Tensor networks, Approximate Inference and multi-object tracking theory.
+His current research interests are broadly pertaining Medical Image Analysis using Quantum Tensor Networks, Bayesian Machine Learning, Graph-neural networks, Approximate Inference and multi-object tracking theory.
 
 News
 ======
@@ -49,7 +49,8 @@ In this collabortion with [Kiehn Lab](https://in.ku.dk/research/ole-kiehn/), my 
 Obtaining structures from scattering data for nanomolecules turns out to be an expensive and difficult task. This ongoing collaboration with [Prof. Kirsten Jensen’s group](https://chem.ku.dk/ansatte/alle/?pure=en/persons/540779) we are explorting generating valid nanomolecular structures from x-ray scattering data using deep generative models with [promising early results](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs).
 
 * **Behavioural analysis of narwhals**: 
-Echolocation used by narwhals can reveal their behaviour. In this collaboration with [Prof. Susanne Ditlevsen's group](http://web.math.ku.dk/~susanne/), we are using machine learning methods to decode the echolation data and understand the animal behaviour.
+Echolocation used by narwhals can reveal their behaviour. In this collaboration with [Prof. Susanne Ditlevsen's group](http://web.math.ku.dk/~susanne/), we are using machine learning methods to characterise the [foraging behaviour of narwhals from accelerometer data](https://arxiv.org/abs/2101.01992).
+
 
 Completed projects
 ---
