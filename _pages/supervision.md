@@ -18,7 +18,7 @@ PhD projects
 
 Masters Theses
 ======
-* Jan Mikolaj Kaminski (Ongoing)
+* Jan Mikolaj Kaminski (2020)
 	* Topic: Deep learning-based spatial localisation of interneuron markers within the spinal cord by in situ sequencing
 	* Role: Primary supervisor
 * Anand Bansal (2020)
