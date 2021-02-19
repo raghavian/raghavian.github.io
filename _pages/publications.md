@@ -16,8 +16,7 @@ Preprints
 <ol>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'preprint' %}
-      <li> {% include archive-single.html %} <>
-      </li>
+      <li> {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
 </ol>
@@ -25,25 +24,29 @@ Preprints
 
 Journal Articles
 ---
+<ol>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'journal' %}
-      {% include archive-single.html %}
+     <li> {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
-
+</ol>
 Refereed Conference/Workshop Papers
 ---
+<ol>
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'conference' %}
+  <li> {% if post.pubtype == 'conference' %} </li>
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+<ol>
 
-Theses
+Reports
 ---
+<ol>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'thesis' %}
-      {% include archive-single.html %}
+   <li>   {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
-
+</ol>
