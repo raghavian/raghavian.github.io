@@ -13,12 +13,14 @@ author_profile: true
 
 Preprints
 ---
+<ol>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'preprint' %}
-      {% include archive-single.html %}
+      <li> {% include archive-single.html %} <>
+      </li>
   {% endif %}
 {% endfor %}
-
+</ol>
 
 
 Journal Articles
