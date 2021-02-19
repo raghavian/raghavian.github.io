@@ -26,10 +26,10 @@
       </div>
     {% endif %}
 
-    <a href="{{ base_path }}{{ post.url }}">{{ title }}</a><br>
-    <!--    <b> {{ title }} </b><br> -->
+    <!--    <a href="{{ base_path }}{{ post.url }}">{{ title }}</a><br> -->
+        <b> {{ title }} </b><br>
     In <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. (<a href=" {{ post.paperurl }} ">link</a>)<br>
-<p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '\s'}}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <!--    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: <p> | remove: </p>}}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p> -->
   
   </article>
 </div>
