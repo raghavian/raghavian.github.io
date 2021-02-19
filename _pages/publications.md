@@ -39,7 +39,7 @@ Refereed Conference/Workshop Papers
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-<ol>
+</ol>
 
 Reports
 ---
