@@ -16,13 +16,15 @@ His current research interests are broadly pertaining Medical Image Analysis usi
 
 News
 ======
+* 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to Journal of Ecological Informatics
+* 2021-02: [Paper](https://arxiv.org/abs/2102.06900) accepted to be presented at IPMI-2021
 * 2020-11: [Carbontracker](https://arxiv.org/abs/2007.03051) receives media attention [[0](https://news.ku.dk/all_news/2020/11/students-develop-tool-to-predict-the-carbon-footprint-of-algorithms/)] [[1](https://videnskab.dk/teknologi-innovation/kunstig-intelligens-er-en-kaempe-klimasynder-men-unge-danskeres-nye-vaerktoej)] [[2](https://www.anthropocenemagazine.org/2020/11/time-to-talk-about-carbon-footprint-artificial-intelligence/)] [[3](https://www.theregister.com/2020/11/04/gpt3_carbon_footprint_estimate/)] [[4](https://jyllands-posten.dk/nyviden/ECE12533278/kunstig-intelligens-er-en-kaempe-klimasynder-men-nyt-dansk-vaerktoej-skal-hjaelpe/)]
 * 2020-09: Started as Assistant Professor with joint responsibilities at the [Machine Learning Section](https://di.ku.dk/english/research/machine-learning/) (Dept. of Computer Science), [Kiehn Lab](https://in.ku.dk/research/kiehn-lab/) (Dept. of Neuroscience) and [Data Science Laboratory](https://datalab.science.ku.dk/) at University of Copenhagen
 * 2020-08: Featured in Computer Vision News with an [interview](https://rsipvision.com/ComputerVisionNews-2020August/24/) about our [MIDL paper](https://raghavian.github.io/publication/2020-01-01-Tensor-Networks-for-Medical-Image-Classification)
 * 2020-07: Runner-up for the Best Paper Award at [MIDL-2020](https://2020.midl.io/papers/selvan20.html)
-* 2019-01: Started as Post-doc at Dept. of Computer Science, University of Copenhagen
+<!--- * 2019-01: Started as Post-doc at Dept. of Computer Science, University of Copenhagen
 * 2018-11: Successfully defended my [PhD thesis](https://raghavian.github.io/publication/2018-01-01-Extraction-of-Airways)
-
+--->
 
 Research Projects
 ======
