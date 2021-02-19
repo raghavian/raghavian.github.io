@@ -31,12 +31,13 @@ Journal Articles
   {% endif %}
 {% endfor %}
 </ol>
+
 Refereed Conference/Workshop Papers
 ---
 <ol>
 {% for post in site.publications reversed %}
-  <li> {% if post.pubtype == 'conference' %} </li>
-      {% include archive-single.html %}
+  {% if post.pubtype == 'conference' %} 
+  <li>    {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
 </ol>
