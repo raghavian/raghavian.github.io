@@ -27,7 +27,7 @@
     {% endif %}
 
     <b> {{ title }} </b><br>
-    Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. Read more <a href=" {{ post.paperurl }} ">here</a>.
+    In <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. (<a href=" {{ post.paperurl }} ">link</a>)<br>
 
   </article>
 </div>
