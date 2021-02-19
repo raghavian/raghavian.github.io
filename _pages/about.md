@@ -23,7 +23,7 @@ News
 * 2020-08: Featured in Computer Vision News with an [interview](https://rsipvision.com/ComputerVisionNews-2020August/24/) about our [MIDL paper](https://raghavian.github.io/publication/2020-01-01-Tensor-Networks-for-Medical-Image-Classification)
 * 2020-07: Runner-up for the Best Paper Award at [MIDL-2020](https://2020.midl.io/papers/selvan20.html)
 <!-- * 2019-01: Started as Post-doc at Dept. of Computer Science, University of Copenhagen -->
-* 2018-11: Successfully defended my [PhD thesis](https://raghavian.github.io/publication/2018-01-01-Extraction-of-Airways)
+<!-- * 2018-11: Successfully defended my [PhD thesis](https://raghavian.github.io/publication/2018-01-01-Extraction-of-Airways) -->
 
 Research Projects
 ======
@@ -49,12 +49,9 @@ In this collabortion with [Kiehn Lab](https://in.ku.dk/research/ole-kiehn/), my 
 * **Generative Modelling of nanoparticles**: 
 Obtaining structures from scattering data for nanomolecules turns out to be an expensive and difficult task. This ongoing collaboration with [Prof. Kirsten Jensen’s group](https://chem.ku.dk/ansatte/alle/?pure=en/persons/540779) we are explorting generating valid nanomolecular structures from x-ray scattering data using deep generative models with [promising early results](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs).
 
-* **Behavioural analysis of narwhals**: 
-Echolocation used by narwhals can reveal their behaviour. In this collaboration with [Prof. Susanne Ditlevsen's group](http://web.math.ku.dk/~susanne/), we are using machine learning methods to characterise the [foraging behaviour of narwhals from accelerometer data](https://arxiv.org/abs/2101.01992).
-
-
 Completed projects
 ---
+* **Behavioural analysis of narwhals** (2021): [Collaboration as part of Data Science Lab](https://arxiv.org/abs/2101.01992)
 * **Segmentation of roots in soil** (2019): [Collaboration with Plant & Environ. Science Dept.](https://raghavian.github.io/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net)
 * **Extraction of airways from volumetric data** (2018): [PhD Thesis](https://raghavian.github.io/publication/2018-01-01-Extraction-of-Airways)
 * **Bayesian tracking of multiple point targets** (2015): [MSc Thesis](https://raghavian.github.io/publication/2015-01-01-Bayesian-tracking-EM)
