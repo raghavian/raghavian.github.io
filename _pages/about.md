@@ -16,7 +16,7 @@ His current research interests are broadly pertaining Medical Image Analysis usi
 
 News
 ======
-* 2021-03: [Paper](https://arxiv.org/abs/2009.12280) accepted to the Journal of Machine Learning for Biomedical Imaging
+* 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to the Journal of Ecological Informatics
 * 2021-02: [Paper](https://arxiv.org/abs/2102.06900) accepted to be presented at IPMI-2021
 * 2020-11: [Carbontracker](https://arxiv.org/abs/2007.03051) receives media attention [[0](https://news.ku.dk/all_news/2020/11/students-develop-tool-to-predict-the-carbon-footprint-of-algorithms/)] [[1](https://videnskab.dk/teknologi-innovation/kunstig-intelligens-er-en-kaempe-klimasynder-men-unge-danskeres-nye-vaerktoej)] [[2](https://www.anthropocenemagazine.org/2020/11/time-to-talk-about-carbon-footprint-artificial-intelligence/)] [[3](https://www.theregister.com/2020/11/04/gpt3_carbon_footprint_estimate/)] [[4](https://jyllands-posten.dk/nyviden/ECE12533278/kunstig-intelligens-er-en-kaempe-klimasynder-men-nyt-dansk-vaerktoej-skal-hjaelpe/)]
