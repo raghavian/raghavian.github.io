@@ -5,6 +5,6 @@ permalink: /publication/2021-01-Foraging
 date: 2021-02-19
 venue: 'Ecological Informatics'
 pubtype: 'journal'
-paperurl: https://arxiv.org/abs/2101.01992
+paperurl: https://www.sciencedirect.com/science/article/pii/S1574954121000662?dgcid=coauthor
 link: https://arxiv.org/abs/2101.01992
 ---
