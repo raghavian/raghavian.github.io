@@ -16,7 +16,7 @@ His current research interests are broadly pertaining Medical Image Analysis usi
 
 News
 ======
-* 2021-04: Started role as Chair of [Neuroimaging Research Pipelines workgroup](https://ohbm-environment.org/working-groups/) as part of the OHBM Sustainability and environmental action special interest group.
+* 2021-04: Started as Chair of [Neuroimaging Research Pipelines workgroup](https://ohbm-environment.org/working-groups/) as part of the OHBM Sustainability and environmental action special interest group.
 * 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to the Journal of Ecological Informatics
 * 2021-02: [Paper](https://arxiv.org/abs/2102.06900) accepted to be presented at IPMI-2021
