@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 * 2021
-	* "Quantum Tensor Networks for Medical Image Analysis", Frederich-Alexander University, Erlangen-Nuremberg, Germany (virtual) ([slides](files/FAU_20210526.pdf)) ([video]())
+	* "Quantum Tensor Networks for Medical Image Analysis", Frederich-Alexander University, Erlangen-Nuremberg, Germany (virtual) ([slides](files/FAU_20210526.pdf)) ([video](https://www.fau.tv/clip/id/33389)
 	* "Quantum Tensor Networks for Medical Image Analysis", Weill Cornell Medicine and Cornell-IthacaUniversity, USA (virtual) 
 
 * 2020
