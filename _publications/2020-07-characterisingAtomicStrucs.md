@@ -6,5 +6,4 @@ permalink: /publication/2020-07-characterisingAtomicStrucs
 date: 2020-08-24
 venue: '16th International Workshop on Mining and Learning with Graphs'
 pubtype: 'conference'
-paperurl: https://chemrxiv.org/articles/Characterising_the_Atomic_Structure_of_Mono-Metallic_Nanoparticles_from_X-Ray_Scattering_Data_Using_Conditional_Generative_Models/12662222/1
 ---
