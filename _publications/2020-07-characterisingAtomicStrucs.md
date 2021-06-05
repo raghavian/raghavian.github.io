@@ -6,4 +6,5 @@ permalink: /publication/2020-07-characterisingAtomicStrucs
 date: 2020-08-24
 venue: '16th International Workshop on Mining and Learning with Graphs'
 pubtype: 'conference'
+
 ---
