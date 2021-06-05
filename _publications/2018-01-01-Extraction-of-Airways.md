@@ -1,5 +1,6 @@
 ---
 title: "Extraction of Airways from Volumetric Data"
+authors: Raghavendra Selvan
 collection: publications
 permalink: /publication/2018-01-01-Extraction-of-Airways
 date: 2018-01-01
