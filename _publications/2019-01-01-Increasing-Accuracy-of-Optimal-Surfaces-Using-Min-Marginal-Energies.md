@@ -1,5 +1,7 @@
 ---
 title: "Increasing Accuracy of Optimal Surfaces Using Min-Marginal Energies"
+authors: Jens Petersen, Andres M Arias-Lorza, Raghavendra Selvan, Daniel Bos, Aad van der
+Lugt, Jesper H Pedersen, Mads Nielsen, Marleen de Bruijne 
 collection: publications
 permalink: /publication/2019-01-01-Increasing-Accuracy-of-Optimal-Surfaces-Using-Min-Marginal-Energies
 date: 2019-01-01

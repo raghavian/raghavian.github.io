@@ -1,5 +1,6 @@
 ---
 title: "A joint 3D UNet-Graph Neural Network-based method for Airway Segmentation from chest CTs"
+authors: Antonio Juarez, Raghavendra Selvan, Zaigham Saghir, Marleen de Bruijne.
 collection: publications
 permalink: /publication/2019-01-01-A-joint-3D-UNet-Graph-Neural-Network-based-method-for-Airway-Segmentation-from-chest-CTs
 date: 2019-01-01
