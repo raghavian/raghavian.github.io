@@ -9,15 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Education
----
-* PhD in Medical Image Analysis, University of Copenhagen, Denmark (2018)
-* MSc in Electrical Engineering, Chalmers University, Sweden (2015) 
-* Bachelor in Electronics and Communication Engineering, BMS Institute of Technology, India (2009) 
-
 Work experience
 ---
-* Sep 2020 -- Ongoing
+* Current employment (Sep 2020)
 	* Role: Assistant Professor
 	* Employer: University of Copenhagen
 * Jan 2019 -- Aug. 2020
@@ -29,10 +23,15 @@ Work experience
 * Nov 2009 -- July 2011
  	* Role: Networking Engineer
 	* Employer: MRO-TEK, Bangalore
- 
 * Freelance writer
 	* Columnist for [The Hindu](https://www.thehindu.com/profile/author/RaghavendraS/), [Frontline](https://frontline.thehindu.com/profile/author/Raghavendra-Selvan/)
 	* Nov 2011 - Ongoing
+
+Education
+---
+* PhD in Medical Image Analysis, University of Copenhagen, Denmark (2018)
+* MSc in Electrical Engineering, Chalmers University, Sweden (2015) 
+* Bachelor in Electronics and Communication Engineering, BMS Institute of Technology, India (2009) 
 
 Awards
 ---
@@ -42,7 +41,7 @@ Awards
 
 Skills
 ---
-* Reviewer at high impact journals and conferences such as IEEE Transactions of Medical Image Analysis, Medical Image Analysis, MICCAI, MIDL, NeurIPS
+* Reviewer at high impact journals and conferences such as IEEE Transactions of Medical Image Analysis, Medical Image Analysis, MICCAI, MIDL, NeurIPS, JMLR
 * [Blogger](http://blog.sarvajna.in)
 
 Publications
