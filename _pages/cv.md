@@ -47,8 +47,44 @@ Skills
 
 Publications
 ---
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+Preprints / Under Review
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'preprint' %}
+      <li> {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+
+Journal Articles
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'journal' %}
+     <li> {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+Refereed Conference/Workshop Papers
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'conference' %}
+  <li>    {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+Monographs
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'thesis' %}
+   <li>   {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
 
