@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
@@ -42,7 +42,7 @@ Refereed Conference/Workshop Papers
 {% endfor %}
 </ol>
 
-Reports
+Monographs
 ---
 <ol>
 {% for post in site.publications reversed %}
