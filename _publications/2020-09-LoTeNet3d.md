@@ -1,6 +1,7 @@
 ---
 title: "Locally orderless tensor networks for classifying two- and three-dimensional medical images"
 collection: publications
+authors: Raghavendra Selvan, Silas Ørting, Erik B Dam
 permalink: /publication/2020-09-LoTeNet3d
 date: 2021-03-01
 venue: 'The Journal of Machine Learning for Biomedical Imaging (MELBA)'
