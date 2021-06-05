@@ -1,5 +1,6 @@
 ---
 title: "Bayesian tracking of multiple point targets using expectation maximization"
+authors: Raghavendra Selvan
 collection: publications
 permalink: /publication/2015-01-01-Bayesian-tracking-EM
 date: 2015-01-01
