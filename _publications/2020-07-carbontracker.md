@@ -1,5 +1,6 @@
 ---
 title: "Carbontracker: Tracking and Predicting the Carbon Footprint of Training Deep Learning Models"
+authors:Lasse F Wolff Anthony, Benjamin Kanding, Raghavendra Selvan
 collection: publications
 permalink: /publication/2020-07-carbontracker
 date: 2020-01-01
