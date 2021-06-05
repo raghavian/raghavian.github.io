@@ -1,5 +1,6 @@
 ---
 title: "Tensor Networks for Medical Image Classification"
+authors: Raghavendra Selvan, Erik B Dam
 collection: publications
 permalink: /publication/2020-01-01-Tensor-Networks-for-Medical-Image-Classification
 date: 2020-01-01

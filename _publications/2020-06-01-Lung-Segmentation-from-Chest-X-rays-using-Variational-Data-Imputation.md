@@ -1,5 +1,6 @@
 ---
 title: "Lung Segmentation from Chest X-rays using Variational Data Imputation"
+authors:Raghavendra Selvan, Erik B Dam, Nicki Skafte Detlefsen, Sofus Rischel, Kaining Sheng, Mads Nielsen, Akshay Pai
 collection: publications
 permalink: /publication/2020-01-01-Lung-Segmentation-from-Chest-X-rays-using-Variational-Data-Imputation
 date: 2020-01-01
