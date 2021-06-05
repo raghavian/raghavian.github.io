@@ -1,6 +1,6 @@
 ---
 title: "Characterising the Atomic Structure of Mono-Metallic Nanoparticles from X-Ray Scattering Data Using Conditional Generative Models"
-authors: Andy Sode Anker, Emil TS Kjær, Erik B Dam, Simon JL Billinge, Kirsten MØ Jensen, Raghavendra Selvan
+authors: Andy Sode Anker, Emil TS Kjær, Erik B Dam, Simon JL Billinge, Kirsten MØ Jensen, **Raghavendra Selvan**
 collection: publications
 permalink: /publication/2020-07-characterisingAtomicStrucs
 date: 2020-08-24
