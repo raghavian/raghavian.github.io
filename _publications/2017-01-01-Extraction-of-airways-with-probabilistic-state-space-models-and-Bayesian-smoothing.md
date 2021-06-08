@@ -1,6 +1,7 @@
 ---
 title: "Extraction of airways with probabilistic state-space models and Bayesian smoothing"
-authors: Raghavendra Selvan, Jens Petersen, Jesper H. Pedersen, Marleen de Bruijne
+authbefore: 
+authafter: ", Jens Petersen, Jesper H. Pedersen, Marleen de Bruijne"
 collection: publications
 permalink: /publication/2017-01-01-Extraction-of-airways-with-probabilistic-state-space-models-and-Bayesian-smoothing
 date: 2017-01-01

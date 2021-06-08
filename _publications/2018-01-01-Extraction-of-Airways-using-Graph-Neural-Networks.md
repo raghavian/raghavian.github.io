@@ -1,6 +1,7 @@
 ---
 title: "Extraction of Airways using Graph Neural Networks"
-authors: Raghavendra Selvan, Thomas Kipf, Max Welling, Jesper H. Pedersen, Jens Petersen, Marleen de Bruijne
+authbefore: 
+authafter: ", Thomas Kipf, Max Welling, Jesper H. Pedersen, Jens Petersen, Marleen de Bruijne"
 collection: publications
 permalink: /publication/2018-01-01-Extraction-of-Airways-using-Graph-Neural-Networks
 date: 2018-01-01

@@ -1,6 +1,7 @@
 ---
 title: "Mean field network based graph refinement with application to airway tree extraction"
-authors: Raghavendra Selvan, Max Welling, Jesper H. Pedersen, Jens Petersen, Marleen de Bruijne
+authbefore: 
+authafter: ", Max Welling, Jesper H. Pedersen, Jens Petersen, Marleen de Bruijne"
 collection: publications
 permalink: /publication/2018-01-01-Mean-field-network-based-graph-refinement-with-application-to-airway-tree-extraction
 date: 2018-01-01

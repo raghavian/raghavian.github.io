@@ -1,6 +1,7 @@
 ---
 title: "A batch algorithm for estimating trajectories of point targets using expectation maximization"
-authors: Abu Sajana Rahmathullah, Raghavendra Selvan, Lennart Svensson
+authbefore: Abu Sajana Rahmathullah, 
+authafter: ", Lennart Svensson"
 collection: publications
 permalink: /publication/2016-01-01-A-batch-algorithm-for-estimating-trajectories-of-point-targets-using-expectation-maximization
 date: 2016-01-01
