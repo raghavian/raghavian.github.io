@@ -1,8 +1,7 @@
 ---
 title: "Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals"
-authbefore: Klas Rydhmer
+authbefore: Klas Rydhmer,
 authafter: 
-authors: Klas Rydhmer, Raghavendra Selvan
 collection: publications
 permalink: /publication/2021-01-betaVAE
 date: 2021-02-01
