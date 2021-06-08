@@ -1,8 +1,7 @@
 ---
 title: "Detection of foraging behavior from accelerometer data using U-Net type convolutional networks"
 authbefore: Manh Cuong Ngo,
-authafter: , Outi Tervo, Mads Peter Heide-Jørgensen, Susanne Ditlevsen
-
+authafter: ", Outi Tervo, Mads Peter Heide-Jørgensen, Susanne Ditlevsen"
 authors: Manh Cuong Ngo, Raghavendra Selvan, Outi Tervo, Mads Peter Heide-Jørgensen, Susanne Ditlevsen
 collection: publications
 permalink: /publication/2021-01-Foraging
