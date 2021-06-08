@@ -1,6 +1,7 @@
 ---
 title: "Segmenting two-dimensional structures with strided tensor networks"
-authors: Raghavendra Selvan, Erik B Dam, Jens Petersen
+authbefore: 
+authafter: ", Erik B Dam, Jens Petersen"
 collection: publications
 permalink: /publication/2021-01-strided-tenet
 date: 2021-02-01

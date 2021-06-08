@@ -28,7 +28,7 @@
 
     <!--    <a href="{{ base_path }}{{ post.url }}">{{ title }}</a><br> -->
         <b> {{ title}}</b><br>
-        {{post.authors}}. <br> 
+        <!--        {{post.authors}}. <br> -->
         {{post.authbefore}} <b>Raghavendra Selvan</b>{{post.authafter}}. <br>
     <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. 
     (<a href=" {{ post.paperurl }} ">link</a>)<br>
