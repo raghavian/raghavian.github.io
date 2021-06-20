@@ -19,7 +19,7 @@ News
 * 2021-06: [AI Chemy](https://doi.org/10.26434/chemrxiv.12662222.v1) project funded as co-applicant; UCPH funding (3.4M DKK)
 * 2021-06: [Paper](https://www.nature.com/articles/s41467-021-23224-7) published in Nature Communications; Collaboration with [Kiehn Lab](https://in.ku.dk/research/kiehn-lab/)
 * 2021-05: Two short papers accepted to be presented at MIDL-2021 [[1](https://openreview.net/forum?id=PLSdnHPx-W6)][[2](https://openreview.net/forum?id=1TPRpNyyj2L)]
-* 2021-04: Started as Chair of [Neuroimaging Research Pipelines workgroup](https://ohbm-environment.org/working-groups/) as part of the OHBM Sustainability and environmental action special interest group.
+* 2021-04: Started as Chair of [Neuroimaging Research Pipelines workgroup](neuropipelines.github.io/) as part of the OHBM Sustainability and environmental action [special interest group](https://ohbm-environment.org/working-groups/).
 * 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to the Journal of Ecological Informatics with [press release](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/)
 * 2021-02: [Paper](https://arxiv.org/abs/2102.06900) accepted to [IPMI-2021](http://ipmi2021.org/timetable/event/session-2-registration-2-2-2/) with an oral presentation
