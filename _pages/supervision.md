@@ -11,48 +11,40 @@ redirect_from:
 
 PhD projects
 ======
+**Co-supervisor**
 * Roser Montanana Rosell (2020 --)
-	* Topic: New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration
-	* Role: Co-supervisor 
-	* Publications: [Allodi et al. (2020)](https://raghavian.github.io/publication/2020-01-01-Locomotor-deficits-in-ALS-mice-are-paralleled-by-loss-of-V1-interneuron-connections-onto-fast-motor-neurons)
+	* *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
+	* Publications: [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
 
 Masters Theses
 ======
-* Jan Mikolaj Kaminski (2020)
-	* Topic: Deep learning-based spatial localisation of interneuron markers within the spinal cord by in situ sequencing
-	* Role: Primary supervisor
-* Anand Bansal (2020)
-	* Topic: Uncertainty quantification in medical image segmentation
-	* Role: Primary supervisor
-* Ruta Masiulyte (2019)
-	* Topic: Retinal blood vessel segmentation using GNNs
-	* Role: Primary supervisor
-* Basile Nicolas Rommes (2019)
-	* Mean Field Networks for Retinal Blood Vessel Segmentation 
-	* Role: primary supervisor
-* Abraham Smith (2018)
-	* Root Segmentation using Convolutional Neural Networks ([publication](https://raghavian.github.io/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net))
-	* Role: Co-supervisor
+**Primary supervisor**
+* Justinas Antanavicius (2021), *Registering Mouse Brain Slices to a Reference Atlas with Convolutional Neural Networks*
+* Jan Mikolaj Kaminski (2020), *Deep learning-based spatial localisation of interneuron markers within the spinal cord by in situ sequencing* ([publication](https://openreview.net/forum?id=PLSdnHPx-W6))
+* Anand Bansal (2020), *Uncertainty quantification in medical image segmentation*
+* Ruta Masiulyte (2019), *Retinal blood vessel segmentation using GNNs*
+* Basile Nicolas Rommes (2019), *Mean Field Networks for Retinal Blood Vessel Segmentation* 
 
-Masters Projects
+**Co-supervisor**
+* Abraham Smith (2018), *Root Segmentation using Convolutional Neural Networks* ([publication](https://raghavian.github.io/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net))
+
+Course Projects
 ======
-* Andy Sode Anker (2020)
-	* Topic: Using CVAEs to Extract Structural Motifs from X-ray Scattering Data ([Publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
-	* Role: primary supervisor
-* Xuan Zhong (2019) 
-	* Topic: Zero-Shot Relation Extraction using Graph Neural Networks
-	* Role: Co-supervisor
+**Primary Supervisor**
+* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([Publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
+
+**Co-supervisor**
+* Xuan Zhong (2019), BSc project, *Zero-Shot Relation Extraction using Graph Neural Networks*
 
 Bachelor projects
 ======
-* Benjamin Kanding & Lasse F. Wolff Anthony (2020)
-	* Topic: The Carbon Footprint of Training Deep Learning Models ([Python package](https://pypi.org/project/carbontracker/), [Publication](https://raghavian.github.io/publication/2020-07-carbontracker))
-	* Role: Primary supervisor
-* Gilli Fjallstein (2020)
-	* Topic: Locomotion behaviour analysis of mice from video sequences
-	* Role: Primary supervisor
-* Peter Kristoffer Licht (2016)
-	* Topic: Implementation of automatic blood vessel segmentation in retinal images using
-the Kalman filter
-	* Role: Co-supervisor
+**Primary Supervisor**
+* Kevin Weng (2021), *Self-supervised learning for medical image segmentation in high-resolution microscopy images*
+* Kasper Munk Rasmussen (2021), *Unsupervised learning of objects and concepts with a focus on medical images*
+* Christoffer Winther (2021), *Similarity measures of nanomolecules using self-supervised graph neural networks*
+* Benjamin Kanding & Lasse F. Wolff Anthony (2020), *The Carbon Footprint of Training Deep Learning Models*, ([Python package](https://pypi.org/project/carbontracker/), [Publication](https://raghavian.github.io/publication/2020-07-carbontracker))
+* Gilli Fjallstein (2020), *Locomotion behaviour analysis of mice from video sequences*
+
+**Co-supervisor**
+* Peter Kristoffer Licht (2016), *Implementation of automatic blood vessel segmentation in retinal images using the Kalman filter*
 
