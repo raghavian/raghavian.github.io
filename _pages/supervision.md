@@ -16,6 +16,20 @@ PhD projects
 	* *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
 	* Publications: [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
 
+---
+
+Course Projects
+======
+**Primary Supervisor**
+* Klas Rydhmer (2021), PhD project, *Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals* ([publication](https://arxiv.org/abs/2102.05526))
+* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
+
+**Co-supervisor**
+* Manh Cuong Ngo (2020), PhD project, *Detection of foraging behavior from accelerometer data using U-Net type convolutional networks* ([publication](https://www.sciencedirect.com/science/article/pii/S1574954121000662))
+* Xuan Zhong (2019), BSc project, *Zero-Shot Relation Extraction using Graph Neural Networks*
+
+---
+
 Masters Theses
 ======
 **Primary supervisor**
@@ -28,13 +42,7 @@ Masters Theses
 **Co-supervisor**
 * Abraham Smith (2018), *Root Segmentation using Convolutional Neural Networks* ([publication](https://raghavian.github.io/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net))
 
-Course Projects
-======
-**Primary Supervisor**
-* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([Publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
-
-**Co-supervisor**
-* Xuan Zhong (2019), BSc project, *Zero-Shot Relation Extraction using Graph Neural Networks*
+---
 
 Bachelor projects
 ======
