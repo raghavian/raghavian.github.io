@@ -8,4 +8,5 @@ date: 2021-05-01
 venue: '4th Conference on Medical Imaging with Deep Learning (MIDL)'
 pubtype: 'conference'
 paperurl: https://openreview.net/forum?id=PLSdnHPx-W6
+pdf: https://openreview.net/forum?id=PLSdnHPx-W6
 ---
