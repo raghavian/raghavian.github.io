@@ -8,5 +8,5 @@ date: 2021-02-01
 venue: 'Arxiv'
 pubtype: 'preprint'
 paperurl: https://arxiv.org/abs/2102.05526
-link: https://arxiv.org/abs/2102.05526
+pdf: https://arxiv.org/pdf/2102.05526
 ---
