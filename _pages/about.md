@@ -16,7 +16,7 @@ His current research interests are broadly pertaining Medical Image Analysis usi
 
 News
 ======
-* 2021-07: [Paper](https://arxiv.org/abs/2103.16328) accepted to Nature Scientific Reports
+* 2021-07: [Paper](https://www.nature.com/articles/s41598-021-95364-1) accepted to Nature Scientific Reports
 * 2021-06: [AI Chemy](https://doi.org/10.26434/chemrxiv.12662222.v1) project funded as co-applicant; UCPH funding (3.4M DKK)
 * 2021-06: [Paper](https://www.nature.com/articles/s41467-021-23224-7) published in Nature Communications; Collaboration with [Kiehn Lab](https://in.ku.dk/research/kiehn-lab/)
 * 2021-05: Two short papers accepted to be presented at MIDL-2021 [[1](https://openreview.net/forum?id=PLSdnHPx-W6)][[2](https://openreview.net/forum?id=1TPRpNyyj2L)]
