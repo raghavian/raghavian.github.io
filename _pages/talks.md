@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 * 2021
-	* "Quantum Tensor Networks for Medical Image Analysis", Frederich-Alexander University, Erlangen-Nuremberg, Germany (virtual) ([slides](files/FAU_20210526.pdf)) ([video](https://www.fau.tv/clip/id/33389)
+	* "Graph Neural Networks", DIKU/DTU/AAU Summer School on Geometric Deep Learning, Vejle, Denmark ([slides](files/gdl_raghav.pdf))
+* `` Graph refinement based airway extraction", University of Iowa (virtual) 
+	* "Quantum Tensor Networks for Medical Image Analysis", Frederich-Alexander University, Erlangen-Nuremberg, Germany (virtual) ([slides](files/FAU_20210526.pdf)) ([video](https://www.fau.tv/clip/id/33389))
 	* "Quantum Tensor Networks for Medical Image Analysis", Weill Cornell Medicine and Cornell-IthacaUniversity, USA (virtual) 
 
 * 2020
