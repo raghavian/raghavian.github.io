@@ -12,6 +12,7 @@ redirect_from:
 	* "Graph Neural Networks", DIKU/DTU/AAU Summer School on Geometric Deep Learning, Vejle, Denmark ([slides](files/gdl2021_raghav.pdf))
 	* `` Graph refinement based airway extraction", University of Iowa (virtual) 
 	* `` Carbon footprint driven deep learning model selection for medical imaging", MIDL 2021, ([video](https://2021.midl.io/papers/c4))
+	* ``Segmenting two-dimensional structures with strided tensor networks", IPMI 2021, ([video](http://ipmi2021.org/papers/135/))
 	* "Quantum Tensor Networks for Medical Image Analysis", Frederich-Alexander University, Erlangen-Nuremberg, Germany (virtual) ([slides](files/FAU_20210526.pdf)) ([video](https://www.fau.tv/clip/id/33389))
 	* "Quantum Tensor Networks for Medical Image Analysis", Weill Cornell Medicine and Cornell-IthacaUniversity, USA (virtual) 
 
