@@ -8,4 +8,5 @@ date: 2020-01-01
 venue: 'ICML Workshop on Challenges in Deploying and monitoring Machine Learning Systems'
 pubtype: 'conference'
 paperurl: https://arxiv.org/abs/2007.03051
+pdf: https://arxiv.org/pdf/2007.03051
 ---

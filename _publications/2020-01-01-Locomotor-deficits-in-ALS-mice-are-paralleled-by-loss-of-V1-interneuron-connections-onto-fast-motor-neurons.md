@@ -8,5 +8,6 @@ date: 2021-05-01
 venue: 'Nature Communications'
 pubtype: 'journal'
 paperurl: https://www.nature.com/articles/s41467-021-23224-7
+pdf: https://www.nature.com/articles/s41467-021-23224-7.pdf
 ---
 

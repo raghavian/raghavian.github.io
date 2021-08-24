@@ -7,5 +7,6 @@ permalink: /publication/2020-01-01-Graph-Refinement-based-Airway-Extraction-usin
 date: 2020-01-01
 venue: 'Medical Image Analysis'
 pubtype: 'journal'
-paperurl: https://arxiv.org/abs/1811.08674
+paperurl: https://www.sciencedirect.com/science/article/pii/S1361841520301158
+pdf: https://arxiv.org/pdf/1811.08674
 ---

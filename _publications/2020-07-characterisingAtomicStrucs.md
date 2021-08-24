@@ -8,4 +8,5 @@ date: 2020-08-24
 venue: '16th International Workshop on Mining and Learning with Graphs'
 pubtype: 'conference'
 paperurl: https://doi.org/10.26434/chemrxiv.12662222.v1
+pdf: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c74dd1842e6514f2db3527/original/characterising-the-atomic-structure-of-mono-metallic-nanoparticles-from-x-ray-scattering-data-using-conditional-generative-models.pdf
 ---
