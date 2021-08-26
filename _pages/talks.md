@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 * 2021
-	* "Graph Neural Networks", DIKU/DTU/AAU Summer School on Geometric Deep Learning, Vejle, Denmark ([slides](files/gdl2021_raghav.pdf))
+	* "Graph Neural Networks", DIKU/DTU/AAU Summer School on Geometric Deep Learning, Vejle, Denmark ([slides](files/gdl2021_raghav.pdf)) ([video](https://geometric-deep-learning.compute.dtu.dk/wp-content/uploads/2021/08/lecture_day3_Selvan.mp4))
 	* `` Graph refinement based airway extraction", University of Iowa (virtual) 
 	* `` Carbon footprint driven deep learning model selection for medical imaging", MIDL 2021, ([video](https://2021.midl.io/papers/c4))
 	* ``Segmenting two-dimensional structures with strided tensor networks", IPMI 2021, ([video](http://ipmi2021.org/papers/135/))
