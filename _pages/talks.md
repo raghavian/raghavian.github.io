@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 * 2021
-    * "ML for Chemistry", Datascience for Chemistry PhD course, University of Copenhagen, Denmark ([material](files/material.zip))
+    * "ML for Chemistry", Datascience for Chemistry PhD course, University of Copenhagen, Denmark ([material](files/material.zip)) ([slides](files/ML_for_chem.pdf))
     * "Graph Neural Networks", DIKU/DTU/AAU Summer School on Geometric Deep Learning, Vejle, Denmark ([slides](files/gdl2021_raghav.pdf)) ([video](https://geometric-deep-learning.compute.dtu.dk/wp-content/uploads/2021/08/lecture_day3_Selvan.mp4))
     * ``Graph refinement based airway extraction", University of Iowa (virtual) 
     * ``Carbon footprint driven deep learning model selection for medical imaging", MIDL 2021, ([video](https://2021.midl.io/papers/c4))
