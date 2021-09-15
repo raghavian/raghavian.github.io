@@ -33,7 +33,7 @@ Course Projects
 Masters Theses
 ======
 **Primary supervisor**
-* Justinas Antanavicius (2021), *Registering Mouse Brain Slices to a Reference Atlas with Convolutional Neural Networks*
+* Justinas Antanavicius (2021), *Registering Mouse Brain Slices to a Reference Atlas with Convolutional Neural Networks* ([publication](https://arxiv.org/abs/2109.06662))
 * Jan Mikolaj Kaminski (2020), *Deep learning-based spatial localisation of interneuron markers within the spinal cord by in situ sequencing* ([publication](https://openreview.net/forum?id=PLSdnHPx-W6))
 * Anand Bansal (2020), *Uncertainty quantification in medical image segmentation*
 * Ruta Masiulyte (2019), *Retinal blood vessel segmentation using GNNs*
