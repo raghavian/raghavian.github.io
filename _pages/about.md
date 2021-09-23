@@ -49,6 +49,8 @@ Obtaining structures from scattering data for nanomolecules turns out to be an e
 * **Locomotion analysis**:
 In this collabortion with [Kiehn Lab](https://in.ku.dk/research/ole-kiehn/), my role has been to analyze videos of mice running on treadmills in order to extract speed, cadence and coordination statistics. The results from analyzing some 1000 videos have accentuated the role of [specific interneurons in the spinal cord that influence locomotion](https://raghavian.github.io/publication/2020-01-01-Locomotor-deficits-in-ALS-mice-are-paralleled-by-loss-of-V1-interneuron-connections-onto-fast-motor-neurons).
 
+* **Quantifying insect biodiversity**: In this ongoing collaboration with [FaunaPhotonics](https://www.faunaphotonics.com/), we are attempting unsupervised clustering of insects based on optically recorded signals from field data. An [initial attempt](https://arxiv.org/abs/2102.05526) involved using a variational autoencoder that dynamically adjusts the tradeoff between reconstruction and regularisation terms.
+
 * **Uncertainty Quantification**:
 Medical image segmentation with well calibrated and meaningful uncertainty estimation can be more useful in clinical settings. For example, we present a [probabilistic segmentation model](https://raghavian.github.io/publication/2020-07-uqFlow) that uses normalizing flows to improve the diversity of segmented samples.
 
