@@ -4,7 +4,7 @@ authbefore: Klas Rydhmer,
 authafter: 
 collection: publications
 permalink: /publication/2021-01-betaVAE
-date: 2021-02-01
+date: 2021-10-01
 venue: 'Journal of Ecological Informatics'
 pubtype: 'journal'
 paperurl: https://arxiv.org/abs/2102.05526
