@@ -16,6 +16,7 @@ His current research interests are broadly pertaining Medical Image Analysis usi
 
 News
 ======
+* 2021-07: [Paper](https://arxiv.org/abs/2102.05526) accepted to Journal of Ecological Informatics
 * 2021-09: Started a consultancy project with [FaunaPhotonics](https://www.faunaphotonics.com/) 
 * 2021-07: [Paper](https://www.nature.com/articles/s41598-021-95364-1) accepted to Nature Scientific Reports
 * 2021-06: [AI Chemy](https://doi.org/10.26434/chemrxiv.12662222.v1) project funded as co-applicant; UCPH funding (3.4M DKK)
