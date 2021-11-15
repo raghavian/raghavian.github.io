@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 * 2021
+    * "Deep Learning for Medical Image Analysis", Guest Lecture,  Jönköping University, Sweden
+    * "Exploring Sustainability of ML/AI, With Carbontracker as an example", 50 year celebration event of Dept. of Computerscience, UCPH, Denmark
     * "ML for Chemistry", Datascience for Chemistry PhD course, University of Copenhagen, Denmark
     * "Graph Neural Networks", DIKU/DTU/AAU Summer School on Geometric Deep Learning, Vejle, Denmark ([slides](files/gdl2021_raghav.pdf)) ([video](https://geometric-deep-learning.compute.dtu.dk/wp-content/uploads/2021/08/lecture_day3_Selvan.mp4))
     * ``Graph refinement based airway extraction", University of Iowa (virtual) 
