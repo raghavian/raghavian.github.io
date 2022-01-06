@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Talks"
+title: "Invited Talks"
 permalink: /talks/
 author_profile: true
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-* 2021
+* 2022
    * "Quantum Tensor Networks for Medical Image Analysis", Centre for the Mathematics of Quantum Theory, University of Copenhagen, Denmark
 * 2021
     * "Deep Learning for Medical Image Analysis", Guest Lecture,  Jönköping University, Sweden
