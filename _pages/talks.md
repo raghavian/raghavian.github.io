@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 * 2021
+   * "Quantum Tensor Networks for Medical Image Analysis", Centre for the Mathematics of Quantum Theory, University of Copenhagen, Denmark
+* 2021
     * "Deep Learning for Medical Image Analysis", Guest Lecture,  Jönköping University, Sweden
     * "Exploring Sustainability of ML/AI, With Carbontracker as an example", 50 year celebration event of Dept. of Computerscience, UCPH, Denmark
     * "ML for Chemistry", Datascience for Chemistry PhD course, University of Copenhagen, Denmark
