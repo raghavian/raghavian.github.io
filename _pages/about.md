@@ -25,6 +25,7 @@ News
 * 2021-04: Started as Chair of [Neuroimaging Research Pipelines workgroup](https://neuropipelines.github.io/) as part of the OHBM Sustainability and environmental action [special interest group](https://ohbm-environment.org/working-groups/).
 * 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to the Journal of Ecological Informatics with [press release](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/)
+
 <!-- * 2021-09: Started a consultancy project with [FaunaPhotonics](https://www.faunaphotonics.com/) 
 2021-02: [Paper](https://arxiv.org/abs/2102.06900) accepted to [IPMI-2021](http://ipmi2021.org/timetable/event/session-2-registration-2-2-2/) with an oral presentation
 * 2020-11: [Carbontracker](https://arxiv.org/abs/2007.03051) receives media attention [[0](https://news.ku.dk/all_news/2020/11/students-develop-tool-to-predict-the-carbon-footprint-of-algorithms/)] [[1](https://videnskab.dk/teknologi-innovation/kunstig-intelligens-er-en-kaempe-klimasynder-men-unge-danskeres-nye-vaerktoej)] [[2](https://www.anthropocenemagazine.org/2020/11/time-to-talk-about-carbon-footprint-artificial-intelligence/)] [[3](https://www.theregister.com/2020/11/04/gpt3_carbon_footprint_estimate/)] [[4](https://jyllands-posten.dk/nyviden/ECE12533278/kunstig-intelligens-er-en-kaempe-klimasynder-men-nyt-dansk-vaerktoej-skal-hjaelpe/)]
@@ -52,7 +53,7 @@ Obtaining structures from scattering data for nanomolecules turns out to be an e
 In this collabortion with [Kiehn Lab](https://in.ku.dk/research/ole-kiehn/), my role has been to analyze videos of mice running on treadmills in order to extract speed, cadence and coordination statistics. The results from analyzing some 1000 videos have accentuated the role of [specific interneurons in the spinal cord that influence locomotion](https://raghavian.github.io/publication/2020-01-01-Locomotor-deficits-in-ALS-mice-are-paralleled-by-loss-of-V1-interneuron-connections-onto-fast-motor-neurons).
 
 * **Sustainable neuroimaging**:
-As the Chair of the SEA-SIG [Neuroimaging Research Working Group](https://neuropipelines.github.io/), a team within SEA-SIG, I am leading an international team of 15 colleagues. This volunteer team are dedicated to the carbon footprinting of neuroimaging pipelines, and generation of best practice guidance. 
+As the Chair of the SEA-SIG [Neuroimaging Research Working Group](https://neuropipelines.github.io/), a team within SEA-SIG, I am leading an international team of 15 colleagues. This volunteer team is dedicated to the carbon footprinting of neuroimaging pipelines, and generation of best practice guidance. 
 
 * **Quantifying insect biodiversity**: In this ongoing collaboration with [FaunaPhotonics](https://www.faunaphotonics.com/), we are attempting unsupervised clustering of insects based on optically recorded signals from field data. An [initial attempt](https://arxiv.org/abs/2102.05526) involved using a variational autoencoder that dynamically adjusts the tradeoff between reconstruction and regularisation terms.
 
