@@ -16,8 +16,9 @@ His current research interests are broadly pertaining Medical Image Analysis wit
 
 News
 ======
-* 2022-02: Biodiversity Quantification project funded as PI; [AI-Denmark](https://aidenmark.dk/) funding (100k DKK)
+* 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2021-10: [Paper](https://arxiv.org/abs/2102.05526) accepted to Journal of Ecological Informatics. [Press coverage](https://videnskab.dk/teknologi-innovation/ny-dansk-opfindelse-insekters-vingeslag-kan-bruges-til-at-overvaage)
+* 2022-02: Biodiversity Quantification project funded as PI; [AI-Denmark](https://aidenmark.dk/) funding (100k DKK)
 * 2021-07: [Paper](https://www.nature.com/articles/s41598-021-95364-1) accepted to Nature Scientific Reports
 * 2021-06: [AI Chemy](https://doi.org/10.26434/chemrxiv.12662222.v1) project funded as co-applicant; UCPH funding (3.4M DKK)
 * 2021-06: [Paper](https://www.nature.com/articles/s41467-021-23224-7) published in Nature Communications; Collaboration with [Kiehn Lab](https://in.ku.dk/research/kiehn-lab/)
