@@ -4,7 +4,7 @@ authbefore:
 authafter: ", Erik B Dam, Søren Alexander Flensborg, Jens Petersen"
 collection: publications
 permalink: /publication/2021-09-patchMPS
-date: 2021-09-16
+date: 2022-02-21
 venue: 'The Journal of Machine Learning for Biomedical Imaging (MELBA)'
 pubtype: 'journal'
 paperurl: https://arxiv.org/abs/2109.07138
