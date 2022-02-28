@@ -16,6 +16,7 @@ His current research interests are broadly pertaining Medical Image Analysis wit
 
 News
 ======
+* 2022-02: [Paper](https://openreview.net/forum?id=swvVpnzro9q) accepted to be presented at the 5th International Conference on Medical Imaging with Deep Learning (MIDL). 
 * 2022-02: [Paper](https://openreview.net/forum?id=rRGzrXChq0F) accepted to be presented at International Workshop on Biomedical Image Registration. 
 * 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2022-02: [Paper](https://arxiv.org/abs/2102.05526) accepted to Journal of Ecological Informatics. [Press coverage](https://videnskab.dk/teknologi-innovation/ny-dansk-opfindelse-insekters-vingeslag-kan-bruges-til-at-overvaage)
