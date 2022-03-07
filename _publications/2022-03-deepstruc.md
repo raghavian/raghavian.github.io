@@ -1,6 +1,6 @@
 ---
 title: "DeepStruc: Towards structure solution from pair distribution function data using deep generative models"
-authbefore: "Emil T. S. Kjær, Andy S. Anker, Marcus N. Weng, Simon J. L. Billinge"
+authbefore: "Emil T. S. Kjær, Andy S. Anker, Marcus N. Weng, Simon J. L. Billinge,"
 authafter: ", Kirsten M. Ø. Jensen"
 collection: publications
 permalink: /publication/2022-03-deepstruc
