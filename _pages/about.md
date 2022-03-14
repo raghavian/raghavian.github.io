@@ -16,7 +16,7 @@ His current research interests are broadly pertaining Medical Image Analysis wit
 
 News
 ======
-* Prof. Ole Kiehn, group leader of Kiehn Lab where I am employed, received [The Brain Prize-2022](https://lundbeckfonden.com/en/node/133)
+* Prof. Ole Kiehn, group leader of Kiehn Lab where I am half-time employed at, received [The Brain Prize-2022](https://lundbeckfonden.com/en/node/133)
 * 2022-02: [Paper](https://openreview.net/forum?id=swvVpnzro9q) accepted to be presented at the 5th International Conference on Medical Imaging with Deep Learning (MIDL). 
 * 2022-02: [Paper](https://openreview.net/forum?id=rRGzrXChq0F) accepted to be presented at International Workshop on Biomedical Image Registration. 
 * 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
