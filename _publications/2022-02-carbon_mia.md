@@ -5,8 +5,8 @@ authafter: ", Nikhil Bhagwat, Lasse F. Wolff Anthony, Benjamin Kanding, Erik B. 
 collection: publications
 permalink: /publication/2022-02-carbon_mia
 date: 2022-03-07
-venue: 'Arxiv'
-pubtype: 'preprint'
+venue: '25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)'
+pubtype: 'conference'
 paperurl: https://arxiv.org/abs/2203.02202
 pdf: https://arxiv.org/pdf/2203.02202
 ---
