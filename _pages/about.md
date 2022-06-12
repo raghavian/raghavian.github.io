@@ -17,7 +17,6 @@ His current research interests are broadly pertaining Medical Image Analysis wit
 News
 ======
 * 2022-02: [Paper](https://arxiv.org/abs/2203.02202) accepted to be presented at the 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
-* Prof. Ole Kiehn, group leader of Kiehn Lab where I am half-time employed at, received [The Brain Prize-2022](https://lundbeckfonden.com/en/node/133)
 * 2022-02: [Paper](https://openreview.net/forum?id=swvVpnzro9q) accepted to be presented at the 5th International Conference on Medical Imaging with Deep Learning (MIDL). 
 * 2022-02: [Paper](https://openreview.net/forum?id=rRGzrXChq0F) accepted to be presented at International Workshop on Biomedical Image Registration. 
 * 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
@@ -29,6 +28,7 @@ News
 * 2021-05: Two short papers accepted to be presented at MIDL-2021 [[1](https://openreview.net/forum?id=PLSdnHPx-W6)][[2](https://openreview.net/forum?id=1TPRpNyyj2L)]
 * 2021-04: Started as Chair of [Neuroimaging Research Pipelines workgroup](https://neuropipelines.github.io/) as part of the OHBM Sustainability and environmental action [special interest group](https://ohbm-environment.org/working-groups/).
 <!-- * 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
+* Prof. Ole Kiehn, group leader of Kiehn Lab where I am half-time employed at, received [The Brain Prize-2022](https://lundbeckfonden.com/en/node/133)
 * 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to the Journal of Ecological Informatics with [press release](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/)
 
 * 2021-09: Started a consultancy project with [FaunaPhotonics](https://www.faunaphotonics.com/) 
