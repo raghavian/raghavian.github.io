@@ -16,20 +16,21 @@ His current research interests are broadly pertaining Medical Image Analysis wit
 
 News
 ======
-* 2022-07: Media coverage on energy efficient Machine Learning in [MIT Technology Review](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/)
+* 2022-07: EU Horizon 2020 project on low resource ML methods funded as work package leader (4.3M DKK)
+* 2022-07: Interview excerpt on energy efficient Machine Learning in [MIT Technology Review](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/)
 * 2022-02: [Paper](https://arxiv.org/abs/2203.02202) accepted to be presented at the 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
 * 2022-02: [Paper](https://openreview.net/forum?id=swvVpnzro9q) accepted to be presented at the 5th International Conference on Medical Imaging with Deep Learning (MIDL). 
 * 2022-02: [Paper](https://openreview.net/forum?id=rRGzrXChq0F) accepted to be presented at International Workshop on Biomedical Image Registration. 
 * 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2022-02: [Paper](https://arxiv.org/abs/2102.05526) accepted to Journal of Ecological Informatics. [Press coverage](https://videnskab.dk/teknologi-innovation/ny-dansk-opfindelse-insekters-vingeslag-kan-bruges-til-at-overvaage)
+<!-- 
 * 2022-02: Biodiversity Quantification project funded as PI; [AI-Denmark](https://aidenmark.dk/) funding (100k DKK)
 * 2021-07: [Paper](https://www.nature.com/articles/s41598-021-95364-1) accepted to Nature Scientific Reports
 * 2021-06: [AI Chemy](https://doi.org/10.26434/chemrxiv.12662222.v1) project funded as co-applicant; UCPH funding (3.4M DKK)
 * 2021-06: [Paper](https://www.nature.com/articles/s41467-021-23224-7) published in Nature Communications; Collaboration with [Kiehn Lab](https://in.ku.dk/research/kiehn-lab/)
 * 2021-05: Two short papers accepted to be presented at MIDL-2021 [[1](https://openreview.net/forum?id=PLSdnHPx-W6)][[2](https://openreview.net/forum?id=1TPRpNyyj2L)]
 * 2021-04: Started as Chair of [Neuroimaging Research Pipelines workgroup](https://neuropipelines.github.io/) as part of the OHBM Sustainability and environmental action [special interest group](https://ohbm-environment.org/working-groups/).
-
-<!-- * 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
+* 2021-03: [Paper](https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images) accepted to the Journal of Machine Learning for Biomedical Imaging
 * Prof. Ole Kiehn, group leader of Kiehn Lab where I am half-time employed at, received [The Brain Prize-2022](https://lundbeckfonden.com/en/node/133)
 * 2021-02: [Paper](https://arxiv.org/abs/2101.01992) accepted to the Journal of Ecological Informatics with [press release](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/)
 * 2021-09: Started a consultancy project with [FaunaPhotonics](https://www.faunaphotonics.com/) 
