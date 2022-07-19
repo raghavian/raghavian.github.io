@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 * 2022
+   * "Identifying Partial Mouse Brain Microscopy Images from the Allen Reference Atlas Using a Contrastively Learned Semantic Space", Oral Presentation at Workshop on Biomedical Image Registration, 2022 ([video](https://www.youtube.com/embed/rJ_wr-EyhPE))
+   * "Machine Learning for Biomedical Image Analysis", Guest Lecture at Center for Advanced Bioimaging Summer School, 2022
    * "Quantum Tensor Networks for Medical Image Analysis", Centre for the Mathematics of Quantum Theory, University of Copenhagen, Denmark
 * 2021
     * "Deep Learning for Medical Image Analysis", Guest Lecture,  Jönköping University, Sweden
