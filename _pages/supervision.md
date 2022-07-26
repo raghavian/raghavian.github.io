@@ -52,8 +52,8 @@ Masters Theses
 Bachelor projects
 ======
 **Primary Supervisor**
-* Nicklas Boserup (2022), *Self-supervised image segmentation using contrastive regions*
 * Pedram Bakhtiarifard (2022), *Carbon Aware Tabular Benchmarks for Neural Architecture Search*
+* Nicklas Boserup (2022), *Self-supervised image segmentation using contrastive regions*
 * Björn Wadmark (2022), *Spike Sorting of Neuronal Activity Obtained From Brains of Mice*
 * Jakob Flinck Sheye (2022), *Influence of Local Feature Maps in Matrix Product State Tensor Networks*
 * Björn Olof Christian Wadmark (2022), *Spike Sorting of Neuronal Activity Obtained From Brains of Mice*
