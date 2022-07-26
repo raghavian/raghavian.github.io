@@ -16,4 +16,5 @@ Research Assistant working with FaunaPhotonics.
 
 **Pedram Bakhtiarifard**
 
-![image](_people/files/pedram.jpeg){:style="float: left"} Research Assistant working on Resource Efficient ML.
+![image](pedram.jpeg) 
+Research Assistant working on Resource Efficient ML.
