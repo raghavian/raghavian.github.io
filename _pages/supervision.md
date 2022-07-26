@@ -27,6 +27,7 @@ Course Projects
 * Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
 
 **Co-supervisor**
+* Julian Elisha Schön (2022), MSc project, *Temporal Embeddings in Deep Generative Latent Models for Disease Prediction and Treatment Planning*
 * Manh Cuong Ngo (2020), PhD project, *Detection of foraging behavior from accelerometer data using U-Net type convolutional networks* ([publication](https://www.sciencedirect.com/science/article/pii/S1574954121000662))
 * Xuan Zhong (2019), BSc project, *Zero-Shot Relation Extraction using Graph Neural Networks*
 
@@ -42,6 +43,8 @@ Masters Theses
 * Basile Nicolas Rommes (2019), *Mean Field Networks for Retinal Blood Vessel Segmentation* 
 
 **Co-supervisor**
+* Frederik L. Johansen (2022), *Developing a Deep Q-Learning Framework for Atomic Structure Determination of Mono-Metallic Nanoclusters using Pair Distribution Function Data*
+* Ulrik Friis-Jensen (2022), *Using Deep Generative Models for Atomic Structure Solution of Metal Oxide Nanoparticles from Pair Distribution Function Data*
 * Abraham Smith (2018), *Root Segmentation using Convolutional Neural Networks* ([publication](https://raghavian.github.io/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net))
 
 ---
@@ -49,6 +52,8 @@ Masters Theses
 Bachelor projects
 ======
 **Primary Supervisor**
+* Nicklas Boserup (2022), *Self-supervised image segmentation using contrastive regions*
+* Pedram Bakhtiarifard (2022), *Carbon Aware Tabular Benchmarks for Neural Architecture Search*
 * Jakob Flinck Sheye (2022), *Influence of Local Feature Maps in Matrix Product State Tensor Networks*
 * Björn Olof Christian Wadmark (2022), *Spike Sorting of Neuronal Activity Obtained From Brains of Mice*
 * Kevin Weng (2021), *Self-supervised learning for medical image segmentation in high-resolution microscopy images*
