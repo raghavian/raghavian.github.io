@@ -9,16 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-**Frederik L. Johansen**
+Frederik L. Johansen
+---
 PhD candidate in the AIChemy project. 
 
-**Julian E. Schön**
-
+Julian E. Schön
+---
 Research Assistant working with FaunaPhotonics.
 
-**Pedram Bakhtiarifard**
-
+Pedram Bakhtiarifard
+---
 ![image](pedram.jpeg) Research Assistant working on Resource Efficient ML.
 
-**Ulrik Friis-Jensen** 
+Ulrik Friis-Jensen
+---
 PhD candidate in the AIChemy project.
