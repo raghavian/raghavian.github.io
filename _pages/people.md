@@ -9,11 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Julian Elisha Schön
-======
+**Julian Elisha Schön**
 Research Assistant working with FaunaPhotonics.
 
 
-Pedram Bakhtiarifard
-======
+**Pedram Bakhtiarifard**
 Research Assistant working on Resource Efficient ML.
