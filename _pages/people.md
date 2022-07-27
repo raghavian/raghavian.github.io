@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: talk
 title: "People"
 permalink: /people/
 author_profile: false
