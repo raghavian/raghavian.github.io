@@ -23,6 +23,8 @@ Pedram Bakhtiarifard
 
 Research Assistant working on Resource Efficient ML.
 
+{: style="float: none"} 
+
 Ulrik Friis-Jensen
 ---
 ![image](ulrik.jpg){: style="float: left"} 
