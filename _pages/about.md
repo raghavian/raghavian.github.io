@@ -16,11 +16,11 @@ His current research interests are broadly pertaining Resource Efficient ML, Med
 
 News
 ======
+* 2022-08: [Paper](https://arxiv.org/abs/2203.02202) accepted with an oral presentation at the 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
 * 2022-07: [Paper](https://arxiv.org/abs/2207.09740) accepted to be presented at the Workshop on Deep Generative Models at 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
 * 2022-07: EU Horizon 2020 project on developing resource efficient big data pipelines funded as work package leader (2.4M DKK)
 * 2022-07: EU Horizon 2020 project on low resource ML methods funded as work package leader (4.3M DKK)
 * 2022-07: Interview excerpt on energy efficient Machine Learning in [MIT Technology Review](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/)
-* 2022-02: [Paper](https://arxiv.org/abs/2203.02202) accepted to be presented at the 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
 * 2022-02: [Paper](https://openreview.net/forum?id=swvVpnzro9q) accepted to be presented at the 5th International Conference on Medical Imaging with Deep Learning (MIDL). 
 * 2022-02: [Paper](https://openreview.net/forum?id=rRGzrXChq0F) accepted to be presented at International Workshop on Biomedical Image Registration. 
 * 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
