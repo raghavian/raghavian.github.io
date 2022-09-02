@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications with Raghavendra Selvan"
 permalink: /publications/
 author_profile: true
 ---
