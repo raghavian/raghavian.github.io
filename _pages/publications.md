@@ -11,15 +11,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% endif %}
 
 
-Preprints / Under Review
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'preprint' %}
-      <li> {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
 
 
 Journal Articles
@@ -52,7 +43,17 @@ Monographs
 {% endfor %}
 </ol>
 
-Peer-reviewing
+Preprints / Under Review
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'preprint' %}
+      <li> {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
+<!-- Peer-reviewing
 ---
 Peer-reviewing is important to keep maintain scientific standards and to contribute to the research community. I also use it as an opportunity to read and keep abrest with new work. However, in the current Machine Learning research climate the reviewing load is quite hectic and takes up a considerable amount of my work time. I will try to maintain a count of all the reviewing I have done/will do to account for my time.
 
@@ -73,4 +74,4 @@ Peer-reviewing is important to keep maintain scientific standards and to contrib
    * Machine Learning for Biomedical Imaging [13]
    * Pattern Recognition and Machine Intelligence [2]
    * Transactions on Medical Imaging [4]
-
+-->
