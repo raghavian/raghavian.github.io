@@ -8,10 +8,11 @@ redirect_from:
 ---
 Media Coverage
 ---
-* _These simple changes can make AI research much more energy efficient_, MIT Technology Review, (2022) ([link](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/))
-* _Insect wingbeats will help quantify biodiversity_, UCPH Press Release, (2022) ([link](https://science.ku.dk/english/press/news/2022/insect-wingbeats-will-help-quantify-biodiversity/)) 
-* _Algorithm reveals the mysterious foraging habits of narwhals_, UCPH Press Release, (2021) ([link](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/))
-* _Students develop tool to predict the carbon footprint of algorithms_, UCPH Press Release, ([link](https://news.ku.dk/all_news/2020/11/students-develop-tool-to-predict-the-carbon-footprint-of-algorithms/)) 
+* _Building an image classifier for sorting images_, The Hindu (2022) ([link](https://epaper.thehindu.com/Home/MShareImage?Pictureid=GL8A8EF7A.2)) 
+* _These simple changes can make AI research much more energy efficient_, MIT Technology Review (2022) ([link](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/))
+* _Insect wingbeats will help quantify biodiversity_, UCPH Press Release (2022) ([link](https://science.ku.dk/english/press/news/2022/insect-wingbeats-will-help-quantify-biodiversity/)) 
+* _Algorithm reveals the mysterious foraging habits of narwhals_, UCPH Press Release (2021) ([link](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/))
+* _Students develop tool to predict the carbon footprint of algorithms_, UCPH Press Release (2020) ([link](https://news.ku.dk/all_news/2020/11/students-develop-tool-to-predict-the-carbon-footprint-of-algorithms/)) 
 
 
 Invited Talks 
