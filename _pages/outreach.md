@@ -16,7 +16,7 @@ Media Coverage
 * Columns for [The Hindu](https://www.thehindu.com/profile/author/RaghavendraS/)
    * _Building an image classifier for sorting images_, The Hindu (2022) ([link](https://epaper.thehindu.com/Home/MShareImage?Pictureid=GL8A8EF7A.2)) 
 
-Invited Talks 
+Select Invited Talks 
 ---
 {% include base_path %}
 * 2022
