@@ -20,7 +20,7 @@ Invited Talks
 ---
 {% include base_path %}
 * 2022
-   * "Behavioural Analysis with Big Data and Deep Learning", Guest Lecture at PhD course on Animal Models of Disease, UCPH, 2022 ([data](files/behaviour.zip)
+   * "Behavioural Analysis with Big Data and Deep Learning", Guest Lecture at PhD course on Animal Models of Disease, UCPH, 2022 ([data](files/behaviour.zip)) ([slides](files/Raghav2022Behaviour.pdf))
    * "Identifying Partial Mouse Brain Microscopy Images from the Allen Reference Atlas Using a Contrastively Learned Semantic Space", Oral Presentation at Workshop on Biomedical Image Registration, 2022 ([video](https://www.youtube.com/embed/rJ_wr-EyhPE))
    * "Machine Learning for Biomedical Image Analysis", Guest Lecture at Center for Advanced Bioimaging Summer School, 2022
    * "Quantum Tensor Networks for Medical Image Analysis", Centre for the Mathematics of Quantum Theory, University of Copenhagen, Denmark
