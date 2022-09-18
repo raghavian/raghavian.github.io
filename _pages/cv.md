@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-1-page CV. _last updated Sep. 2022._ ([download](raghav_cv_short.pdf))
+1-page CV. _last updated Sep. 2022._ ([download](files/raghav_cv_short.pdf))
 
-Long version CV. _last updated Sep. 2022._ ([download](raghav_cv_long.pdf))
+Long version CV. _last updated Sep. 2022._ ([download](files/raghav_cv_long.pdf))
 
