@@ -5,8 +5,8 @@ authafter:
 collection: publications
 permalink: /publication/2022-08-patch-contrast
 date: 2022-08-24
-venue: 'Arxiv'
-pubtype: 'preprint'
+venue: 'Northern Lights Deep Learning Workshop'
+pubtype: 'conference'
 paperurl: https://arxiv.org/abs/2208.10779
 pdf: https://arxiv.org/pdf/2208.10779
 ---
