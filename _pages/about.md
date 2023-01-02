@@ -16,6 +16,7 @@ His current research interests are broadly pertaining Resource Efficient ML, Med
 
 News
 ======
+* 2022-12: Dept. of Computer Science Dissemination Award and ML Section award for contributions in 2022.
 * 2022-11: [Paper](https://arxiv.org/abs/2208.10779) accepted to be presented at 6th Northern Lights Deep Learning Conference (NLDL).
 * 2022-10: UK Research & Innovation grant for Environmental sustainability in Life Sciences as co-applicant (~890k DKK)
 * 2022-09: [Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6263f48f5b900913a0195c4f) accepted to NPJ Computational Materials. 
