@@ -17,6 +17,7 @@ His current research interests are broadly pertaining Resource Efficient ML, Med
 News
 ======
 * 2022-12: Dept. of Computer Science Dissemination Award and ML Section award for contributions in 2022.
+* 2022-12: Copenhagen Summer University course on Climate-friendly AI approved to be delivered in W34
 * 2022-11: [Paper](https://arxiv.org/abs/2208.10779) accepted to be presented at 6th Northern Lights Deep Learning Conference (NLDL).
 * 2022-10: UK Research & Innovation grant for Environmental sustainability in Life Sciences as co-applicant (~890k DKK)
 * 2022-09: [Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6263f48f5b900913a0195c4f) accepted to NPJ Computational Materials. 
@@ -26,12 +27,14 @@ News
 * 2022-07: EU Horizon 2020 project on developing resource efficient big data pipelines funded as work package leader (2.4M DKK)
 * 2022-07: EU Horizon 2020 project on low resource ML methods funded as work package leader (4.3M DKK)
 * 2022-07: Interview excerpt on energy efficient Machine Learning in [MIT Technology Review](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/)
+
+<!-- 
 * 2022-02: [Paper](https://openreview.net/forum?id=swvVpnzro9q) accepted to be presented at the 5th International Conference on Medical Imaging with Deep Learning (MIDL). 
 * 2022-02: [Paper](https://openreview.net/forum?id=rRGzrXChq0F) accepted to be presented at International Workshop on Biomedical Image Registration. 
 * 2022-02: [Paper](https://arxiv.org/abs/2109.07138) accepted to the Journal of Machine Learning for Biomedical Imaging
 * 2022-02: [Paper](https://arxiv.org/abs/2102.05526) accepted to Journal of Ecological Informatics. [Press coverage](https://videnskab.dk/teknologi-innovation/ny-dansk-opfindelse-insekters-vingeslag-kan-bruges-til-at-overvaage)
 
-<!-- * 2022-02: Biodiversity Quantification project funded as PI; [AI-Denmark](https://aidenmark.dk/) funding (100k DKK)
+* 2022-02: Biodiversity Quantification project funded as PI; [AI-Denmark](https://aidenmark.dk/) funding (100k DKK)
 * 2021-07: [Paper](https://www.nature.com/articles/s41598-021-95364-1) accepted to Nature Scientific Reports
 * 2021-06: [AI Chemy](https://doi.org/10.26434/chemrxiv.12662222.v1) project funded as co-applicant; UCPH funding (3.4M DKK)
 * 2021-06: [Paper](https://www.nature.com/articles/s41467-021-23224-7) published in Nature Communications; Collaboration with [Kiehn Lab](https://in.ku.dk/research/kiehn-lab/)
