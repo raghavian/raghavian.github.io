@@ -1,7 +1,7 @@
 ---
 title: "Explicit Temporal Embedding in Deep Generative Latent Models for Longitudinal Medical Image Synthesis"
 authbefore: "Julian Schön, " 
-authafter: "Lotte Nygård, Ivan Richter Vogelius, Jens Petersen"
+authafter: ", Lotte Nygård, Ivan Richter Vogelius, Jens Petersen"
 collection: publications
 permalink: /publication/2023-01-tempgan
 date: 2023-01-13
