@@ -11,10 +11,13 @@ redirect_from:
 
 PhD projects
 ======
+**Daily Supervisor**
 **Co-supervisor**
 * Roser Montanana Rosell (2020 --)
 	* *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
 	* Publications: [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
+* João Campagnolo (2022 --)
+	* *Neural correlates of stress resilience*
 
 ---
 
