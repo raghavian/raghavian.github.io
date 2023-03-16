@@ -19,6 +19,11 @@ Media Coverage
 Select Invited Talks 
 ---
 {% include base_path %}
+* 2023
+   * "Resource Efficient ML: A Carbon Footprint view of Deep Learning", Invited Talk at IT University, Denmark, 2023
+   * "Carbon Footprint of Deep Learning", Invited Talk at the [ROS](https://discourse.ros.org/t/ros-2-ai-integration-working-group/26119/22?u=lmoreno) AI Workgroup (Online), 2023
+   * "Resource Efficient ML: A Carbon Footprint view of Deep Learning", Invited Talk at SINTEF, Oslo, Norway, 2023
+   * "Graph Neural Networks: From Spectral Graph Processing to Self-Attention and Beyond", Invited Talk in the Seminar on AI Meets Complex Knowledge Structures, Oslo, Norway, 2023
 * 2022
    * "Quantum Tensor Networks for Medical Image Analysis", Guest Lecture at MSc course on Medical Image Analysis, UCPH, 2022
    * "Behavioural Analysis with Big Data and Deep Learning", Guest Lecture at PhD course on Animal Models of Disease, UCPH, 2022 
