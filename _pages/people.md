@@ -6,8 +6,6 @@ author_profile: false
 redirect_from:
   - /resume
 ---
-![image](images/saints.jpeg)
-**The Team (18/03/2023)**
 
 {% include base_path %}
 
