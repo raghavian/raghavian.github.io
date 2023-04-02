@@ -4,9 +4,9 @@ authbefore: "Nicklas Boserup,"
 authafter: 
 collection: publications
 permalink: /publication/2022-08-patch-contrast
-date: 2022-08-24
-venue: 'Northern Lights Deep Learning Workshop'
+date: 2023-01-17
+venue: 'Northern Lights Deep Learning Conference'
 pubtype: 'conference'
-paperurl: https://arxiv.org/abs/2208.10779
-pdf: https://arxiv.org/pdf/2208.10779
+paperurl: https://septentrio.uit.no/index.php/nldl/article/view/6798
+pdf: https://septentrio.uit.no/index.php/nldl/article/view/6798/7020
 ---

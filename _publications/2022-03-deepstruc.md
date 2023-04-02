@@ -4,7 +4,7 @@ authbefore: "Emil T. S. Kjær, Andy S. Anker, Marcus N. Weng, Simon J. L. Billin
 authafter: ", Kirsten M. Ø. Jensen"
 collection: publications
 permalink: /publication/2022-03-deepstruc
-date: 2022-11-28
+date: 2023-01-28
 venue: 'Digital Discovery'
 pubtype: 'journal'
 paperurl: https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e
