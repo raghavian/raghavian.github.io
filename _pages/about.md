@@ -16,6 +16,7 @@ His current research interests are broadly pertaining Resource Efficient ML, Med
 
 News
 ======
+* 2023-04: Contributed to a popular news article in [Süddeutsche Zeitung](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744) on the carbon footprint of large language models.
 * 2023-01: Funding for one PhD student to study fronto-temporal dementia with AI at St. Andrews University as co-applicant
 * 2023-01: [Paper](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e) accepted to Digital Discovery 
 * 2022-12: Dept. of Computer Science [Dissemination Award](images/dissemination.jpg) and ML Section award for contributions in 2022.

@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _Der Energiehunger der KIs_ Süddeutsche Zeitung, April 2023 ([link](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744?reduced=true)) ([pdf](files/KI_SZ-Archiv-20230404_122004.pdf))
 * _These simple changes can make AI research much more energy efficient_, MIT Technology Review (2022) ([link](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/))
 * _Insect wingbeats will help quantify biodiversity_, UCPH Press Release (2022) ([link](https://science.ku.dk/english/press/news/2022/insect-wingbeats-will-help-quantify-biodiversity/)) 
 * _Algorithm reveals the mysterious foraging habits of narwhals_, UCPH Press Release (2021) ([link](https://di.ku.dk/english/news/2021/algorithm-reveals-the-mysterious-foraging-habits-of-narwhals/))
