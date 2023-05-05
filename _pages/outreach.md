@@ -21,6 +21,7 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2023
+   * "Representation Learning with Graph Neural Networks", Invited Talk at 3rd GraphNeT Workshop, Bornholm, Denmark, 2023 ([slides](https://indico.nbi.ku.dk/event/1885/contributions/13962/attachments/4366/6899/raghav_representation_learning.pdf))
    * "Resource Efficient ML: A Carbon Footprint view of Deep Learning", Invited Talk at IT University, Denmark, 2023
    * "Carbon Footprint of Deep Learning", Invited Talk at the [ROS](https://discourse.ros.org/t/ros-2-ai-integration-working-group/26119/22?u=lmoreno) AI Workgroup (Online), 2023
    * "Resource Efficient ML: A Carbon Footprint view of Deep Learning", Invited Talk at SINTEF, Oslo, Norway, 2023
