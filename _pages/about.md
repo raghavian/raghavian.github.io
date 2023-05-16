@@ -17,8 +17,8 @@ His current research interests are broadly pertaining Resource Efficient ML, Med
 
 News
 ======
-* RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
-* Check out the ongoing reading group on Sustainable Machine Learning hosted by us [here](https://github.com/raghavian/SustainML).
+* 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
+* 2023-02: Check out the ongoing reading group on Sustainable Machine Learning hosted by us [here](https://github.com/raghavian/SustainML).
 * 2023-04: Contributed to a popular news article in [Süddeutsche Zeitung](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744) on the carbon footprint of large language models.
 * 2023-01: Funding for one PhD student to study fronto-temporal dementia with AI at St. Andrews University as co-applicant
 * 2023-01: [Paper](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e) accepted to Digital Discovery 
