@@ -17,6 +17,7 @@ His current research interests are broadly pertaining Resource Efficient ML, Med
 
 News
 ======
+* 2023-05: RS has been nominated for the UCPH [Innovation Award 2023](https://aarsfest.ku.dk/english/2023/nominated-for-this-years-awards/) for developing Carbontracker.
 * 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
 * 2023-02: Check out the ongoing reading group on Sustainable Machine Learning hosted by us [here](https://github.com/raghavian/SustainML).
 * 2023-04: Contributed to a popular news article in [Süddeutsche Zeitung](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744) on the carbon footprint of large language models.
