@@ -11,8 +11,13 @@ redirect_from:
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+# Overview of ongoing projects
 
-Sustainability of AI
+1. [Sustainability of AI](sustainability-of-ai)
+2. [AI for Sciences](ai-for-sciences)
+3. [Medical Image Analysis](medical-image-analysis)
+
+## Sustainability of AI
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -24,18 +29,7 @@ Sustainability of AI
 
 ---
 
-Sustainability with AI
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.project == 'sustwithai' %}
-     <li> {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
----
-
-AI for Sciences
+## AI for Sciences
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -46,7 +40,7 @@ AI for Sciences
 </ol>
 ---
 
-Medical Image Analysis
+## Medical Image Analysis
 ---
 <ol>
 {% for post in site.publications reversed %}
