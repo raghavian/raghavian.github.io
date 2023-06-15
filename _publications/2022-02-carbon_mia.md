@@ -7,6 +7,7 @@ permalink: /publication/2022-02-carbon_mia
 date: 2022-03-07
 venue: '25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)'
 pubtype: 'conference'
+project: 'sustofai'
 paperurl: https://arxiv.org/abs/2203.02202
 pdf: https://arxiv.org/pdf/2203.02202
 ---
