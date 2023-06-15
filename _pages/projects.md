@@ -12,7 +12,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% endif %}
 
 
-Publications addressing Sustainability of AI
+Sustainability of AI
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -22,11 +22,20 @@ Publications addressing Sustainability of AI
 {% endfor %}
 </ol>
 
-
 ---
-* 
 
-Publications addressing AI for Sciences
+Sustainability with AI
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.project == 'sustwithai' %}
+     <li> {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+---
+
+AI for Sciences
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -35,5 +44,19 @@ Publications addressing AI for Sciences
   {% endif %}
 {% endfor %}
 </ol>
+---
+
+Medical Image Analysis
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.project == 'media' %}
+     <li> {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+---
+
+
 
 
