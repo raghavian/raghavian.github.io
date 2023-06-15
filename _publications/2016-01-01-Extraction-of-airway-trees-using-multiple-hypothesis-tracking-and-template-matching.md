@@ -7,5 +7,6 @@ permalink: /publication/2016-01-01-Extraction-of-airway-trees-using-multiple-hyp
 date: 2016-01-01
 venue: 'Sixth International Workshop on Pulmonary Image Analysis. MICCAI'
 pubtype: 'conference'
+project: 'media'
 paperurl: https://arxiv.org/abs/1611.08131
 ---

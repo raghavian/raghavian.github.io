@@ -7,5 +7,6 @@ permalink: /publication/2017-01-01-Extraction-of-airways-with-probabilistic-stat
 date: 2017-01-01
 venue: 'Graphs in Biomedical Image Analysis, Computational Anatomy and Imaging Genetics'
 pubtype: 'conference'
+project: 'media'
 paperurl: https://arxiv.org/abs/1708.02096
 ---
