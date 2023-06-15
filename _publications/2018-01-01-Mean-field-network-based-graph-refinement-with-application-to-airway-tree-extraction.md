@@ -7,5 +7,6 @@ permalink: /publication/2018-01-01-Mean-field-network-based-graph-refinement-wit
 date: 2018-01-01
 venue: '21st Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2018), Grenada, Spain'
 pubtype: 'conference'
+project: 'media'
 paperurl: https://arxiv.org/abs/1804.03348
 ---

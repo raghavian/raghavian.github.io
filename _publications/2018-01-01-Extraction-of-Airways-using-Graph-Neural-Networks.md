@@ -7,5 +7,6 @@ permalink: /publication/2018-01-01-Extraction-of-Airways-using-Graph-Neural-Netw
 date: 2018-01-01
 venue: '1st Conference on Medical Imaging with Deep Learning (MIDL 2018), Amsterdam.'
 pubtype: 'conference'
+project: 'media'
 paperurl: https://arxiv.org/abs/1804.04436
 ---
