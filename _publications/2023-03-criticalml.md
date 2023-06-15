@@ -7,6 +7,7 @@ permalink: /publication/2023-03-criticalml
 date: 2023-03-17
 venue: 'Arxiv'
 pubtype: 'preprint'
+project: 'sustofai'
 paperurl: https://arxiv.org/abs/2303.10181
 pdf: https://arxiv.org/pdf/2303.10181
 ---
