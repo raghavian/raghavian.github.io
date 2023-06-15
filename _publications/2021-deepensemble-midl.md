@@ -7,6 +7,7 @@ permalink: /publication/2021-deepensemble-midl
 date: 2021-05-01
 venue: '4th Conference on Medical Imaging with Deep Learning (MIDL)'
 pubtype: 'conference'
+project: 'media'
 paperurl: https://openreview.net/forum?id=PLSdnHPx-W6
 pdf: https://openreview.net/forum?id=PLSdnHPx-W6
 ---

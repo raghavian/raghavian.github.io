@@ -9,4 +9,5 @@ paperurl: https://www.springerprofessional.de/en/segmenting-two-dimensional-stru
 pdf: https://arxiv.org/pdf/2102.06900
 venue: '27th international conference on Information Processing in Medical Imaging (IPMI)'
 pubtype: 'conference'
+project: 'media'
 ---

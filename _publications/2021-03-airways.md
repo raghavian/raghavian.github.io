@@ -7,6 +7,7 @@ permalink: /publication/2021-04-airways
 date: 2021-04-01
 venue: 'Scientific Reports'
 pubtype: 'journal'
+project: 'media'
 paperurl: https://www.nature.com/articles/s41598-021-95364-1
 pdf: https://arxiv.org/pdf/2103.16328
 ---
