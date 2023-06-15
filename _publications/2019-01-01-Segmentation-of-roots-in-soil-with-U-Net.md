@@ -7,5 +7,6 @@ permalink: /publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net
 date: 2019-01-01
 venue: 'Journal of Plant Methods'
 pubtype: 'journal'
+project: 'ai4sciences'
 paperurl: https://arxiv.org/abs/1902.11050
 ---

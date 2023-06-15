@@ -7,6 +7,7 @@ permalink: /publication/2020-01-01-Tensor-Networks-for-Medical-Image-Classificat
 date: 2020-01-01
 venue: 'Proceedings of International Conference on Medical Imaging with Deep Learning (MIDL). Winner of Runner-up Best Paper Award.'
 pubtype: 'conference'
+project: 'media'
 pdf: https://openreview.net/pdf?id=jjk6bxk07G
 paperurl: https://openreview.net/pdf?id=jjk6bxk07G
 citation: ' Raghavendra Selvan,  Erik Dam, &quot;Tensor Networks for Medical Image Classification.&quot; In the proceedings of International Conference on Medical Imaging with Deep Learning (MIDL), 2020.'
