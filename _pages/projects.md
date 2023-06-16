@@ -13,6 +13,8 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Sustainability of AI
 ---
+Material cost of developing and deploying complex ML models is growing considerably. In this line of research, we are focusing on some facets of the environmental sustainability of ML. Primarily, by focusing on energy consumption and carbon footprint.
+
 <ol>
 {% for post in site.publications reversed %}
   {% if post.project == 'sustofai' %}
@@ -25,6 +27,8 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## AI for Sciences
 ---
+ML methods can accelerate research and open possibilities of asking novel questions in many scientific disciplines. In this line of research, several inter-disciplinary collaborations spanning a broad range of topics are being investigated. From an ML point of view, these do open interesting methods development.
+
 <ol>
 {% for post in site.publications reversed %}
   {% if post.project == 'ai4sciences' %}
@@ -36,6 +40,8 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Medical Image Analysis
 ---
+PhD training of RS was in medical image analysis. RS still holds keen interest in this domain and is active in investigating uncertainty quantification and use of deep latent generative models/ GNNs in this domain.
+
 <ol>
 {% for post in site.publications reversed %}
   {% if post.project == 'media' %}
