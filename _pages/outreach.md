@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+*  _Eksperter har udregnet Chat GPT’s elregning_ (Danish newspaper), July 2023. ([link](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen))
 * _Der Energiehunger der KIs_, Süddeutsche Zeitung (German newspaper), April 2023 ([link](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744?reduced=true)) ([pdf](files/KI_SZ-Archiv-20230404_122004.pdf))
 * _Taming AI models to minimize their impact on climate_, June 2023, ([link](https://hellofuture.orange.com/en/taming-ai-models-to-minimize-their-impact-on-climate/)) ([pdf](files/taming-AI-hellofuture.pdf))
 * _These simple changes can make AI research much more energy efficient_, MIT Technology Review (2022) ([link](https://www.technologyreview.com/2022/07/06/1055458/ai-research-emissions-energy-efficient/))
