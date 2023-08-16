@@ -38,7 +38,7 @@ ML methods can accelerate research and open possibilities of asking novel questi
 </ol>
 ---
 
-## Medical Image Analysis
+## Bio-Medical Image Analysis
 ---
 PhD training of RS was in medical image analysis. RS still holds keen interest in this domain and is active in investigating uncertainty quantification and use of deep latent generative models/ GNNs in this domain.
 
