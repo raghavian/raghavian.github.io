@@ -10,10 +10,9 @@ redirect_from:
 Bio 
 ======
 
-Raghavendra Selvan (Raghav) is currently an Assistant Professor at the University of Copenhagen, with joint responsibilities at the Machine Learning (ML) Section (Dept. of Computer Science), Kiehn Lab (Department of Neuroscience) and the Data Science Laboratory. He received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
+Raghavendra Selvan (Raghav) is currently an Assistant Professor at Machine Learning (ML) Section, Dept. of Computer Science, University of Copenhagen. He is also affiliated with Department of Neuroscience and the Data Science Laboratory. His current research interests are broadly pertaining Resource Efficient ML, Medical Image Analysis with ML, and Graph Neural Networks. Of late, another overarching theme of his research interests lie at the intersection of sustainability and ML where he is interested in investigating sustainability _with_ ML, and also the sustainability _of_ ML.
 
-His current research interests are broadly pertaining Resource Efficient ML, Medical Image Analysis with ML, Quantum Tensor Networks and Graph Neural Networks. Of late, another overarching theme of his research interests lie at the intersection of sustainability and ML where he is interested in investigating sustainability _with_ ML, and also the sustainability _of_ ML.
-
+Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
 
 News
 ====== 
