@@ -16,7 +16,8 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
-* 2023-07 [Paper](https://www.nature.com/articles/s41593-023-01396-3) published in Nature Neuroscience 
+* 2023-08 [Paper](https://www.nature.com/articles/s41593-023-01396-3) published in Nature Neuroscience 
+* 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
 * 2023-07: Contributed to a series of popular news articles in [Børsen](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen) (Danish newspaper) on the carbon footprint of AI models.
 * 2023-06: RS has joined the Diversity, Equity and Inclusion network at [UCPH](https://about.ku.dk/profile-history/diversity/)
 * 2023-05: RS has been nominated for the UCPH [Innovation Award 2023](https://aarsfest.ku.dk/english/2023/nominated-for-this-years-awards/) for contributing to develop [Carbontracker](https://github.com/lfwa/carbontracker/).
