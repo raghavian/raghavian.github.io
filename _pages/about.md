@@ -16,6 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2023-09: [Paper](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573) published in Limnology and Oceanography
 * 2023-08 [Paper](https://www.nature.com/articles/s41593-023-01396-3) published in Nature Neuroscience 
 * 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
 * 2023-07: Contributed to a series of popular news articles in [Børsen](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen) (Danish newspaper) on the carbon footprint of AI models.
