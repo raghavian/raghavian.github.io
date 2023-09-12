@@ -63,7 +63,7 @@ News
 <!-- * 2020-07: Runner-up for the Best Paper Award at [MIDL-2020](https://2020.midl.io/papers/selvan20.html) -->
 <!-- * 2019-01: Started as Post-doc at Dept. of Computer Science, University of Copenhagen -->
 <!-- * 2018-11: Successfully defended my [PhD thesis](https://raghavian.github.io/publication/2018-01-01-Extraction-of-Airways) -->
-
+<!--
 Research Projects
 ======
 *(Switching to first person :)*
@@ -101,4 +101,4 @@ Completed projects
 <!-- * **COVID-19 Risk Modelling**: 
 #As part of a collaboration with the hospitals in Zealand region of Denmark, we are modelling COVID-19 risk from [clinical](https://raghavian.github.io/publication/2020-10-COVID) and image data. I am contributing to the team focusing on [using chest X-rays](https://raghavian.github.io/publication/2020-01-01-Lung-Segmentation-from-Chest-X-rays-using-Variational-Data-Imputation) at admission to model risk of COVID-19.
 -->
-
+-->
