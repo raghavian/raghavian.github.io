@@ -21,19 +21,19 @@ News
 * 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
 * 2023-07: Contributed to a series of popular news articles in [Børsen](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen) (Danish newspaper) on the carbon footprint of AI models.
 * 2023-06: RS has joined the Diversity, Equity and Inclusion network at [UCPH](https://about.ku.dk/profile-history/diversity/)
-* 2023-05: RS has been nominated for the UCPH [Innovation Award 2023](https://aarsfest.ku.dk/english/2023/nominated-for-this-years-awards/) for contributing to develop [Carbontracker](https://github.com/lfwa/carbontracker/).
 * 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
 * 2023-02: Check out the ongoing reading group on Sustainable Machine Learning hosted by us [here](https://github.com/raghavian/SustainML).
 * 2023-04: Contributed to a popular news article in [Süddeutsche Zeitung](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744) on the carbon footprint of large language models.
 * 2023-01: Funding for one PhD student to study fronto-temporal dementia with AI at St. Andrews University as co-applicant
 * 2023-01: [Paper](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e) accepted to Digital Discovery 
 * 2022-12: Dept. of Computer Science [Dissemination Award](images/dissemination.jpg) and ML Section award for contributions in 2022.
-* 2022-12: Copenhagen Summer University course on Climate-friendly AI approved to be delivered in W34
 * 2022-11: [Paper](https://arxiv.org/abs/2208.10779) accepted to be presented at 6th Northern Lights Deep Learning Conference (NLDL).
 * 2022-10: UK Research & Innovation grant for Environmental sustainability in Life Sciences as co-applicant (~890k DKK)
 * 2022-09: [Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6263f48f5b900913a0195c4f) accepted to NPJ Computational Materials. 
 
 <!-- 
+* 2023-05: RS has been nominated for the UCPH [Innovation Award 2023](https://aarsfest.ku.dk/english/2023/nominated-for-this-years-awards/) for contributing to develop [Carbontracker](https://github.com/lfwa/carbontracker/).
+* 2022-12: Copenhagen Summer University course on Climate-friendly AI approved to be delivered in W34
 * 2022-08: Affiliate Member of the Pionner Centre for Artificial Intelligence, Denmark ([P1](https://www.aicentre.dk/))
 * 2022-08: [Paper](https://arxiv.org/abs/2203.02202) accepted with an oral presentation at the 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
 * 2022-07: [Paper](https://arxiv.org/abs/2207.09740) accepted to be presented at the Workshop on Deep Generative Models at 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).
