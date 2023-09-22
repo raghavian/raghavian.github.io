@@ -16,6 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2023-09: RS will be co-organizing a parallel session on "Resource Aware Machine Learning" at the Danish Digitalization, Data Science and AI [(D3A-2024)](https://d3aconference.dk) conference
 * 2023-09: [Paper](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573) published in Limnology and Oceanography
 * 2023-08 [Paper](https://www.nature.com/articles/s41593-023-01396-3) published in Nature Neuroscience 
 * 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
