@@ -1,5 +1,5 @@
 ---
-title: "Patch-based medical image segmentation using Quantum Tensor Networks"
+title: "Patch-based medical image segmentation using Matrix Product State Tensor Networks"
 authbefore: 
 authafter: ", Erik B Dam, Søren Alexander Flensborg, Jens Petersen"
 collection: publications
