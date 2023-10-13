@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _The increasing carbon footprint of AI is a challenge. Here is what we can do about it_ (University Press Release) Oct. 2023. ([link](https://di.ku.dk/english/news/2023/what-can-we-do-about-the-increasing-carbon-footprint-of-ai/))
 *  _Eksperter har udregnet Chat GPT’s elregning_, Børsen, (Danish newspaper), July 2023. ([link](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen))
 * _Der Energiehunger der KIs_, Süddeutsche Zeitung (German newspaper), April 2023 ([link](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744?reduced=true)) ([pdf](files/KI_SZ-Archiv-20230404_122004.pdf))
 * _Taming AI models to minimize their impact on climate_, June 2023, ([link](https://hellofuture.orange.com/en/taming-ai-models-to-minimize-their-impact-on-climate/)) ([pdf](files/taming-AI-hellofuture.pdf))
