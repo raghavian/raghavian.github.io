@@ -16,6 +16,12 @@ PhD projects
     * Topic: _Resource Efficient Machine Learning_
     * Co-supervisors: [Christian Igel](https://scholar.google.dk/citations?user=d-jF4zIAAAAJ&hl=en)
     * Publications: [Selvan et al. 2023](https://arxiv.org/abs/2303.10181)
+
+* Jákup O Svöðstein (2023--)
+    * Topic: _Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics
+Modelling_
+    * Co-supervisors: [Erik B Dam](https://scholar.google.dk/citations?user=X_SLVUIAAAAJ&hl=en&oi=ao), [Knud Simonsen](https://scholar.google.com/citations?user=N2hYUY4AAAAJ&hl=en)
+
 * Frederik L Johansen (2022--)
     * Topic: _Generative learning for Inorganic Material Science_
     * Co-supervisors: [Erik B Dam](https://scholar.google.dk/citations?user=X_SLVUIAAAAJ&hl=en&oi=ao), [Kirsten MØ Jensen](https://scholar.google.dk/citations?user=0LD11kYAAAAJ&hl=da)
