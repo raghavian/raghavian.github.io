@@ -14,9 +14,11 @@ PhD projects
 **Daily Supervisor**
 * Julian E Schön (2023--)
     * Topic: _Resource Efficient Machine Learning_
+    * Co-supervisors: [Christian Igel](https://scholar.google.dk/citations?user=d-jF4zIAAAAJ&hl=en)
     * Publications: [Selvan et al. 2023](https://arxiv.org/abs/2303.10181)
 * Frederik L Johansen (2022--)
     * Topic: _Generative learning for Inorganic Material Science_
+    * Co-supervisors: [Erik B Dam](https://scholar.google.dk/citations?user=X_SLVUIAAAAJ&hl=en&oi=ao), [Kirsten MØ Jensen](https://scholar.google.dk/citations?user=0LD11kYAAAAJ&hl=da)
     * Publications: [Johansen et al. 2023](https://chemrxiv.org/engage/chemrxiv/article-details/651ec9668bab5d2055b2d009)
 
 **Co-supervisor**
@@ -27,11 +29,12 @@ PhD projects
 	* Topic: *Neural correlates of stress resilience*
     * Co-supervised with [Florence Kermen](https://scholar.google.fr/citations?user=OYpkRAwAAAAJ&hl=fr)
 * Ulrik Friis-Jensen (2022--)
+    * Topic: _Analysis of Total Scattering Data using Generative Machine Learning Models_
     * Co-supervised with [Kirsten MØ Jensen](https://scholar.google.dk/citations?user=0LD11kYAAAAJ&hl=da)
 * Roser Montanana Rosell (2020 -- 2023)
 	* Topic: *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
-    * Co-supervised with [Ole Kiehn]() and [Ilary Allodi](https://scholar.google.com/citations?user=qCDS1ccAAAAJ&hl=en)
-	* Publications: [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
+    * Co-supervised with [Ole Kiehn](https://in.ku.dk/research/kiehn-lab/) and [Ilary Allodi](https://scholar.google.com/citations?user=qCDS1ccAAAAJ&hl=en)
+	* Publications: [Montanana-Rosell et al. 2023](https://www.biorxiv.org/content/10.1101/2023.09.17.558103v1.abstract); [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
 ---
 
 Masters Theses
