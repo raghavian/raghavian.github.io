@@ -12,28 +12,26 @@ redirect_from:
 PhD projects
 ======
 **Daily Supervisor**
+* Julian E Schön (2023--)
+    * Topic: _Resource Efficient Machine Learning_
+    * Publications: [Selvan et al. 2023](https://arxiv.org/abs/2303.10181)
+* Frederik L Johansen (2022--)
+    * Topic: _Generative learning for Inorganic Material Science_
+    * Publications: [Johansen et al. 2023](https://chemrxiv.org/engage/chemrxiv/article-details/651ec9668bab5d2055b2d009)
+
 **Co-supervisor**
-* Roser Montanana Rosell (2020 --)
-	* *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
-	* Publications: [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
+* Anna Stuckert (2023--)
+    * Topic: _Facing Dementia: Investigating disease onset in a mouse model of Frontotemporal Dementia via Artificial Intelligence_ 
+    * Co-supervised with [Ilary Allodi](https://scholar.google.com/citations?user=qCDS1ccAAAAJ&hl=en)
 * João Campagnolo (2022 --)
-	* *Neural correlates of stress resilience*
-
----
-
-Course Projects
-======
-**Primary Supervisor**
-* Søren Alexander Flensborg (2021), BSc project, *3D image segmentation using strided tensor networks* ([publication](https://www.melba-journal.org/papers/2022:005.html))
-* Justinas Anatanavicius (2021), MSc project, *Identifying 2D brain slices in a 3D reference atlas using Siamese Networks* ([publication](https://openreview.net/forum?id=rRGzrXChq0F))
-* Klas Rydhmer (2021), PhD project, *Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals* ([publication](https://arxiv.org/abs/2102.05526))
-* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
-
-**Co-supervisor**
-* Julian Elisha Schön (2022), MSc project, *Temporal Embeddings in Deep Generative Latent Models for Disease Prediction and Treatment Planning*
-* Manh Cuong Ngo (2020), PhD project, *Detection of foraging behavior from accelerometer data using U-Net type convolutional networks* ([publication](https://www.sciencedirect.com/science/article/pii/S1574954121000662))
-* Xuan Zhong (2019), BSc project, *Zero-Shot Relation Extraction using Graph Neural Networks*
-
+	* Topic: *Neural correlates of stress resilience*
+    * Co-supervised with [Florence Kermen](https://scholar.google.fr/citations?user=OYpkRAwAAAAJ&hl=fr)
+* Ulrik Friis-Jensen (2022--)
+    * Co-supervised with [Kirsten MØ Jensen](https://scholar.google.dk/citations?user=0LD11kYAAAAJ&hl=da)
+* Roser Montanana Rosell (2020 -- 2023)
+	* Topic: *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
+    * Co-supervised with [Ole Kiehn]() and [Ilary Allodi](https://scholar.google.com/citations?user=qCDS1ccAAAAJ&hl=en)
+	* Publications: [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
 ---
 
 Masters Theses
@@ -68,4 +66,22 @@ Bachelor projects
 
 **Co-supervisor**
 * Peter Kristoffer Licht (2016), *Implementation of automatic blood vessel segmentation in retinal images using the Kalman filter*
+
+---
+
+Course Projects
+======
+**Primary Supervisor**
+* Søren Alexander Flensborg (2021), BSc project, *3D image segmentation using strided tensor networks* ([publication](https://www.melba-journal.org/papers/2022:005.html))
+* Justinas Anatanavicius (2021), MSc project, *Identifying 2D brain slices in a 3D reference atlas using Siamese Networks* ([publication](https://openreview.net/forum?id=rRGzrXChq0F))
+* Klas Rydhmer (2021), PhD project, *Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals* ([publication](https://arxiv.org/abs/2102.05526))
+* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
+
+**Co-supervisor**
+* Julian Elisha Schön (2022), MSc project, *Temporal Embeddings in Deep Generative Latent Models for Disease Prediction and Treatment Planning*
+* Manh Cuong Ngo (2020), PhD project, *Detection of foraging behavior from accelerometer data using U-Net type convolutional networks* ([publication](https://www.sciencedirect.com/science/article/pii/S1574954121000662))
+* Xuan Zhong (2019), BSc project, *Zero-Shot Relation Extraction using Graph Neural Networks*
+
+---
+
 
