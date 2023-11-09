@@ -35,6 +35,7 @@ PhD projects
 	* Topic: *New avenues for studies of ALS-pathophysiology: interneuron contribution to disease development and degeneration*
     * Co-supervised with [Ole Kiehn](https://in.ku.dk/research/kiehn-lab/) and [Ilary Allodi](https://scholar.google.com/citations?user=qCDS1ccAAAAJ&hl=en)
 	* Publications: [Montanana-Rosell et al. 2023](https://www.biorxiv.org/content/10.1101/2023.09.17.558103v1.abstract); [Allodi et al. (2020)](https://www.nature.com/articles/s41467-021-23224-7)
+
 ---
 
 Masters Theses
