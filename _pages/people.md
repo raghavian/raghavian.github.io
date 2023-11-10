@@ -15,5 +15,8 @@ redirect_from:
 |![image](images/julian.jpg) **Julian E. Schön** | (2023/01--)| PhD candidate studying resource efficient ML methods.|
 |![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--) | *Postdoc working on sustainable Machine Learning*|
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*|
+|![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--) | *Research Assistant working on Low-precision Deep Learning*|
+
+
 
 
