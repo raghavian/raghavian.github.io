@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning for Analysis of Experimental Scattering and Spectroscopy Data in Materials Chemistry"
-authbefore: "Andy S. Anker, Kieth T. Butler " 
+authbefore: "Andy S. Anker, Kieth T. Butler, " 
 authafter: ", Kirsten M.Ø. Jensen"
 collection: publications
 permalink: /publication/2023-08-ml-scattering
