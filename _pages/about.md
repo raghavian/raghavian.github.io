@@ -16,6 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2023-11: [Paper](https://osf.io/7q5mh/) accepted to be published in Journal of Imaging Neuroscience.
 * 2023-11: RS will be judging the [AI for a Sustainable Future Hackathon](https://jura.ku.dk/legaltechlab/calendar/2023/legal-tech-hackathon-2023-ai-for-a-sustainable-future/)
 * 2023-10: Two projects (6M DKK in total) funded as part of the Villum Synergy Grant with RS as a co-applicant
 * 2023-10: RS will chair the session on AI in Healthcare at the Nordic AI Meet-2023
