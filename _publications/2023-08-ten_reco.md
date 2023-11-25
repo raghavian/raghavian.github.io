@@ -8,6 +8,6 @@ date: 2023-08-09
 venue: 'Imaging Neuroscience'
 pubtype: 'journal'
 project: 'sustofai'
-paperurl: https://osf.io/7q5mh/
+paperurl: https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246
 pdf: https://osf.io/7q5mh/download
 ---
