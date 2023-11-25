@@ -16,8 +16,8 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
-* 2023-11: [Paper](https://chemrxiv.org/engage/chemrxiv/article-details/64ed9d6079853bbd78a73fb0) accepted to be published in Journal of Chemical Science.
-* 2023-11: [Paper](https://osf.io/7q5mh/) accepted to be published in Journal of Imaging Neuroscience.
+* 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
+* 2023-11: [Paper](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246) accepted to be published in Journal of Imaging Neuroscience.
 * 2023-11: RS will be judging the [AI for a Sustainable Future Hackathon](https://jura.ku.dk/legaltechlab/calendar/2023/legal-tech-hackathon-2023-ai-for-a-sustainable-future/)
 * 2023-10: Two projects (6M DKK in total) funded as part of the Villum Synergy Grant with RS as a co-applicant
 * 2023-10: RS will chair the session on AI in Healthcare at the Nordic AI Meet-2023
