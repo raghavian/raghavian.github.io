@@ -16,7 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
-* 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [CASSP-2024](https://2024.ieeeicassp.org/).
+* 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [ICASSP-2024](https://2024.ieeeicassp.org/).
 * 20223-12: Machine Learning Section award for contributions to DEI, and green initiatives in 2023.
 * 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
 * 2023-11: [Paper](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246) accepted to be published in Journal of Imaging Neuroscience.
