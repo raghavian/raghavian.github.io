@@ -4,7 +4,7 @@ authbefore: "Pedram Bakhtiarifard, Christian Igel,"
 authafter: 
 collection: publications
 permalink: /publication/2022-10-ec-nasbench
-date: 2023-10-13
+date: 2024-01-01
 venue: 'ICASSP'
 pubtype: 'conference'
 project: 'sustofai'
