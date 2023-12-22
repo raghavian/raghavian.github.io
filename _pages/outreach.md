@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _AI skyder afsted med rekordfart – hvad gør det egentlig ved klimaet?_, Prosa, (Danish Magazine), Dec. 2023. ([link](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet)) ([pdf](files/prosa2023.pdf))
 * _The increasing carbon footprint of AI is a challenge. Here is what we can do about it_ (University Press Release) Oct. 2023. ([link](https://di.ku.dk/english/news/2023/what-can-we-do-about-the-increasing-carbon-footprint-of-ai/))
 *  _Eksperter har udregnet Chat GPT’s elregning_, Børsen, (Danish newspaper), July 2023. ([link](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen))
 * _Der Energiehunger der KIs_, Süddeutsche Zeitung (German newspaper), April 2023 ([link](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744?reduced=true)) ([pdf](files/KI_SZ-Archiv-20230404_122004.pdf))
