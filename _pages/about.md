@@ -16,6 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-01: RS will be teaching at the [Geilo Winter School on Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/).
 * 2023-12: RS was featured in an article in the Danish magazine _Prosa_ talking about the [climate impact of AI](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet).
 * 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [ICASSP-2024](https://2024.ieeeicassp.org/).
 * 20223-12: Machine Learning Section award for contributions to DEI, and green initiatives in 2023.
@@ -33,10 +34,10 @@ News
 * 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
 * 2023-02: Check out the ongoing reading group on Sustainable Machine Learning hosted by us [here](https://github.com/raghavian/SustainML).
 * 2023-04: Contributed to a popular news article in [Süddeutsche Zeitung](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744) on the carbon footprint of large language models.
-* 2023-01: Funding for one PhD student to study fronto-temporal dementia with AI at St. Andrews University as co-applicant
-* 2023-01: [Paper](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e) accepted to Digital Discovery 
 
 <!-- 
+* 2023-01: Funding for one PhD student to study fronto-temporal dementia with AI at St. Andrews University as co-applicant
+* 2023-01: [Paper](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d2dd00086e) accepted to Digital Discovery 
 * 2022-11: [Paper](https://arxiv.org/abs/2208.10779) accepted to be presented at 6th Northern Lights Deep Learning Conference (NLDL).
 
 * 2022-10: UK Research & Innovation grant for Environmental sustainability in Life Sciences as co-applicant (~890k DKK)
