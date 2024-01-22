@@ -9,6 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+Invited Lectures
+======
+* Geilo Winter School
+    * Session-1: ([jupyter-notebook](files/session-1.ipynb))
+
 PhD courses
 ======
 * Machine Learning & Imaging Methods (2019-)
