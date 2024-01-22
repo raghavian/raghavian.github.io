@@ -29,7 +29,7 @@ Select Invited Talks
    * "Carbon Footprint of Medical Image Analysis and Mitigation Strategies". Invited Talk at Erasmus MC.Netherlands. 2023
    * "On the Carbon Footprint of Deep Learning". Invited Talk at Green Labs. Netherlands. 2023
    * "Generative ML and Ecological Modelling". Invited Talk at Wageningen University. Netherlands. 2023.
-   * "Representation Learning with Graph Neural Networks", Invited Talk at 3rd GraphNeT Workshop, Bornholm, Denmark, 2023 ([slides](https://indico.nbi.ku.dk/event/1885/contributions/13962/attachments/4366/6899/raghav_representation_learning.pdf))
+   * "Representation Learning with Graph Neural Networks", Invited Talk at 3rd GraphNeT Workshop, Bornholm, Denmark, 2023
    * "Representation learning in Medical Image Analysis", Invited Talk at Chalmers University, Sweden, 2023
    * "On the Carbon Footprint of Deep Learning", Invited Talk at Chalmers University, Sweden, 2023
    * "Resource Efficient ML: A Carbon Footprint view of Deep Learning", Invited Talk at IT University, Denmark, 2023
@@ -82,3 +82,4 @@ AMLab, University of Amsterdam ([slides](files/amsterdam.pdf))
 
 * 2015
     * "Bayesian tracking of multiple point targets Using Expectation Maximization", MSc defence, Chalmers University ([slides](files/msc.pdf))
+
