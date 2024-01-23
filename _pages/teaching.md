@@ -13,7 +13,7 @@ Invited Lectures
 ======
 * Geilo Winter School-2024 on [Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/)
     * Session-1: ([jupyter-notebook](files/session-1.ipynb))
-    * Session-2: ([jupyter-notebook](files/session-2.ipynb))
+    * Session-2: ([jupyter-notebook](files/session-2.ipynb)) ([jupyter-notebook-v2](files/session-2_1.ipynb))
 
 PhD courses
 ======
