@@ -15,6 +15,7 @@ Invited Lectures
     * Session-1: ([jupyter-notebook](files/session-1.ipynb))
     * Session-2: ([jupyter-notebook](files/session-2.ipynb)) ([jupyter-notebook-v2](files/session-2_1.ipynb))
     * Session-3: ([jupyter-notebook](files/session-3.ipynb))
+    * Session-4: ([jupyter-notebook](files/session-4.ipynb))
 
 PhD courses
 ======
