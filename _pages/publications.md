@@ -13,15 +13,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 
 
-Journal Articles
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'journal' %}
-     <li> {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
 
 Refereed Conference/Workshop Papers
 ---
@@ -32,6 +23,17 @@ Refereed Conference/Workshop Papers
   {% endif %}
 {% endfor %}
 </ol>
+
+Journal Articles
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'journal' %}
+     <li> {% include archive-single.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
+
 
 Preprints / Under Review
 ---
