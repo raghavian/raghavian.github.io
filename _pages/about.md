@@ -15,9 +15,10 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-02: RS was featured in an article in the Danish magazine _Uddannelsebladet_ talking about the [carbon footprint of AI](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger).
 * 2024-02: RS co-organized the special track on Resource-Aware ML at [D3A Conference](https://d3aconference.dk/), Nyborg.
 * 2024-01: RS will be teaching at the [Geilo Winter School on Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/).
-* 2023-12: RS was featured in an article in the Danish magazine _Prosa_ talking about the [climate impact of AI](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet).
+* 2023-12: RS was featured in an article in the Danish magazine _Prosabladet_ talking about the [climate impact of AI](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet).
 * 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [ICASSP-2024](https://2024.ieeeicassp.org/).
 * 20223-12: Machine Learning Section award for contributions to DEI, and green initiatives in 2023.
 * 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
