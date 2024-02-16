@@ -5,7 +5,7 @@ authafter:
 collection: publications
 permalink: /publication/2022-10-ec-nasbench
 date: 2024-01-01
-venue: 'ICASSP'
+venue: 'International Conference on Acoustics, Speech, and Signal Processing (ICASSP)'
 pubtype: 'conference'
 project: 'sustofai'
 paperurl: https://arxiv.org/abs/2210.06015
