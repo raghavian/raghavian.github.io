@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-02: RS was featured in an article in the Danish magazine _DM Digi_ talking about [Climate-Aware AI](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/).
 * 2024-02: RS was featured in an article in the Danish magazine _Uddannelsebladet_ talking about the [carbon footprint of AI](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger).
 * 2024-02: RS co-organized the special track on Resource-Aware ML at [D3A Conference](https://d3aconference.dk/), Nyborg.
 * 2024-01: RS will be teaching at the [Geilo Winter School on Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/).
