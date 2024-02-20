@@ -10,6 +10,7 @@ Media Coverage
 ---
 *  _Klimabevidst AI-teknologi er fremtiden_, DM Digi (Danish Magazine), Jan. 2024. ([link](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/)) ([pdf](files/DM_Digi_2024.pdf)) 
 * _Sort samvittighed eller grøn gamechanger?_, Uddannelsebladet (Danish Magazine), Feb. 2024. ([link](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger)) ([pdf](files/uddannelsebladet2024.pdf))
+* _'Ej Efternavn': Indian in Denmark unable to get real name on residence card_ (TheLocal.dk), Feb. 2024. ([link](https://www.thelocal.dk/20240219/ej-efternavn-indian-in-denmark-unable-to-get-real-name-on-residence-card)) ((pdf)[thelocal_2024.pdf])
 * _AI skyder afsted med rekordfart – hvad gør det egentlig ved klimaet?_, Prosa, (Danish Magazine), Dec. 2023. ([link](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet)) ([pdf](files/prosa2023.pdf))
 * _The increasing carbon footprint of AI is a challenge. Here is what we can do about it_ (University Press Release) Oct. 2023. ([link](https://di.ku.dk/english/news/2023/what-can-we-do-about-the-increasing-carbon-footprint-of-ai/))
 *  _Eksperter har udregnet Chat GPT’s elregning_, Børsen, (Danish newspaper), July 2023. ([link](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen))
