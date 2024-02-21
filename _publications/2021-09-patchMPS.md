@@ -8,6 +8,6 @@ date: 2022-02-21
 venue: 'The Journal of Machine Learning for Biomedical Imaging (MELBA)'
 pubtype: 'journal'
 project: 'media'
-paperurl: https://arxiv.org/abs/2109.07138
-pdf: https://arxiv.org/pdf/2109.07138
+paperurl: https://www.melba-journal.org/papers/2022:005.html
+pdf: https://www.melba-journal.org/pdf/2022:005.pdf
 ---

@@ -8,8 +8,7 @@ date: 2021-03-01
 venue: 'The Journal of Machine Learning for Biomedical Imaging (MELBA)'
 pubtype: 'journal'
 project: 'media'
-paperurl: https://arxiv.org/abs/2009.12280v2
-pdf: https://arxiv.org/pdf/2009.12280v2
-link: https://www.melba-journal.org/article/21663-locally-orderless-tensor-networks-for-classifying-two-and-three-dimensional-medical-images
+paperurl: https://www.melba-journal.org/papers/2021:005.html
+pdf: https://www.melba-journal.org/pdf/2021:5.pdf
 ---
 
