@@ -27,6 +27,9 @@ Media Coverage
 Select Invited Talks 
 ---
 {% include base_path %}
+* 2024
+    * "Dialogue between Danish ICT Sector on ESG considerations about Generative AI". Danish ICT Association (IT-Branchen). Denmark
+    * "Graph Neural Networks: From spectral signal processing to self-attention". Winter School lectures at Geilo Winter School. Norway. 
 * 2023
    * "Climate-Aware AI: Monitoring and Improving the Environmental Impact of ML". Expert Talk at Danish Digital Tech Summit. Denmark. 2023
    * "Carbon Footprint of Medical Image Analysis and Mitigation Strategies". Invited Talk at Erasmus MC.Netherlands. 2023
