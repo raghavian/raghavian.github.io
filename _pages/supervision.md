@@ -25,7 +25,9 @@ Modelling_
 * Frederik L Johansen (2022--)
     * Topic: _Generative learning for Inorganic Material Science_
     * Co-supervisors: [Erik B Dam](https://scholar.google.dk/citations?user=X_SLVUIAAAAJ&hl=en&oi=ao), [Kirsten MØ Jensen](https://scholar.google.dk/citations?user=0LD11kYAAAAJ&hl=da)
-    * Publications: [Johansen et al. 2023](https://chemrxiv.org/engage/chemrxiv/article-details/651ec9668bab5d2055b2d009)
+    * Publications: 
+        * Frederik Lizak Johansen, Andy Sode Anker, Ulrik Friis-Jensen, Erik Bjørnager Dam, Kirsten Marie Ørnsbjerg Jensen, Raghavendra Selvan. A GPU-Accelerated Open-Source Python Package for Calculating Powder Diffraction, Small-Angle-, and Total Scattering with the Debye Scattering Equation. Journal of Open Source Software (JOSS), 2024.
+        *  Ulrik Friis-Jensen, Frederik Lizak Johansen, Andy Sode Anker, Erik Bjørnager Dam, Kirsten Marie Ørnsbjerg Jensen, Raghavendra Selvan. _CHILI: Chemically-Informed Large-scale Inorganic Nanomaterials Dataset for Advancing Graph Machine Learning_. Arxiv, 2024.
 
 **Co-supervisor**
 * Anna Stuckert (2023--)
