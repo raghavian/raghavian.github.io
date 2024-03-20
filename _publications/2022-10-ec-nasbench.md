@@ -8,6 +8,6 @@ date: 2024-01-01
 venue: 'International Conference on Acoustics, Speech, and Signal Processing (ICASSP)'
 pubtype: 'conference'
 project: 'sustofai'
-paperurl: https://arxiv.org/abs/2210.06015
+paperurl: https://ieeexplore.ieee.org/document/10448303
 pdf: https://arxiv.org/pdf/2210.06015
 ---
