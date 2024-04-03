@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _Computer scientists show the way: AI models need not be SO power hungry_ (UCPH Press release), April, 2024. ([link](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/)) ([pdf](files/ecnas_2024.pdf))
 *  _Klimabevidst AI-teknologi er fremtiden_, DM Digi (Danish Magazine), Jan. 2024. ([link](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/)) ([pdf](files/DM_Digi_2024.pdf)) 
 * _Sort samvittighed eller grøn gamechanger?_, Uddannelsebladet (Danish Magazine), Feb. 2024. ([link](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger)) ([pdf](files/uddannelsebladet2024.pdf))
 * _'Ej Efternavn': Indian in Denmark unable to get real name on residence card_ (TheLocal.dk), Feb. 2024. ([link](https://www.thelocal.dk/20240219/ej-efternavn-indian-in-denmark-unable-to-get-real-name-on-residence-card)) ([pdf](files/thelocal_2024.pdf))

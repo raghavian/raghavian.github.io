@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-04: [Press release](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/) for ICASSP-2024 paper on energy consumption aware NAS.
 * 2024-02: [Paper](https://joss.theoj.org/papers/10.21105/joss.06024) published in the Journal of Open Source Software (JOSS).
 * 2024-02: RS was featured in an article in the Danish magazine _DM Digi_ talking about [Climate-Aware AI](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/).
 * 2024-02: RS was featured in an article in the Danish magazine _Uddannelsebladet_ talking about the [carbon footprint of AI](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger).
