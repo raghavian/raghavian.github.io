@@ -16,6 +16,7 @@ redirect_from:
 |![image](images/ulrik.jpg) **Ulrik Friis-Jensen** | (2022/08--) | *I am a PhD-fellow in the AIChemy project. I have both BSc and MSc in Nanoscience from the University of Copenhagen. I used my elective courses on the masters programme to do ML oriented math and programming courses. My work is mainly focused on using GNNs and Generative Models to do structure solution of nanoparticles from Total Scattering and Pair Distribution Function (PDF) data.*|
 |![image](images/julian.jpg) **Julian E. Schön** | (2023/01--)| PhD candidate studying resource efficient ML methods.|
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*|
+|![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.|
 |![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--) | *Research Assistant working on Low-precision Deep Learning*|
 |![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Research Assistant working on Low-precision Deep Learning*|
 
