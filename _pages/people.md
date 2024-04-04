@@ -18,12 +18,14 @@ redirect_from:
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*|
 |![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate (jointly with University of Faroe Islands) studying Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.|
 |![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--) | *Research Assistant working on Low-precision Deep Learning*|
-|![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Research Assistant working on Low-precision Deep Learning*|
+|![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|
+|![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--) | *Student Research Assistant working on carbon footprint aware task scheduling.*|
+
 
 
 ## Former Team Members
 
-|![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc working on sustainable Machine Learning*|
+|![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc who worked on sustainable Machine Learning*|
 
 
 
