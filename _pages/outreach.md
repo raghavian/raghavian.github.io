@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _Building more responsive, AI-driven infrastructure_ (Canadian Broadcasting Service), Radio/Podcast feature on the energy consumption of AI models. ([link](https://www.cbc.ca/listen/live-radio/1-55-spark/clip/16053984-building-responsive-ai-driven-infrastructure), around 26m mark)
 * _Computer scientists show the way: AI models need not be SO power hungry_ (UCPH Press release), April, 2024. ([link](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/)) ([pdf](files/ecnas_2024.pdf))
 *  _Klimabevidst AI-teknologi er fremtiden_, DM Digi (Danish Magazine), Jan. 2024. ([link](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/)) ([pdf](files/DM_Digi_2024.pdf)) 
 * _Sort samvittighed eller grøn gamechanger?_, Uddannelsebladet (Danish Magazine), Feb. 2024. ([link](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger)) ([pdf](files/uddannelsebladet2024.pdf))
@@ -29,6 +30,7 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2024
+    * "Representation learning for Multi-Modal Data". Invited Talk (remote) at University of St. Andrews, Scotland.
     * "Dialogue between Danish ICT Sector on ESG considerations about Generative AI". Danish ICT Association (IT-Branchen). Denmark
     * "Graph Neural Networks: From spectral signal processing to self-attention". Winter School lectures at Geilo Winter School. Norway. 
 * 2023
