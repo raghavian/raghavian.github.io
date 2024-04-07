@@ -1,7 +1,7 @@
 ---
 title: "Stabilization of V1 interneuron-motor neuron connectivity ameliorates motor phenotype in a mouse model of ALS"
-authbefore: "Santiago Mora, Rasmus von Huth Friis, Anna Stuckert, Gith Noes-Holt, Roser Montanana-Rosell, Andreas Toft Sorensen," 
-authafter: ", Ilary Allodi"
+authbefore: "Santiago Mora, Anna Stuckert, Rasmus von Huth Friis, Kimberly Pietersz, Gith Noes-Holt, Roser Montanana-Rosell, Haoyu Wang, Andreas Toft Sorensen," 
+authafter: ", Joost Verhaagen, Ilary Allodi"
 collection: publications
 permalink: /publication/2022-10-ec-nasbench
 date: 2024-03-01
