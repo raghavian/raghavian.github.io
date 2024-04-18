@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-04: RS will be co-chairing a session on ML for Signal Processing at [ICASSP-2024](https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1132)
 * 2024-04: [Press release](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/) for ICASSP-2024 paper on energy consumption aware NAS.
 * 2024-02: [Paper](https://joss.theoj.org/papers/10.21105/joss.06024) published in the Journal of Open Source Software (JOSS).
 * 2024-02: RS was featured in an article in the Danish magazine _DM Digi_ talking about [Climate-Aware AI](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/).
@@ -32,12 +33,14 @@ News
 * 2023-09: [Paper](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573) published in Limnology and Oceanography
 * 2023-08 [Paper](https://www.nature.com/articles/s41593-023-01396-3) published in Nature Neuroscience 
 * 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
+
+
+<!-- 
 * 2023-07: Contributed to a series of popular news articles in [Børsen](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen) (Danish newspaper) on the carbon footprint of AI models.
 * 2023-06: RS has joined the Diversity, Equity and Inclusion network at [UCPH](https://about.ku.dk/profile-history/diversity/)
 * 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
 * 2023-04: Contributed to a popular news article in [Süddeutsche Zeitung](https://www.sueddeutsche.de/wissen/chat-gpt-energieverbrauch-ki-1.5780744) on the carbon footprint of large language models.
 
-<!-- 
 * 2023-02: Check out the ongoing reading group on Sustainable Machine Learning hosted by us [here](https://github.com/raghavian/SustainML).
 * 2023-09: RS will be co-organizing a parallel session on "Resource Aware Machine Learning" at the Danish Digitalization, Data Science and AI [(D3A-2024)](https://d3aconference.dk) conference
 * 2023-01: Funding for one PhD student to study fronto-temporal dementia with AI at St. Andrews University as co-applicant
