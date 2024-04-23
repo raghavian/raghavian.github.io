@@ -31,6 +31,7 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2024
+    * "On the Carbon Footprint of Deep Learning: From Monitoring to Mitigation". Talk at the Pioneer Center for AI workshop on Diverse AI Tasks, Denmark. 
     * "Representation learning for Multi-Modal Data". Invited Talk (remote) at University of St. Andrews, Scotland.
     * "Dialogue between Danish ICT Sector on ESG considerations about Generative AI". Danish ICT Association (IT-Branchen). Denmark
     * "Graph Neural Networks: From spectral signal processing to self-attention". Winter School lectures at Geilo Winter School. Norway. 
