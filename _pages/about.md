@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-04: Work presented at ICASSP was featured in [videnskab.dk](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/)
 * 2024-04: RS will be co-chairing a session on ML for Signal Processing at [ICASSP-2024](https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1132)
 * 2024-04: [Press release](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/) for ICASSP-2024 paper on energy consumption aware NAS.
 * 2024-02: [Paper](https://joss.theoj.org/papers/10.21105/joss.06024) published in the Journal of Open Source Software (JOSS).
