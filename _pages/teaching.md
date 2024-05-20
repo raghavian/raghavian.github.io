@@ -11,6 +11,7 @@ redirect_from:
 
 Invited Lectures
 ======
+* ML for Food Science. Exercise materials: [Food Classifier](files/food_classifier.zip) 
 * Geilo Winter School-2024 on [Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/)
 
 <!-- * Session-1: ([jupyter-notebook](files/session-1.ipynb))
