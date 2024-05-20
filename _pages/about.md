@@ -15,7 +15,8 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
-* 2024-06: [Paper](https://arxiv.org/abs/2402.13221) accepted to be presented at ACM KDD 2024.
+* 2024-05: [Paper](https://arxiv.org/abs/2402.13221) accepted to be presented at ACM KDD 2024.
+* 2024-05: Paper entitled _High-throughput classification of S. cerevisiae tetrads using deep learning_ accepted to the Journal of Yeast.
 * 2024-04: Work presented at ICASSP was featured in [videnskab.dk](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/)
 * 2024-04: RS will be co-chairing a session on ML for Signal Processing at [ICASSP-2024](https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1132)
 * 2024-04: [Press release](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/) for ICASSP-2024 paper on energy consumption aware NAS.
