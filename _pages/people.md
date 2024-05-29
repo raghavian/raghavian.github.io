@@ -25,7 +25,7 @@ redirect_from:
 
 ## Former Team Members
 
-|![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc who worked on sustainable Machine Learning*|
+|![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc with a focus on sustainable Machine Learning*|
 
 
 
