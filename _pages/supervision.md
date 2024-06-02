@@ -12,10 +12,6 @@ redirect_from:
 PhD projects
 ======
 **Daily Supervisor**
-* Julian E Schön (2023--)
-    * Topic: _Resource Efficient Machine Learning_
-    * Co-supervisors: [Christian Igel](https://scholar.google.dk/citations?user=d-jF4zIAAAAJ&hl=en)
-    * Publications: [Selvan et al. 2023](https://arxiv.org/abs/2303.10181)
 
 * Jákup O Svöðstein (2023--)
     * Topic: _Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics
@@ -96,4 +92,6 @@ Course Projects
 
 ---
 
-
+<!--
+Figure 2. Overview of the proposed self-supervised method that learns a meaningful representation space from which individual marine animals can be detected and identified.
+-->
