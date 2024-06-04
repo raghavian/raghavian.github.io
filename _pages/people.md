@@ -25,7 +25,7 @@ redirect_from:
 ## Former Team Members
 
 |![image](images/julian.jpg) **Julian E. Schön** | (2023/01--2023/12)| Research Assistant with a focus on dataset condensation methods. Julian also worked on his MSc thesis co-supervised by RS on interpreting the latent spaces of generative models.| [Schön et al. 2023](https://arxiv.org/abs/2301.05465); [Schön et al. 2022](https://arxiv.org/abs/2207.09740)|
-|![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc with a focus on sustainable Machine Learning*|[Wright et al. (2023)](https://arxiv.org/abs/2309.02065)|
+|![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc with a focus on sustainable Machine Learning*|[Wright et al. (2023)](https://arxiv.org/abs/2309.02065); [Wright et al. (2024)](https://arxiv.org/abs/2406.01345)|
 
 
 
