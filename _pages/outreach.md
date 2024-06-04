@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _Ai-revolution kræver enorme mængder strøm_ (Berlingske, Danish Newspaper)([link](https://www.berlingske.dk/samfund/han-er-computerforsker-og-har-lavet-et-foruroligende-regnestykke-svaret) [pdf](files/Berlingske2024.pdf))
 * _AI vil sluge lige så meget energi som hele Sverige. Nu har københavnske forskere en løsning_ (Videnskab.dk, Danish Magazine) ([link](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/) [pdf](files/videnskab_2024.pdf))
 * _Building more responsive, AI-driven infrastructure_ (Canadian Broadcasting Service), Radio/Podcast feature on the energy consumption of AI models. ([link](https://www.cbc.ca/listen/live-radio/1-55-spark/clip/16053984-building-responsive-ai-driven-infrastructure), around 26m mark)
 * _Samfundets AI-ambitioner har en skjult bagside: »Træning af systemerne kræver en enorm mængde energi«_ (INGENIØREN, Danish media outlet) ([link](https://www.version2.dk/artikel/samfundets-ai-ambitioner-har-en-skjult-bagside-traening-af-systemerne-kraever-en-enorm-maengde)) ([pdf](ing_2024.pdf))

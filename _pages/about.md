@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-06: RS was featured in an article in the Danish newspaper _Berlingske_ about the [increasing energy consumption of AI](files/Berlingske2024.pdf)
 * 2024-06: [Paper](https://www.science.org/doi/10.1126/sciadv.adk3229) published in Science Advances.
 * 2024-05: [Paper](https://arxiv.org/abs/2402.13221) accepted to be presented at ACM KDD 2024.
 * 2024-05: Paper entitled _High-throughput classification of S. cerevisiae tetrads using deep learning_ accepted to the Journal of Yeast.
