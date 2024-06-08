@@ -4,10 +4,10 @@ authbefore: "Santiago Mora, Anna Stuckert, Rasmus von Huth Friis, Kimberly Piete
 authafter: ", Joost Verhaagen, Ilary Allodi"
 collection: publications
 permalink: /publication/2022-10-ec-nasbench
-date: 2024-03-01
-venue: '(to appear in) Nature Communications'
+date: 2024-06-08
+venue: 'Nature Communications'
 pubtype: 'journal'
 project: 'ai4sciences'
-paperurl: https://www.biorxiv.org/content/10.1101/2022.12.15.520568v1.abstract
-pdf: https://www.biorxiv.org/content/10.1101/2022.12.15.520568v1.full.pdf
+paperurl: https://www.nature.com/articles/s41467-024-48925-7
+pdf: https://www.nature.com/articles/s41467-024-48925-7.pdf
 ---
