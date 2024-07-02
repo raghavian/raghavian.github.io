@@ -34,6 +34,8 @@ News
 * 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
 * 2023-11: [Paper](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246) accepted to be published in Journal of Imaging Neuroscience.
 * 2023-11: RS will be judging the [AI for a Sustainable Future Hackathon](https://jura.ku.dk/legaltechlab/calendar/2023/legal-tech-hackathon-2023-ai-for-a-sustainable-future/)
+
+<!-- 
 * 2023-10: Two projects (6M DKK in total) funded as part of the Villum Synergy Grant with RS as a co-applicant
 * 2023-10: RS will chair the session on AI in Healthcare at the Nordic AI Meet-2023
 * 2023-09: [Paper](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573) published in Limnology and Oceanography
@@ -41,7 +43,6 @@ News
 * 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
 
 
-<!-- 
 * 2023-07: Contributed to a series of popular news articles in [Børsen](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen) (Danish newspaper) on the carbon footprint of AI models.
 * 2023-06: RS has joined the Diversity, Equity and Inclusion network at [UCPH](https://about.ku.dk/profile-history/diversity/)
 * 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH
