@@ -4,7 +4,7 @@ authbefore: "Dustin Wright, Gabrielle Samuel, Christian Igel, "
 authafter: ""
 collection: publications
 permalink: /publication/2023-09-efficiency
-date: 2023-09-04
+date: 2024-07-04
 venue: 'Communications of ACM'
 pubtype: 'journal'
 project: 'sustofai'
