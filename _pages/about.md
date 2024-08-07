@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-08: [Paper](https://osf.io/preprints/osf/wmzcq) accepted to be published in the Journal of Human Brain Mapping.
 * 2024-07: [Paper](https://arxiv.org/abs/2309.02065) accepted to be published in the Special Issue on Sustainability in Communications of ACM.
 * 2024-06: [Paper](https://www.nature.com/articles/s41467-024-48925-7) published in Nature Communications.
 * 2024-06: RS was featured in an article in the Danish newspaper _Berlingske_ about the [increasing energy consumption of AI](files/Berlingske2024.pdf)
@@ -31,12 +32,13 @@ News
 * 2024-01: RS will be teaching at the [Geilo Winter School on Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/).
 * 2023-12: RS was featured in an article in the Danish magazine _Prosabladet_ talking about the [climate impact of AI](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet).
 * 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [ICASSP-2024](https://2024.ieeeicassp.org/).
+
+<!-- 
 * 20223-12: Machine Learning Section award for contributions to DEI, and green initiatives in 2023.
 * 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
 * 2023-11: [Paper](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246) accepted to be published in Journal of Imaging Neuroscience.
 * 2023-11: RS will be judging the [AI for a Sustainable Future Hackathon](https://jura.ku.dk/legaltechlab/calendar/2023/legal-tech-hackathon-2023-ai-for-a-sustainable-future/)
 
-<!-- 
 * 2023-10: Two projects (6M DKK in total) funded as part of the Villum Synergy Grant with RS as a co-applicant
 * 2023-10: RS will chair the session on AI in Healthcare at the Nordic AI Meet-2023
 * 2023-09: [Paper](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573) published in Limnology and Oceanography

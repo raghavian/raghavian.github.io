@@ -4,9 +4,9 @@ authbefore: "Nicholas E Souter, Nikhil Bhagwat, Chris Racey, Reese Wilkinson, Ni
 authafter: ", Charlotte L. Rae"
 collection: publications
 permalink: /publication/2024-01-fmriprep
-date: 2024-01-01
-venue: 'OSF Preprint'
-pubtype: 'preprint'
+date: 2024-08-01
+venue: 'Journal of Human Brain Mapping'
+pubtype: 'journal'
 project: 'sustofai'
 paperurl: https://osf.io/preprints/osf/wmzcq
 ---
