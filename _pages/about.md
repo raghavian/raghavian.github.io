@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-08: RS was featured in an article in the Danish Public Broadcaster _DR_ on the [energy consumption of generative AI](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans).
 * 2024-08: [Paper](https://osf.io/preprints/osf/wmzcq) accepted to be published in the Journal of Human Brain Mapping.
 * 2024-07: [Paper](https://arxiv.org/abs/2309.02065) accepted to be published in the Special Issue on Sustainability in Communications of ACM.
 * 2024-06: [Paper](https://www.nature.com/articles/s41467-024-48925-7) published in Nature Communications.

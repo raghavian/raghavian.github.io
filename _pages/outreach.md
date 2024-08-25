@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* __ (DR, Danish Public Broadcaster)([link](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans)) [pdf](files/DR2024.pdf)
 * _Ai-revolution kræver enorme mængder strøm_ (Berlingske, Danish Newspaper)([link](https://www.berlingske.dk/samfund/han-er-computerforsker-og-har-lavet-et-foruroligende-regnestykke-svaret) [pdf](files/Berlingske2024.pdf))
 * _Kunstig intelligens er blevet en kæmpe trussel mod klimaet – men der er håb_ (Finans.dk, Danish Magazine)([link](https://finans.dk/tech/ECE17155266/kunstig-intelligens-er-blevet-en-kaempe-trussel-mod-klimaet-men-der-er-haab/))
 * _AI vil sluge lige så meget energi som hele Sverige. Nu har københavnske forskere en løsning_ (Videnskab.dk, Danish Magazine) ([link](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/) [pdf](files/videnskab_2024.pdf))
