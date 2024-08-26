@@ -8,5 +8,5 @@ date: 2024-08-01
 venue: 'Journal of Human Brain Mapping'
 pubtype: 'journal'
 project: 'sustofai'
-paperurl: https://osf.io/preprints/osf/wmzcq
+paperurl: https://onlinelibrary.wiley.com/doi/10.1002/hbm.70003 
 ---
