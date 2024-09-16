@@ -19,6 +19,7 @@ redirect_from:
 |![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--) | *Research Assistant working on Low-precision Deep Learning*| [Eliassen & Selvan (2024)](https://arxiv.org/abs/2309.11856)|
 |![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Selvan et al. 2024](https://arxiv.org/abs/2403.12562)|
 |![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--) | *Student Research Assistant working on carbon footprint aware task scheduling.*| |
+|![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| |
 
 
 
