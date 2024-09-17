@@ -8,12 +8,13 @@ redirect_from:
 ---
 Media Coverage
 ---
+* Episode of Third Ear Podcast on Sustainability and AI. ([https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d](link))
 * _Chatbots sviner klimaet: Kæmpe datacentre kan om få år sluge hele Japans strømforbrug_ (DR, Danish Public Broadcaster)([link](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans)) [pdf](files/DR2024.pdf)
 * _Ai-revolution kræver enorme mængder strøm_ (Berlingske, Danish Newspaper)([link](https://www.berlingske.dk/samfund/han-er-computerforsker-og-har-lavet-et-foruroligende-regnestykke-svaret) [pdf](files/Berlingske2024.pdf))
 * _Kunstig intelligens er blevet en kæmpe trussel mod klimaet – men der er håb_ (Finans.dk, Danish Magazine)([link](https://finans.dk/tech/ECE17155266/kunstig-intelligens-er-blevet-en-kaempe-trussel-mod-klimaet-men-der-er-haab/))
 * _AI vil sluge lige så meget energi som hele Sverige. Nu har københavnske forskere en løsning_ (Videnskab.dk, Danish Magazine) ([link](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/) [pdf](files/videnskab_2024.pdf))
 * _Building more responsive, AI-driven infrastructure_ (Canadian Broadcasting Service), Radio/Podcast feature on the energy consumption of AI models. ([link](https://www.cbc.ca/listen/live-radio/1-55-spark/clip/16053984-building-responsive-ai-driven-infrastructure), around 26m mark)
-* _Samfundets AI-ambitioner har en skjult bagside: »Træning af systemerne kræver en enorm mængde energi«_ (INGENIØREN, Danish media outlet) ([link](https://www.version2.dk/artikel/samfundets-ai-ambitioner-har-en-skjult-bagside-traening-af-systemerne-kraever-en-enorm-maengde)) ([pdf](ing_2024.pdf))
+* _Samfundets AI-ambitioner har en skjult bagside: »Træning af systemerne kræver en enorm mængde energi«_ (INGENIØREN, Danish media outlet) ([link](https://www.version2.dk/artikel/samfundets-ai-ambitioner-har-en-skjult-bagside-traening-af-systemerne-kraever-en-enorm-maengde)) ([pdf](files/ing_2024.pdf))
 * _Computer scientists show the way: AI models need not be SO power hungry_ (UCPH Press release), April, 2024. ([link](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/)) ([pdf](files/ecnas_2024.pdf))
 *  _Klimabevidst AI-teknologi er fremtiden_, DM Digi (Danish Magazine), Jan. 2024. ([link](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/)) ([pdf](files/DM_Digi_2024.pdf)) 
 * _Sort samvittighed eller grøn gamechanger?_, Uddannelsebladet (Danish Magazine), Feb. 2024. ([link](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger)) ([pdf](files/uddannelsebladet2024.pdf))
