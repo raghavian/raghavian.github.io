@@ -16,6 +16,8 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 News
 ====== 
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
+* 2024-09: * RS was featured in two articles on how AI companies are missing their sustainability goals. ([1](https://www.version2.dk/artikel/tech-giganter-skjuler-stigende-co2-udledninger-man-maa-ikke-bare-vaelge-det-tal-der-ser-bedst-ud) [2](https://www.version2.dk/artikel/ai-kaploebet-vaelter-tech-giganternes-co2-regnskab-forretningsmodellen-vinder-over-klimaet))
+
 * 2024-08: RS was featured in an article in the Danish Public Broadcaster _DR_ on the [energy consumption of generative AI](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans).
 * 2024-08: [Paper](https://onlinelibrary.wiley.com/doi/10.1002/hbm.70003) published in the Journal of Human Brain Mapping.
 * 2024-07: [Paper](https://arxiv.org/abs/2309.02065) accepted to be published in the Special Issue on Sustainability in Communications of ACM.
