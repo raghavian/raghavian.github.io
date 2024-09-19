@@ -16,8 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 News
 ====== 
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
-* 2024-09: * RS was featured in two articles on how AI companies are missing their sustainability goals. ([1](https://www.version2.dk/artikel/tech-giganter-skjuler-stigende-co2-udledninger-man-maa-ikke-bare-vaelge-det-tal-der-ser-bedst-ud) [2](https://www.version2.dk/artikel/ai-kaploebet-vaelter-tech-giganternes-co2-regnskab-forretningsmodellen-vinder-over-klimaet))
-
+* 2024-09: RS was featured in two articles on how AI companies are missing their sustainability goals. ([1](https://www.version2.dk/artikel/tech-giganter-skjuler-stigende-co2-udledninger-man-maa-ikke-bare-vaelge-det-tal-der-ser-bedst-ud) [2](https://www.version2.dk/artikel/ai-kaploebet-vaelter-tech-giganternes-co2-regnskab-forretningsmodellen-vinder-over-klimaet))
 * 2024-08: RS was featured in an article in the Danish Public Broadcaster _DR_ on the [energy consumption of generative AI](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans).
 * 2024-08: [Paper](https://onlinelibrary.wiley.com/doi/10.1002/hbm.70003) published in the Journal of Human Brain Mapping.
 * 2024-07: [Paper](https://arxiv.org/abs/2309.02065) accepted to be published in the Special Issue on Sustainability in Communications of ACM.
@@ -30,6 +29,8 @@ News
 * 2024-04: RS will be co-chairing a session on ML for Signal Processing at [ICASSP-2024](https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1132)
 * 2024-04: [Press release](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/) for ICASSP-2024 paper on energy consumption aware NAS.
 * 2024-02: [Paper](https://joss.theoj.org/papers/10.21105/joss.06024) published in the Journal of Open Source Software (JOSS).
+
+<!-- 
 * 2024-02: RS was featured in an article in the Danish magazine _DM Digi_ talking about [Climate-Aware AI](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/).
 * 2024-02: RS was featured in an article in the Danish magazine _Uddannelsebladet_ talking about the [carbon footprint of AI](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger).
 * 2024-02: RS co-organized the special track on Resource-Aware ML at [D3A Conference](https://d3aconference.dk/), Nyborg.
@@ -37,7 +38,6 @@ News
 * 2023-12: RS was featured in an article in the Danish magazine _Prosabladet_ talking about the [climate impact of AI](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet).
 * 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [ICASSP-2024](https://2024.ieeeicassp.org/).
 
-<!-- 
 * 20223-12: Machine Learning Section award for contributions to DEI, and green initiatives in 2023.
 * 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
 * 2023-11: [Paper](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246) accepted to be published in Journal of Imaging Neuroscience.
