@@ -8,7 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
-* Episode of Third Ear Podcast on Sustainability and AI. ([https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d](link))
+* Episode of Third Ear Podcast on Sustainability and AI. ([link](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d))
 * _Chatbots sviner klimaet: Kæmpe datacentre kan om få år sluge hele Japans strømforbrug_ (DR, Danish Public Broadcaster)([link](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans)) [pdf](files/DR2024.pdf)
 * _Ai-revolution kræver enorme mængder strøm_ (Berlingske, Danish Newspaper)([link](https://www.berlingske.dk/samfund/han-er-computerforsker-og-har-lavet-et-foruroligende-regnestykke-svaret) [pdf](files/Berlingske2024.pdf))
 * _Kunstig intelligens er blevet en kæmpe trussel mod klimaet – men der er håb_ (Finans.dk, Danish Magazine)([link](https://finans.dk/tech/ECE17155266/kunstig-intelligens-er-blevet-en-kaempe-trussel-mod-klimaet-men-der-er-haab/))
