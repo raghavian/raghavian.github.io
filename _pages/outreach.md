@@ -9,6 +9,7 @@ redirect_from:
 Media Coverage
 ---
 * RS was featured in an episode of Third Ear Podcast on Sustainability and AI. ([link](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d))
+* _Kan AI redde truede dyrearter?_ (Videnskab.dk, Danish Pop. Sci. Mag.) ([link](https://videnskab.dk/teknologi/kan-sprog-ai-redde-truede-dyrearter/)) ([pdf](files/videnskab_2024_2.pdf))
 * _AI-kapløbet vælter tech-giganternes CO2-regnskab: Forretningsmodellen vinder over klimaet_ 
 (INGENIØREN, Danish media outlet) ([link](https://www.version2.dk/artikel/tech-giganter-skjuler-stigende-co2-udledninger-man-maa-ikke-bare-vaelge-det-tal-der-ser-bedst-ud)) ([pdf](files/ing202409_2.pdf))
 * _Tech-giganter skjuler stigende CO2-udledninger: Man må ikke bare vælge det tal, der ser bedst ud_ (INGENIØREN, Danish media outlet) ([link](https://www.version2.dk/artikel/ai-kaploebet-vaelter-tech-giganternes-co2-regnskab-forretningsmodellen-vinder-over-klimaet)) ([pdf](files/ing202409_1.pdf))
