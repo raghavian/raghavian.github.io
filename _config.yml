@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Raghav{endra Selvan}"
   avatar           : "rs.png"
-  bio              : "Assistant Professor (TT) @ Machine Learning Section, University of Copenhagen."
+  bio              : "Assistant Professor (TT) @ Machine Learning Section. Author of [Sustainable AI](https://learning.oreilly.com/library/view/sustainable-ai/9781098155506/)"
   location         : "Bangalore/Copenhagen"
-  employer         : #"University of Copenhagen"
+  employer         : "University of Copenhagen"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=R9VBQ54AAAAJ&view_op=list_works&sortby=pubdate"
   email            : "raghav@di.ku.dk"
