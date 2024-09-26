@@ -15,6 +15,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 News
 ====== 
+* 2024-09: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
 * 2024-09: RS was featured in an [article](https://videnskab.dk/teknologi/kan-sprog-ai-redde-truede-dyrearter/) in Videnskab.dk (Danish Pop. Sci. mag.) talking about AI for decoding signals from animals.
 * 2024-09: RS was featured in two articles on how AI companies are missing their sustainability goals. ([1](https://www.version2.dk/artikel/tech-giganter-skjuler-stigende-co2-udledninger-man-maa-ikke-bare-vaelge-det-tal-der-ser-bedst-ud) [2](https://www.version2.dk/artikel/ai-kaploebet-vaelter-tech-giganternes-co2-regnskab-forretningsmodellen-vinder-over-klimaet))
