@@ -42,6 +42,7 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2024
+    * "Do You Know the Carbon Footprint of Your AI?". Invited talk at Digitaliseringsmessen 2024. Odense. Den,ark.
     * "Sustainable AI: A Critical Perspective". Invited lecture at University of Potsdam, Germany (online)
     * "On the Carbon Footprint of Deep Learning: From Monitoring to Mitigation". Talk at the Pioneer Center for AI workshop on Diverse AI Tasks, Denmark. 
     * "Representation learning for Multi-Modal Data". Invited Talk (remote) at University of St. Andrews, Scotland.
