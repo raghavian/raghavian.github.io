@@ -16,7 +16,6 @@ redirect_from:
 |![image](images/ulrik.jpg) **Ulrik Friis-Jensen** | (2022/08--) | *I am a PhD-fellow in the AIChemy project. I have both BSc and MSc in Nanoscience from the University of Copenhagen. I used my elective courses on the masters programme to do ML oriented math and programming courses. My work is mainly focused on using GNNs and Generative Models to do structure solution of nanoparticles from Total Scattering and Pair Distribution Function (PDF) data.*| [Friis-Jensen,Johansen et al. (2024)](https://arxiv.org/abs/2402.13221); [Johansen et al. (2024)](https://joss.theoj.org/papers/10.21105/joss.06024)|
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*| [Chen & Selvan (2024)](https://arxiv.org/abs/2402.05675); [Thorsteinsson et al. (2024)](https://arxiv.org/abs/2403.09441)|
 |![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate (jointly with University of Faroe Islands) studying Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.| |
-|![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--) | *Research Assistant working on Low-precision Deep Learning*| [Eliassen & Selvan (2024)](https://arxiv.org/abs/2309.11856)|
 |![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Selvan et al. 2024](https://arxiv.org/abs/2403.12562)|
 |![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--) | *Student Research Assistant working on carbon footprint aware task scheduling.*| |
 |![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| |
@@ -25,8 +24,8 @@ redirect_from:
 
 ## Former Team Members
 
-|![image](images/julian.jpg) **Julian E. Schön** | (2023/01--2023/12)| Research Assistant with a focus on dataset condensation methods. Julian also worked on his MSc thesis co-supervised by RS on interpreting the latent spaces of generative models.| [Schön et al. 2023](https://arxiv.org/abs/2301.05465); [Schön et al. 2022](https://arxiv.org/abs/2207.09740)|
+|![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--2024/10) | *Research Assistant working on Low-precision Deep Learning*| [Eliassen & Selvan (2024)](https://arxiv.org/abs/2309.11856)|
 |![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc with a focus on sustainable Machine Learning*|[Wright et al. (2023)](https://arxiv.org/abs/2309.02065); [Wright et al. (2024)](https://arxiv.org/abs/2406.01345)|
-
+|![image](images/julian.jpg) **Julian E. Schön** | (2023/01--2023/12)| Research Assistant with a focus on dataset condensation methods. Julian also worked on his MSc thesis co-supervised by RS on interpreting the latent spaces of generative models.| [Schön et al. 2023](https://arxiv.org/abs/2301.05465); [Schön et al. 2022](https://arxiv.org/abs/2207.09740)|
 
 
