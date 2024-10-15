@@ -11,6 +11,14 @@ redirect_from:
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+## Key Project Areas
+
+RS has been working in three key areas of Machine Learning research, with both methodological and application driven contributions.
+
+- [Sustainability of AI](#sustainability-of-ai)
+- [AI for Sciences](#ai-for-sciences)
+- [Bio-Medical Image Analysis](#bio-medical-image-analysis)
+
 ## Sustainability of AI
 ---
 Material cost of developing and deploying complex ML models is growing considerably. In this line of research, we are focusing on some facets of the environmental sustainability of ML. Primarily, by focusing on energy consumption and carbon footprint.
