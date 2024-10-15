@@ -6,13 +6,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 ## Bio 
 ---
 Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) at Machine Learning (ML) Section, Dept. of Computer Science, University of Copenhagen (UCPH). He is also affiliated the Data Science Laboratory at UCPH. His current research interests are broadly pertaining Resource Efficient ML, ML for Sciences, and Graph Neural Networks. Of late, another overarching theme of his research interests lie at the intersection of sustainability and ML where he is interested in investigating sustainability _with_ ML, and also the sustainability _of_ ML.
 
 Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
 
-### Hiring
+## Hiring
 ---
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for prospective students wanting to carry out BSc or MSc projects. 
 
