@@ -10,11 +10,15 @@ author_profile: true
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+## Publication Types
+
+- [Refereed Conference/ Workshop Papers](#refereed-conference-or-workshop-papers)
+- [Journal Articles](#journal-articles)
+- [Preprints](#preprints-or-under-review)
+- [Monographs](#monographs)
 
 
-
-
-Refereed Conference/Workshop Papers
+## Refereed Conference or Workshop Papers
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -24,7 +28,7 @@ Refereed Conference/Workshop Papers
 {% endfor %}
 </ol>
 
-Journal Articles
+## Journal Articles
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -35,7 +39,7 @@ Journal Articles
 </ol>
 
 
-Preprints / Under Review
+## Preprints or Under Review
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -45,7 +49,7 @@ Preprints / Under Review
 {% endfor %}
 </ol>
 
-Monographs
+## Monographs
 ---
 <ol>
 {% for post in site.publications reversed %}
