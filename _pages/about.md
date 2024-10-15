@@ -12,12 +12,10 @@ Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) a
 Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
 
 ## Hiring
-====
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for prospective students wanting to carry out BSc or MSc projects. 
 
 
 ## News
-====
 * 2024-09: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
 * 2024-09: RS was featured in an [article](https://videnskab.dk/teknologi/kan-sprog-ai-redde-truede-dyrearter/) in Videnskab.dk (Danish Pop. Sci. mag.) talking about AI for decoding signals from animals.
