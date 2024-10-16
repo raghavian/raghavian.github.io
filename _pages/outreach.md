@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* RS was featured in an [article](https://nyheder.tv2.dk/business/2024-10-15-atomkraft-skal-drive-kunstig-intelligens-hos-google) in TV2, discussing why big AI companies are buying massive amounts of nuclear power. ([pdf](files/TV2_2024.pdf))
 * RS was featured in an episode of Third Ear Podcast on Sustainability and AI. ([link](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d))
 * _Kan AI redde truede dyrearter?_ (Videnskab.dk, Danish Pop. Sci. Mag.) ([link](https://videnskab.dk/teknologi/kan-sprog-ai-redde-truede-dyrearter/)) ([pdf](files/videnskab_2024_2.pdf))
 * _AI-kapløbet vælter tech-giganternes CO2-regnskab: Forretningsmodellen vinder over klimaet_ 
