@@ -8,5 +8,5 @@ project: 'sustofai'
 venue: 'Upcoming Book published by OReilly'
 pubtype: 'thesis'
 paperurl: https://www.oreilly.com/library/view/sustainable-ai/9781098155506/
-link: https://www.oreilly.com/library/view/sustainable-ai/9781098155506/
+pdf: https://www.oreilly.com/library/view/sustainable-ai/9781098155506/
 ---
