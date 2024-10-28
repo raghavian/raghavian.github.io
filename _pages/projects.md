@@ -13,15 +13,17 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 ## Key Project Areas
 
-RS has been working in three key areas of Machine Learning research, with both methodological and application driven contributions.
+RS been working in three key areas of Machine Learning research, with both methodological and application driven contributions.
 
 - [Sustainability of AI](#sustainability-of-ai)
 - [AI for Sciences](#ai-for-sciences)
 - [Bio-Medical Image Analysis](#bio-medical-image-analysis)
 
+If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by RS feel free to reach out with a short email about what you are interested in and how the work in RS's team might be of interest to you. 
+
 ## Sustainability of AI
 ---
-Material cost of developing and deploying complex ML models is growing considerably. In this line of research, we are focusing on some facets of the environmental sustainability of ML. Primarily, by focusing on energy consumption and carbon footprint.
+Material cost of developing and deploying complex ML models is growing considerably. In this line of research, we are focusing on some facets of sustainability of ML. Primarily, by focusing on the environmental sustainability (fx: energy consumption and carbon footprint) of ML methods and its interactions with social sustainability (fx: fairness, robustness, access) of AI.
 
 <ol>
 {% for post in site.publications reversed %}
