@@ -23,7 +23,7 @@ If you are interested in joining our team check out the open positions advertise
 
 ## Sustainability of AI
 ---
-Material cost of developing and deploying complex ML models is growing considerably. In this line of research, we are focusing on some facets of sustainability of ML. Primarily, by focusing on the environmental sustainability (fx: energy consumption and carbon footprint) of ML methods and its interactions with social sustainability (fx: fairness, robustness, access) of AI.
+Material cost of developing and deploying complex ML models is growing considerably. In this line of research, we are focusing on some facets of sustainability of ML. Primarily, by focusing on the environmental sustainability (fx: energy consumption and carbon footprint) of ML methods and its interactions with social sustainability (fx: fairness, robustness, access) of AI. Some of the key publications from our team are listed below. 
 
 <ol>
 {% for post in site.publications reversed %}
