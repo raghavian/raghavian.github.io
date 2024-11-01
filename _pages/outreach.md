@@ -43,6 +43,7 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2024
+    * "Energy consumption of AI". Panelist at [Digital Tech Summit](https://event.ing.dk/dts2024/session/2318780/keynote-debate-energy-consumption-in-artificial-intelligence-are-we-undermining-our-transition-to-sustainability), Denmark.
     * "What is the Climate Impact of AI?". Invited talk at the AI and Climate Workshop organized by IDA, Denmark.
     * "Do You Know the Carbon Footprint of Your AI?". Invited talk at Digitaliseringsmessen 2024. Odense. Denmark.
     * "Sustainable AI: A Critical Perspective". Invited lecture at University of Potsdam, Germany (online)
