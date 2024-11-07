@@ -19,7 +19,8 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
-* 2024-10: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
+* 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
+* 2024-11: [Paper](https://arxiv.org/abs/2403.12562) accepted to be presented at Northern Lights Deep Learning Conference, 2025. 
 * 2024-10: RS was a panelist at [Digital Tech Summit](https://event.ing.dk/dts2024/session/2318780/keynote-debate-energy-consumption-in-artificial-intelligence-are-we-undermining-our-transition-to-sustainability) discussing the Energy consumption of AI.
 * 2024:10: RS was featured in an [article](https://nyheder.tv2.dk/business/2024-10-15-atomkraft-skal-drive-kunstig-intelligens-hos-google) in TV2 discussing why big AI companies are buying massive amounts of nuclear power.
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
