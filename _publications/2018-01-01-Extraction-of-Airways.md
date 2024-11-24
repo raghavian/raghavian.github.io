@@ -8,6 +8,6 @@ venue: 'University of Copenhagen (PhD Thesis)'
 pubtype: 'thesis'
 project: 'media'
 paperurl: https://static-curis.ku.dk/portal/files/209119534/raghavendraSelvanPhDThesis.pdf
-link: https://static-curis.ku.dk/portal/files/209119534/raghavendraSelvanPhDThesis.pdf
+pdf: /publications/files/raghavendraSelvanPhDThesis.pdf 
 ---
 
