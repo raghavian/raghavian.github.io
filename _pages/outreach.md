@@ -44,6 +44,8 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2024
+    * "Why I do What I do? (Sustainable ML)". Guest talk at the Dept. of Computer Science, MSc program Cabin trip. Denmark
+    * "Climate Impact of Generative AI". Invited talk at Oracle, Denmark.
     * "Energy consumption of AI". Panelist at [Digital Tech Summit](https://event.ing.dk/dts2024/session/2318780/keynote-debate-energy-consumption-in-artificial-intelligence-are-we-undermining-our-transition-to-sustainability), Denmark.
     * "What is the Climate Impact of AI?". Invited talk at the AI and Climate Workshop organized by IDA, Denmark.
     * "Do You Know the Carbon Footprint of Your AI?". Invited talk at Digitaliseringsmessen 2024. Odense. Denmark.

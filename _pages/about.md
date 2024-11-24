@@ -20,6 +20,7 @@ If you are interested in joining our team check out the open positions advertise
 
 ## News
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
+* 2024-11: RS was in the PhD Committee of [Ties Robroek](https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2024/November/Ties-Robroek) at IT University, Denmark.
 * 2024-11: RS was featured in [Videnskab.dk](https://videnskab.dk/teknologi/ai-studie-gjorde-pindsvin-til-coronasynder-langt-ude-at-saette-pindsvin-paa-skafottet/) talking about the pros and cons of AI when used to understand ecosystems.
 * 2024-11: [Paper](https://arxiv.org/abs/2403.12562) accepted to be presented at Northern Lights Deep Learning Conference, 2025. 
 * 2024-10: RS was a panelist at [Digital Tech Summit](https://event.ing.dk/dts2024/session/2318780/keynote-debate-energy-consumption-in-artificial-intelligence-are-we-undermining-our-transition-to-sustainability) discussing the Energy consumption of AI.
