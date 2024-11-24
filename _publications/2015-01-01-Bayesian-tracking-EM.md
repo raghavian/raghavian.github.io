@@ -6,6 +6,6 @@ permalink: /publication/2015-01-01-Bayesian-tracking-EM
 date: 2015-01-01
 venue: 'Chalmers University (MSc Thesis)'
 pubtype: 'thesis'
-paperurl: https://odr.chalmers.se/handle/20.500.12380/220888
-link: https://odr.chalmers.se/bitstream/20.500.12380/220888/1/220888.pdf
+paperurl: https://odr.chalmers.se/bitstream/20.500.12380/220888/1/220888.pdf
+pdf: /publications/files/selvan2025MSc.pdf
 ---
