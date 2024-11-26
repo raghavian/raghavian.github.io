@@ -20,6 +20,7 @@ If you are interested in joining our team check out the open positions advertise
 
 ## News
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
+* 2024-11: RS has been awarded 3.1M DKK by the [Independent Research Fund Denmark](https://dff.dk/en/current-news-and-events/green-research-is-boosted-with-132-million-dkk) to work on developing green data methods. 
 * 2024-11: RS was in the PhD Committee of [Ties Robroek](https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2024/November/Ties-Robroek) at IT University, Denmark.
 * 2024-11: RS was featured in [Videnskab.dk](https://videnskab.dk/teknologi/ai-studie-gjorde-pindsvin-til-coronasynder-langt-ude-at-saette-pindsvin-paa-skafottet/) talking about the pros and cons of AI when used to understand ecosystems.
 * 2024-11: [Paper](https://arxiv.org/abs/2403.12562) accepted to be presented at Northern Lights Deep Learning Conference, 2025. 
