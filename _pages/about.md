@@ -36,20 +36,20 @@ If you are interested in joining our team check out the open positions advertise
 * 2024-06: RS was featured in an article in the Danish newspaper _Berlingske_ about the [increasing energy consumption of AI](files/Berlingske2024.pdf)
 * 2024-06: [Paper](https://www.science.org/doi/10.1126/sciadv.adk3229) published in Science Advances.
 * 2024-05: [Paper](https://dl.acm.org/doi/10.1145/3637528.3671538) accepted to be presented at ACM KDD 2024.
+
+<!-- 
 * 2024-05: [Paper](https://onlinelibrary.wiley.com/doi/10.1002/yea.3965) published in the Journal of Yeast.
 * 2024-04: Work presented at ICASSP was featured in [videnskab.dk](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/)
 * 2024-04: RS will be co-chairing a session on ML for Signal Processing at [ICASSP-2024](https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1132)
 * 2024-04: [Press release](https://science.ku.dk/english/press/news/2024/computer-scientists-show-the-way-ai-models-need-not-be-so-power-hungry/) for ICASSP-2024 paper on energy consumption aware NAS.
 * 2024-02: [Paper](https://joss.theoj.org/papers/10.21105/joss.06024) published in the Journal of Open Source Software (JOSS).
 
-<!-- 
 * 2024-02: RS was featured in an article in the Danish magazine _DM Digi_ talking about [Climate-Aware AI](https://dm.dk/digi/artikler/data-og-groen-omstilling/klimabevidst-ai-teknologi-er-fremtiden/).
 * 2024-02: RS was featured in an article in the Danish magazine _Uddannelsebladet_ talking about the [carbon footprint of AI](https://uddannelsesbladet.dk/artikel/sort-samvittighed-eller-groen-gamechanger).
 * 2024-02: RS co-organized the special track on Resource-Aware ML at [D3A Conference](https://d3aconference.dk/), Nyborg.
 * 2024-01: RS will be teaching at the [Geilo Winter School on Graphs and Applications](https://www.sintef.no/projectweb/geilowinterschool/2024-winter-school/).
 * 2023-12: RS was featured in an article in the Danish magazine _Prosabladet_ talking about the [climate impact of AI](https://prosabladet.dk/nyheder/nyhed/ai-skyder-afsted-med-rekordfart-hvad-goer-det-egentlig-ved-klimaet).
 * 2023-12: Papers on [energy consumption-aware NAS](https://arxiv.org/abs/2210.06015) and [improved activation map quantization](https://arxiv.org/abs/2309.11856) accepted to be presented at [ICASSP-2024](https://2024.ieeeicassp.org/).
-
 * 20223-12: Machine Learning Section award for contributions to DEI, and green initiatives in 2023.
 * 2023-11: [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d3sc05081e) accepted to be published in Journal of Chemical Science.
 * 2023-11: [Paper](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00043/118246) accepted to be published in Journal of Imaging Neuroscience.
@@ -60,8 +60,6 @@ If you are interested in joining our team check out the open positions advertise
 * 2023-09: [Paper](https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lom3.10573) published in Limnology and Oceanography
 * 2023-08 [Paper](https://www.nature.com/articles/s41593-023-01396-3) published in Nature Neuroscience 
 * 2023-08 [Paper](https://arxiv.org/abs/2303.10181) accepted to be presented at the Resource Efficient Medical Image Analysis @MICCAI2023. 
-
-
 * 2023-07: Contributed to a series of popular news articles in [Børsen](https://borsen.dk/nyheder/baeredygtig/eksperter-ukendte-aftryk-kan-give-problemer-i-klimaafrapporteringen) (Danish newspaper) on the carbon footprint of AI models.
 * 2023-06: RS has joined the Diversity, Equity and Inclusion network at [UCPH](https://about.ku.dk/profile-history/diversity/)
 * 2023-05: RS will be one of the coordinators of the [Green Transition and AI](https://greensolutions.ku.dk/thematic-solutions/) thematic solution center at UCPH

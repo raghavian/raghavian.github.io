@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _AI-revolutionen kræver en sikker hånd på roret_. Danish Datacenter Industry Seminar. ([link](https://www.datacenterindustrien.dk/ai-revolutionen-krver-en-sikker-hand-pa-roret)) ([pdf](files/ddi2024.pdf))
 * RS was featured in an [article](https://videnskab.dk/teknologi/ai-studie-gjorde-pindsvin-til-coronasynder-langt-ude-at-saette-pindsvin-paa-skafottet/) in Videnskab.dk, discussing the pros and cons of AI in understanding animals. ([pdf](files/videnskab_2024_3.pdf))
 * RS was featured in an [article](https://nyheder.tv2.dk/business/2024-10-15-atomkraft-skal-drive-kunstig-intelligens-hos-google) in TV2, discussing why big AI companies are buying massive amounts of nuclear power. ([pdf](files/TV2_2024.pdf))
 * RS was featured in an episode of Third Ear Podcast on Sustainability and AI. ([link](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d))
