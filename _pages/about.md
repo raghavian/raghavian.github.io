@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) at the Machine Learning (ML) Section, Dept. of Computer Science, University of Copenhagen (UCPH). He is also affiliated the Data Science Laboratory at UCPH. His current research interests are broadly pertaining Resource Efficient ML, ML for Sciences, and Graph Neural Networks. Of late, another overarching theme of his research interests lie at the intersection of sustainability and ML where he is interested in investigating sustainability _with_ ML, and also the sustainability _of_ ML. RS has an upcoming book on these topics entitled _Sustainable AI: Tools for Moving Towards Green AI_ (access early version [here](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/)). 
+Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) at the Machine Learning (ML) Section, Dept. of Computer Science, University of Copenhagen (UCPH). His current research interests are broadly pertaining Resource Efficient ML, ML for Sciences, and Graph Neural Networks. Of late, another overarching theme of his research interests lie at the intersection of sustainability and ML where he is interested in investigating sustainability _with_ ML, and also the sustainability _of_ ML. RS has an upcoming book on these topics entitled _Sustainable AI: Tools for Moving Towards Green AI_ (access early version [here](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/)). 
 
 Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
 
@@ -20,6 +20,7 @@ If you are interested in joining our team check out the open positions advertise
 
 ## News
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
+* 2024-11: RS is now an [ELLIS](https://ellis.eu/) member.
 * 2024-11: RS has been awarded 3.1M DKK by the [Independent Research Fund Denmark](https://dff.dk/en/current-news-and-events/green-research-is-boosted-with-132-million-dkk) to work on developing green data methods. 
 * 2024-11: RS was in the PhD Committee of [Ties Robroek](https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2024/November/Ties-Robroek) at IT University, Denmark.
 * 2024-11: RS was featured in [Videnskab.dk](https://videnskab.dk/teknologi/ai-studie-gjorde-pindsvin-til-coronasynder-langt-ude-at-saette-pindsvin-paa-skafottet/) talking about the pros and cons of AI when used to understand ecosystems.
