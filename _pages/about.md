@@ -19,7 +19,8 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
-* 2025-01: New EU Project DataPACT
+* 2025-01: RS has started as a partner in a new EU Project: [DataPACT](https://datapact.eu/) to develop compliance tools focused on environmental sustainability of AI.
+* 2025-01: RS presented [PePR](https://proceedings.mlr.press/v265/selvan25a.html) as an oral presentation at NLDL 2025.
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
 * 2024-11: RS is now an [ELLIS](https://ellis.eu/) member.
 * 2024-11: RS has been awarded 3.1M DKK by the [Independent Research Fund Denmark](https://dff.dk/en/current-news-and-events/green-research-is-boosted-with-132-million-dkk) to work on developing green data methods. 
@@ -34,12 +35,14 @@ If you are interested in joining our team check out the open positions advertise
 * 2024-08: RS was featured in an article in the Danish Public Broadcaster _DR_ on the [energy consumption of generative AI](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans).
 * 2024-08: [Paper](https://onlinelibrary.wiley.com/doi/10.1002/hbm.70003) published in the Journal of Human Brain Mapping.
 * 2024-07: [Paper](https://arxiv.org/abs/2309.02065) accepted to be published in the Special Issue on Sustainability in Communications of ACM.
+
+
+<!-- 
 * 2024-06: [Paper](https://www.nature.com/articles/s41467-024-48925-7) published in Nature Communications.
 * 2024-06: RS was featured in an article in the Danish newspaper _Berlingske_ about the [increasing energy consumption of AI](files/Berlingske2024.pdf)
 * 2024-06: [Paper](https://www.science.org/doi/10.1126/sciadv.adk3229) published in Science Advances.
 * 2024-05: [Paper](https://dl.acm.org/doi/10.1145/3637528.3671538) accepted to be presented at ACM KDD 2024.
 
-<!-- 
 * 2024-05: [Paper](https://onlinelibrary.wiley.com/doi/10.1002/yea.3965) published in the Journal of Yeast.
 * 2024-04: Work presented at ICASSP was featured in [videnskab.dk](https://videnskab.dk/teknologi/ai-vil-sluge-lige-saa-meget-energi-som-hele-sverige-nu-har-koebenhavnske-forskere-en-loesning/)
 * 2024-04: RS will be co-chairing a session on ML for Signal Processing at [ICASSP-2024](https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1132)
