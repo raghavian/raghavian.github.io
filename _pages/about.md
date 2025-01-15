@@ -19,6 +19,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-01: New EU Project DataPACT
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
 * 2024-11: RS is now an [ELLIS](https://ellis.eu/) member.
 * 2024-11: RS has been awarded 3.1M DKK by the [Independent Research Fund Denmark](https://dff.dk/en/current-news-and-events/green-research-is-boosted-with-132-million-dkk) to work on developing green data methods. 
