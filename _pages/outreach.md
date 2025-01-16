@@ -44,6 +44,8 @@ Media Coverage
 Select Invited Talks 
 ---
 {% include base_path %}
+* 2025
+    * "PePR: Performance Per Resource Unit as a Metric". Oral presentation at Northern Lights Deep Learning (NLDL) conference. Tromsø, Norway.
 * 2024
     * "Why I do What I do? (Sustainable ML)". Guest talk at the Dept. of Computer Science, MSc program Cabin trip. Denmark
     * "Climate Impact of Generative AI". Invited talk at Oracle, Denmark.
