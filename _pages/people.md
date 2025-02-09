@@ -12,13 +12,13 @@ redirect_from:
 ## Current Team
 
 |![image](images/pedram.jpeg) **Pedram Bakhtiarifard** | (2022/10--)| Research Assistant working on methods for sustainable AI and Resource Efficient ML.|[Bakhtiarifard et al. 2024](https://arxiv.org/abs/2210.06015) |
-|![image](images/frederik.jpg)**Frederik L. Johansen** | (2022/08--) | PhD fellow working on atomic structure prediction from X-ray Total Scattering and Pair Distribution Function data using Generative ML.|[Friis-Jensen,Johansen et al. (2024)](https://arxiv.org/abs/2402.13221); [Johansen et al. (2024)](https://joss.theoj.org/papers/10.21105/joss.06024); [Johansen et al.](https://arxiv.org/abs/2502.02189)|
+|![image](images/frederik.jpg)**Frederik L. Johansen** | (2022/08--) | PhD fellow working on atomic structure prediction from X-ray Total Scattering and Pair Distribution Function data using Generative ML.|[Friis-Jensen,Johansen et al. (2024)](https://arxiv.org/abs/2402.13221); [Johansen et al. (2024)](https://joss.theoj.org/papers/10.21105/joss.06024); [Johansen et al. (2025)](https://arxiv.org/abs/2502.02189)|
 |![image](images/ulrik.jpg) **Ulrik Friis-Jensen** | (2022/08--) | PhD fellow working on using GNNs and Generative Models to do structure solution of nanoparticles from Total Scattering and Pair Distribution Function (PDF) data.| [Friis-Jensen,Johansen et al. (2024)](https://arxiv.org/abs/2402.13221); [Johansen et al. (2024)](https://joss.theoj.org/papers/10.21105/joss.06024)|
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*| [Chen & Selvan (2024)](https://arxiv.org/abs/2402.05675); [Thorsteinsson et al. (2024)](https://arxiv.org/abs/2403.09441)|
 |![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate (jointly with University of Faroe Islands) studying Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.| |
-|![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Pepin et al. 2024](https://arxiv.org/abs/2412.09254); [Selvan et al. 2024](https://arxiv.org/abs/2403.12562); [Pepin et al.](https://arxiv.org/abs/2412.09254); [Wenshøj et al.](https://arxiv.org/abs/2502.00490);|
+|![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Pepin et al. (2024)](https://arxiv.org/abs/2412.09254); [Selvan et al. (2024)](https://arxiv.org/abs/2403.12562); [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);|
 |![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--) | *Student Research Assistant working on carbon footprint aware task scheduling.*| |
-|![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| [Wenshøj et al.](https://arxiv.org/abs/2502.00490)|
+|![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490)|
 
 
 
