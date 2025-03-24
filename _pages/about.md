@@ -21,6 +21,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-03: RS will be collaborating with [Remko Boom](https://scholar.google.com/citations?user=xJl_08wAAAAJ&hl=en&oi=ao) on a new [50M DKK project](https://food.ku.dk/english/news/2025/ai4naturalfood/) to revolutionize plant-based food production.
 * 2025-01: RS has started as a partner in a new EU Project: [DataPACT](https://datapact.eu/) to develop compliance tools focused on environmental sustainability of AI.
 * 2025-01: RS presented [PePR](https://proceedings.mlr.press/v265/selvan25a.html) as an oral presentation at NLDL 2025.
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
@@ -32,14 +33,14 @@ If you are interested in joining our team check out the open positions advertise
 * 2024-10: RS was a panelist at [Digital Tech Summit](https://event.ing.dk/dts2024/session/2318780/keynote-debate-energy-consumption-in-artificial-intelligence-are-we-undermining-our-transition-to-sustainability) discussing the Energy consumption of AI.
 * 2024:10: RS was featured in an [article](https://nyheder.tv2.dk/business/2024-10-15-atomkraft-skal-drive-kunstig-intelligens-hos-google) in TV2 discussing why big AI companies are buying massive amounts of nuclear power.
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
+
+
+<!-- 
 * 2024-09: RS was featured in an [article](https://videnskab.dk/teknologi/kan-sprog-ai-redde-truede-dyrearter/) in Videnskab.dk (Danish Pop. Sci. mag.) talking about AI for decoding signals from animals.
 * 2024-09: RS was featured in two articles on how AI companies are missing their sustainability goals. ([1](https://www.version2.dk/artikel/tech-giganter-skjuler-stigende-co2-udledninger-man-maa-ikke-bare-vaelge-det-tal-der-ser-bedst-ud) [2](https://www.version2.dk/artikel/ai-kaploebet-vaelter-tech-giganternes-co2-regnskab-forretningsmodellen-vinder-over-klimaet))
 * 2024-08: RS was featured in an article in the Danish Public Broadcaster _DR_ on the [energy consumption of generative AI](https://www.dr.dk/nyheder/viden/teknologi/chatbots-sviner-klimaet-kaempe-datacentre-kan-om-faa-aar-sluge-hele-japans).
 * 2024-08: [Paper](https://onlinelibrary.wiley.com/doi/10.1002/hbm.70003) published in the Journal of Human Brain Mapping.
 * 2024-07: [Paper](https://arxiv.org/abs/2309.02065) accepted to be published in the Special Issue on Sustainability in Communications of ACM.
-
-
-<!-- 
 * 2024-06: [Paper](https://www.nature.com/articles/s41467-024-48925-7) published in Nature Communications.
 * 2024-06: RS was featured in an article in the Danish newspaper _Berlingske_ about the [increasing energy consumption of AI](files/Berlingske2024.pdf)
 * 2024-06: [Paper](https://www.science.org/doi/10.1126/sciadv.adk3229) published in Science Advances.
