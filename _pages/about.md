@@ -21,6 +21,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-03: New chapter on "Training Efficiency" of RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-03: RS will be collaborating with [Remko Boom](https://scholar.google.com/citations?user=xJl_08wAAAAJ&hl=en&oi=ao) on a new [50M DKK project](https://food.ku.dk/english/news/2025/ai4naturalfood/) to revolutionize plant-based food production.
 * 2025-01: RS has started as a partner in a new EU Project: [DataPACT](https://datapact.eu/) to develop compliance tools focused on environmental sustainability of AI.
 * 2025-01: RS presented [PePR](https://proceedings.mlr.press/v265/selvan25a.html) as an oral presentation at NLDL 2025.
