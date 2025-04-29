@@ -21,6 +21,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-04: [Paper](https://doi.org/10.1145/3706598.3714227) at CHI-2025 received a Special Recognition for [Sustainable Practices](https://chi2025.acm.org/special-recognition-for-sustainable-practices-winners-runners-up/).
 * 2025-03: [Paper](https://arxiv.org/abs/2402.05675) accepted to be presented at Scandinavian Conference on Image Analysis (SCIA-2025)
 * 2025-03: New chapter on "Training Efficiency" of RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-03: RS will be collaborating with [Remko Boom](https://scholar.google.com/citations?user=xJl_08wAAAAJ&hl=en&oi=ao) on a new [50M DKK project](https://food.ku.dk/english/news/2025/ai4naturalfood/) to revolutionize sustainable plant-based food production.
