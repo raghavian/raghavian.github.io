@@ -4,9 +4,9 @@ authbefore: "Nicholas E Souter, Chris Racey, Nikhil Bhagwat, Reese Wilkinson, Ni
 authafter: ", Charlotte L. Rae"
 collection: publications
 permalink: /publication/2024-07-fmri_compare
-date: 2024-07-01
-venue: 'OSF Preprint'
-pubtype: 'preprint'
+date: 2025-05-12
+venue: 'Imaging Neuroscience'
+pubtype: 'journal'
 project: 'sustofai'
 paperurl: https://osf.io/preprints/osf/k8gte
 ---
