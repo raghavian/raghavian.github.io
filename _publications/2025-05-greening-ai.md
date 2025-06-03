@@ -8,6 +8,6 @@ date: 2025-05-01
 project: 'sustofai'
 venue: 'ACM Software Engineering Notes '
 pubtype: 'journal'
-paperurl: 
-pdf: 
+paperurl: https://arxiv.org/abs/2506.01774
+pdf: https://arxiv.org/pdf/2506.01774
 ---

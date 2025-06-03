@@ -21,6 +21,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-05: [Paper](https://arxiv.org/abs/2506.01774) accepted to ACM Software Engineering Notes.
 * 2025-05: [Paper](https://osf.io/k8gte_v2/) accepted to the Journal of Imaging Neuroscience.
 * 2025-04: [Paper](https://doi.org/10.1145/3706598.3714227) at CHI-2025 received a Special Recognition for [Sustainable Practices](https://chi2025.acm.org/special-recognition-for-sustainable-practices-winners-runners-up/).
 * 2025-03: [Paper](https://arxiv.org/abs/2402.05675) accepted to be presented at Scandinavian Conference on Image Analysis (SCIA-2025)
