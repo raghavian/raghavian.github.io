@@ -17,13 +17,13 @@ redirect_from:
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*| [Chen & Selvan (2025)](https://arxiv.org/abs/2402.05675);<br> [Thorsteinsson et al. (2024)](https://arxiv.org/abs/2403.09441);<br>|
 |![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate (jointly with University of Faroe Islands) studying Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.| |
 |![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Pepin et al. (2024)](https://arxiv.org/abs/2412.09254);<br> [Selvan et al. (2024)](https://arxiv.org/abs/2403.12562);<br> [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);<br>|
-|![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--) | *Student Research Assistant working on carbon footprint aware task scheduling.*| |
 |![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);|
 
 
 
 ## Former Team Members
 
+|![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--2025/05) | *Student Research Assistant with a focus on carbon footprint aware task scheduling.*| |
 |![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--2024/10) | *Research Assistant with a focus on Low-precision Deep Learning*| [Eliassen & Selvan (2024)](https://arxiv.org/abs/2309.11856)|
 |![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc with a focus on sustainable Machine Learning*|[Wright et al. (2023)](https://arxiv.org/abs/2309.02065);<br> [Wright et al. (2024)](https://arxiv.org/abs/2406.01345);|
 |![image](images/julian.jpg) **Julian E. Schön** | (2023/01--2023/12)| Research Assistant with a focus on dataset condensation methods. Julian also worked on his MSc thesis co-supervised by RS on interpreting the latent spaces of generative models.| [Schön et al. 2023](https://arxiv.org/abs/2301.05465);<br> [Schön et al. 2022](https://arxiv.org/abs/2207.09740)|
