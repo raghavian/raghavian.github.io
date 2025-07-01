@@ -12,14 +12,13 @@ redirect_from:
 ## Current Team
 
 |![image](images/sophia.png) **Sophia Wilson** | (2025/08--) | *Incoming PhD Student who will work on improving data efficiency in machine learning.*| |
+|![image](images/pedram.jpeg) **Pedram Bakhtiarifard** | (2025/07 --) <br> (2022/10--2025/06)| PhD Student <br> Research Assistant working on methods for sustainable AI.|[Bakhtiarifard et al. 2024](https://arxiv.org/abs/2210.06015); <br> [Bakhtiarifard et al. 2025](https://arxiv.org/abs/2502.20016); <br> |
 |![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);|
 |![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Pepin et al. (2024)](https://arxiv.org/abs/2412.09254);<br> [Selvan et al. (2024)](https://arxiv.org/abs/2403.12562);<br> [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);<br>|
 |![image](images/tong.jpg) **Tong Chen** | (2023/06--) | *Postdoc working on sustainable Machine Learning*| [Chen & Selvan (2025)](https://arxiv.org/abs/2402.05675);<br> [Thorsteinsson et al. (2024)](https://arxiv.org/abs/2403.09441);<br>|
 |![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate (jointly with University of Faroe Islands) studying Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.| |
 |![image](images/ulrik.jpg) **Ulrik Friis-Jensen** | (2022/08--) | PhD fellow working on using GNNs and Generative Models to do structure solution of nanoparticles from Total Scattering and Pair Distribution Function (PDF) data.| [Friis-Jensen,Johansen et al. (2024)](https://arxiv.org/abs/2402.13221); <br> [Johansen et al. (2024)](https://joss.theoj.org/papers/10.21105/joss.06024); <br> [Johansen et al. (2025)](https://arxiv.org/abs/2502.02189); <br>|
 |![image](images/frederik.jpg)**Frederik L. Johansen** | (2022/08--) | PhD fellow working on atomic structure prediction from X-ray Total Scattering and Pair Distribution Function data using Generative ML.|[Friis-Jensen,Johansen et al. (2024)](https://arxiv.org/abs/2402.13221); <br> [Johansen et al. (2024)](https://joss.theoj.org/papers/10.21105/joss.06024); <br> [Johansen et al. (2025)](https://arxiv.org/abs/2502.02189); <br>|
-|![image](images/pedram.jpeg) **Pedram Bakhtiarifard** | (2025/07 --) <br> (2022/10--2025/06)| PhD Student <br> Research Assistant working on methods for sustainable AI.|[Bakhtiarifard et al. 2024](https://arxiv.org/abs/2210.06015); <br> [Bakhtiarifard et al. 2025](https://arxiv.org/abs/2502.20016); <br> |
-
 
 ## Former Team Members
 
