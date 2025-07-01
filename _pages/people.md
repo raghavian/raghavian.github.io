@@ -18,7 +18,7 @@ redirect_from:
 |![image](images/jakup.jpg) **Jákup O. Svöðstein** | (2023/06--)| Double PhD candidate (jointly with University of Faroe Islands) studying Data-Driven Machine Learning Approaches for Compressible and Incompressible Fluid Dynamics Modelling.| |
 |![image](images/bob.jpeg) **Bob Pepin** | (2024/01--) | *Postdoc working on sustainable machine learning*|[Pepin et al. (2024)](https://arxiv.org/abs/2412.09254);<br> [Selvan et al. (2024)](https://arxiv.org/abs/2403.12562);<br> [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);<br>|
 |![image](images/jonathan.jpg) **Jonathan V. Wenshøj** | (2024/08--) | *Student Research Assistant working on quantization of neural networks.*| [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);|
-|![image](images/sophia.jpg) **Sophia Wilson** | (2025/08--) | *Incoming PhD Student who will work on data efficiencys.*| |
+|![image](images/sophia.png) **Sophia Wilson** | (2025/08--) | *Incoming PhD Student who will work on data efficiencys.*| |
 
 
 
