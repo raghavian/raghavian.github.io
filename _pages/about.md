@@ -14,7 +14,10 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 ## Hiring
 
 **Current openings**: 
+
+<!-- 
 * Postdoctoral position to work on ML for Sustainable Food (deadline 30th June. 2025, [details](https://candidate.hr-manager.net/ApplicationInit.aspx/?cid=1307&departmentId=18970&ProjectId=164222))
+-->
 
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
 
