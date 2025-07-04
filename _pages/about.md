@@ -13,9 +13,10 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 ## Hiring
 
-**Current openings**: 
 
 <!-- 
+**Current openings**: 
+
 * Postdoctoral position to work on ML for Sustainable Food (deadline 30th June. 2025, [details](https://candidate.hr-manager.net/ApplicationInit.aspx/?cid=1307&departmentId=18970&ProjectId=164222))
 -->
 
