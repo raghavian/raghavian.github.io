@@ -25,6 +25,7 @@ If you are interested in joining our team check out the open positions advertise
 
 ## News
 * 2025-07: New chapter the provides "A Recipe for Sustainable AI" from RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
+* 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 * 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
 * 2025-06: [Paper](https://arxiv.org/abs/2504.00692) accepted to Aarhus 2025 Conference on Computing [X] Crisis.
 * 2025-05: [Paper](https://arxiv.org/abs/2506.01774) accepted to ACM Software Engineering Notes.
@@ -33,6 +34,8 @@ If you are interested in joining our team check out the open positions advertise
 * 2025-03: [Paper](https://arxiv.org/abs/2402.05675) accepted to be presented at Scandinavian Conference on Image Analysis (SCIA-2025)
 * 2025-03: RS will be collaborating with [Remko Boom](https://scholar.google.com/citations?user=xJl_08wAAAAJ&hl=en&oi=ao) on a new [50M DKK project](https://food.ku.dk/english/news/2025/ai4naturalfood/) to revolutionize sustainable plant-based food production.
 * 2025-01: RS has started as a partner in a new EU Project: [DataPACT](https://datapact.eu/) to develop compliance tools focused on environmental sustainability of AI.
+
+<!-- 
 * 2025-01: RS presented [PePR](https://proceedings.mlr.press/v265/selvan25a.html) as an oral presentation at NLDL 2025.
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
 * 2024-11: RS is now an [ELLIS](https://ellis.eu/) member.
@@ -41,7 +44,7 @@ If you are interested in joining our team check out the open positions advertise
 * 2024-11: RS was featured in [Videnskab.dk](https://videnskab.dk/teknologi/ai-studie-gjorde-pindsvin-til-coronasynder-langt-ude-at-saette-pindsvin-paa-skafottet/) talking about the pros and cons of AI when used to understand ecosystems.
 * 2024-11: [Paper](https://arxiv.org/abs/2403.12562) accepted to be presented at Northern Lights Deep Learning Conference, 2025. 
 
-<!-- 
+
 * 2024-10: RS was a panelist at [Digital Tech Summit](https://event.ing.dk/dts2024/session/2318780/keynote-debate-energy-consumption-in-artificial-intelligence-are-we-undermining-our-transition-to-sustainability) discussing the Energy consumption of AI.
 * 2024:10: RS was featured in an [article](https://nyheder.tv2.dk/business/2024-10-15-atomkraft-skal-drive-kunstig-intelligens-hos-google) in TV2 discussing why big AI companies are buying massive amounts of nuclear power.
 * 2024-09: RS was featured in an [episode](https://open.spotify.com/episode/3uGRGtauyBCt1mf8p57Jrk?si=288e815dbf7b4b4d) of Third Ear podcast.
