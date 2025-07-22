@@ -24,6 +24,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
 * 2025-06: [Paper](https://arxiv.org/abs/2504.00692) accepted to Aarhus 2025 Conference on Computing [X] Crisis.
 * 2025-05: [Paper](https://arxiv.org/abs/2506.01774) accepted to ACM Software Engineering Notes.
 * 2025-05: [Paper](https://osf.io/k8gte_v2/) accepted to the Journal of Imaging Neuroscience.

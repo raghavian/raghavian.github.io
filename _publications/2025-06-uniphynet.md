@@ -8,6 +8,6 @@ date: 2025-06-25
 venue: 'IEEE International Workshop on Machine Learning for Signal Processing (MLSP)'
 pubtype: 'conference'
 project: 'ai4sciences'
-paperurl: 
-pdf: 
+paperurl: https://arxiv.org/abs/2507.14163 
+pdf: https://arxiv.org/pdf/2507.14163
 ---
