@@ -14,7 +14,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 ## Upcoming book! 
 
-<img src="images/suai.png" alt="book-cover" width="200"/>
+<img src="suai.png" alt="book-cover" width="200"/>
 
 RS has an upcoming book _Sustainable AI: Tools for Moving Towards Green AI_ (access early version [here](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/)). 
 
