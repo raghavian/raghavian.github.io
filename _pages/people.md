@@ -21,7 +21,7 @@ redirect_from:
 
 ## Former Team Members
 
-|![image](images/bob.jpeg) [**Bob Pepin**](https://scholar.google.com/citations?user=w7gb0Q4AAAAJ&hl=en&oi=ao) | (2024/01--2025/10) | *Postdoc working on sustainable machine learning*|[Pepin et al. (2024)](https://arxiv.org/abs/2412.09254);<br> [Selvan et al. (2024)](https://arxiv.org/abs/2403.12562);<br> [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);<br>|
+|![image](images/bob.jpeg) [**Bob Pepin**](https://scholar.google.com/citations?user=w7gb0Q4AAAAJ&hl=en&oi=ao) | (2024/01--2025/10) | *Postdoc with a focus on sustainable machine learning*|[Pepin et al. (2024)](https://arxiv.org/abs/2412.09254);<br> [Selvan et al. (2024)](https://arxiv.org/abs/2403.12562);<br> [Wenshøj et al. (2025)](https://arxiv.org/abs/2502.00490);<br>|
 |![image](images/rasmus.jpeg) **Rasmus Løvstad** | (2024/03--2025/05) | *Student Research Assistant with a focus on carbon footprint aware task scheduling.*| [Carbontracker](https://docs.carbontracker.info/) |
 |![image](images/sebastian.jpg) **Sebastian Eliassen** | (2023/10--2024/10) | *Research Assistant with a focus on Low-precision Deep Learning*| [Eliassen & Selvan (2024)](https://arxiv.org/abs/2309.11856)|
 |![image](images/dustin.jpeg) **Dustin Wright** | (2023/02--2024/01) | *Postdoc with a focus on sustainable Machine Learning*|[Wright et al. (2023)](https://arxiv.org/abs/2309.02065);<br> [Wright et al. (2024)](https://arxiv.org/abs/2406.01345);|
