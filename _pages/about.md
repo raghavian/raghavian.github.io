@@ -12,14 +12,13 @@ Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) a
 
 Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 2018), his MSc degree in Communication Engineering in 2015 (Chalmers University, Sweden) and his Bachelor degree in Electronics and Communication Engineering degree in 2009 (BMS Institute of Technology, India). Raghavendra Selvan was born in Bangalore, India.
 
-## Upcoming book! 
+## Book Available Now! 
 
 ![image](images/suai.png) 
 
-RS has an upcoming book _Sustainable AI: Tools for Moving Towards Green AI_ (access early version [here](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/)). 
+RS published a book _Sustainable AI: Tools for Moving Towards Green AI_ which is available now several platforms ([Publisher Portal](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/), [Amazon](https://www.amazon.com/Sustainable-AI-Tools-Moving-Toward-ebook/dp/B0FVBMGKTX)). 
 
 ## Hiring
-
 
 <!-- 
 **Current openings**: 
@@ -31,6 +30,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-10: Sustainable AI now published, and available online.
 * 2025-07: New chapter the provides "A Recipe for Sustainable AI" from RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 * 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
