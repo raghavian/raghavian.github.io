@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sustainable AI Tools — Book Landing</title>
+  <meta name="description" content="A concise, no-nonsense landing page for the book ‘Sustainable AI Tools’. Links to Amazon, GitHub, and extras." />
+
+  <!-- Open Graph / Twitter for social shares -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sustainable AI Tools" />
+  <meta property="og:description" content="Learn practical approaches to more sustainable AI tooling. Find purchase links, sample chapter, and related code." />
+  <meta property="og:url" content="https://<your-username>.github.io/sustainable-ai-tools/" />
+  <meta property="og:image" content="./cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Basic, self-contained styling -->
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --panel: #121318;
+      --text: #e6e6e6;
+      --muted: #b6b6b6;
+      --accent: #4fd1c5; /* teal-ish */
+      --accent-ink: #062c2a;
+      --ring: 0 0 0 2px rgba(79, 209, 197, 0.4);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #fafafa;
+        --panel: #ffffff;
+        --text: #1a1a1a;
+        --muted: #4a4a4a;
+        --accent: #0ea5e9; /* blue-ish */
+        --accent-ink: #062a3a;
+        --ring: 0 0 0 2px rgba(14, 165, 233, 0.25);
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 20% 0%, rgba(79,209,197,0.07), transparent 60%),
+                  radial-gradient(1000px 700px at 80% 30%, rgba(14,165,233,0.07), transparent 60%),
+                  var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 6rem 1.25rem 4rem;
+    }
+    header {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+    @media (max-width: 780px) {
+      header { grid-template-columns: 1fr; }
+    }
+    .cover {
+      width: 100%;
+      aspect-ratio: 3/4;
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(0,0,0,0.06));
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    h1 { font-size: clamp(1.9rem, 1.4rem + 2.2vw, 3rem); margin: 0 0 .25rem; letter-spacing: -0.02em; }
+    .tagline { margin: .25rem 0 1rem; color: var(--muted); font-size: 1.05rem; }
+
+    .cta-row { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.25rem 0 0; }
+    a.button, button.button {
+      appearance: none; border: 0; cursor: pointer; text-decoration: none; color: #fff;
+      background: var(--accent); padding: .8rem 1rem; border-radius: 12px; font-weight: 600; font-size: 0.98rem;
+      transition: transform .06s ease, box-shadow .15s ease; box-shadow: 0 8px 20px rgba(0,0,0,.25);
+    }
+    a.button.secondary {
+      background: transparent; color: var(--text); border: 1px solid rgba(255,255,255,0.14);
+    }
+    a.button:focus-visible, button.button:focus-visible { outline: none; box-shadow: var(--ring); }
+    a.button:hover, button.button:hover { transform: translateY(-1px); }
+
+    main { margin-top: 3rem; background: color-mix(in oklab, var(--panel) 94%, transparent); border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 1.25rem; }
+    section { padding: 1rem; }
+    section + section { border-top: 1px dashed rgba(127,127,127,0.25); }
+    h2 { font-size: 1.25rem; margin: 0 0 .5rem; letter-spacing: -0.01em; }
+    p { margin: 0 0 .85rem; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+
+    footer { margin-top: 3rem; color: var(--muted); font-size: .95rem; text-align: center; }
+    .tiny { font-size: .9rem; opacity: .9; }
+
+    details {
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px; padding: .75rem 1rem; background: rgba(0,0,0,0.06);
+    }
+    details summary { cursor: pointer; font-weight: 600; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: .95rem; }
+  </style>
+
+  <!-- Structured data. Fill in your real author and dates. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Sustainable AI Tools",
+    "author": [{"@type":"Person","name":"Your Name"}],
+    "url": "https://<your-username>.github.io/sustainable-ai-tools/",
+    "sameAs": [
+      "https://www.amazon.com/Sustainable-AI-Tools-Moving-Toward-ebook/dp/B0FVBMGKTX"
+    ],
+    "publisher": {"@type":"Organization","name":"Your Publisher"},
+    "datePublished": "2025-01-01",
+    "bookFormat": "EBook",
+    "image": "https://<your-username>.github.io/sustainable-ai-tools/cover.jpg"
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="cover" aria-hidden="true">
+        <!-- Replace cover.jpg with your actual image file placed next to this HTML file -->
+        <img src="./cover.jpg" alt="Book cover for Sustainable AI Tools" />
+      </div>
+      <div>
+        <h1>Sustainable AI Tools</h1>
+        <p class="tagline">Practical patterns, trade‑offs, and tools for moving toward responsible, resource‑aware AI.</p>
+        <p class="meta">By <strong>Your Name</strong>. First edition. Replace this line with the real edition and imprint.</p>
+        <div class="cta-row">
+          <a class="button" href="https://www.amazon.com/Sustainable-AI-Tools-Moving-Toward-ebook/dp/B0FVBMGKTX" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="button secondary" href="https://github.com/<your-username>" target="_blank" rel="noopener">GitHub</a>
+          <a class="button secondary" href="./sample.pdf" target="_blank" rel="noopener">Sample chapter</a>
+          <a class="button secondary" href="mailto:you@example.com?subject=Sustainable%20AI%20Tools%20—%20Press%20Inquiry">Press contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>About the book</h2>
+        <p>Keep this section tight and factual. State who the book is for, the main outcome it promises, and the kind of reader who should skip it. Avoid hollow adjectives. In one more paragraph, mention the most important constraints and trade‑offs the book grapples with so readers can predict fit.</p>
+      </section>
+
+      <section>
+        <h2>What you will get</h2>
+        <p>Summaries of tools and approaches with their costs. Decision heuristics that scale from individual practitioners to teams. Pointers to further reading and datasets. Replace this with your real contents skeleton when you are ready.</p>
+      </section>
+
+      <section>
+        <h2>Resources</h2>
+        <p>
+          Code examples and small utilities will live in the repository you link above. If you plan to share a public PDF sampler or errata, keep those files in the same directory as this page and update the links. If you have teaching materials, consider adding a <em>teaching</em> subpage later.
+        </p>
+        <details>
+          <summary>Cite this book</summary>
+          <pre><code>@book{yourkey2025,
+  title     = {Sustainable AI Tools},
+  author    = {Your Name},
+  year      = {2025},
+  publisher = {Your Publisher},
+  url       = {https://<your-username>.github.io/sustainable-ai-tools/}
+}</code></pre>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p class="tiny">© <span id="y"></span> Your Name. This page is static, privacy‑respecting, and fast by design.</p>
+    </footer>
+  </div>
+
+  <script>
+    // keeps the footer year fresh without a build system
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
