@@ -16,7 +16,7 @@ Raghav received his PhD in Medical Image Analysis (University of Copenhagen, 201
 
 ![image](images/suai.png) 
 
-RS published a book _Sustainable AI: Tools for Moving Towards Green AI_ which is available now several platforms ([Publisher Portal](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/), [Amazon](https://www.amazon.com/Sustainable-AI-Tools-Moving-Toward-ebook/dp/B0FVBMGKTX)). 
+RS published a book _Sustainable AI: Tools for Moving Towards Green AI_. Check out the webpage for the book [here](https://raghavian.github.io/sustainable-ai/)
 
 ## Hiring
 
