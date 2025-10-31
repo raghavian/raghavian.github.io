@@ -1,5 +1,5 @@
 ---
-title: "Sustainable AI: Tools for Moving Towards Green AI"
+title: "Sustainable AI"
 authors: Raghavendra Selvan
 collection: publications
 permalink: /publication/2025-sustainable-ai
