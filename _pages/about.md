@@ -17,11 +17,10 @@ RS published a book _Sustainable AI_. Check out the webpage for the book [here.]
 
 ## Hiring
 
-<!-- 
+ 
 **Current openings**: 
 
-* Postdoctoral position to work on ML for Sustainable Food (deadline 30th June. 2025, [details](https://candidate.hr-manager.net/ApplicationInit.aspx/?cid=1307&departmentId=18970&ProjectId=164222))
--->
+* Postdoctoral position to work on ML for Sustainable Food (deadline 15th Jan. 2026, [details](https://employment.ku.dk/faculty/?show=152845))
 
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
 
