@@ -4,7 +4,7 @@ authbefore: "Jonathan Wenshøj, Bob Pepin, "
 authafter: ""
 collection: publications
 permalink: /publication/2025-02-02-osciquant
-date: 2025-01-15
+date: 2025-12-15
 venue: 'Transactions on Machine Learning Research (TMLR)'
 pubtype: 'journal'
 project: 'sustofai'
