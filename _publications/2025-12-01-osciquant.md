@@ -5,9 +5,9 @@ authafter: ""
 collection: publications
 permalink: /publication/2025-02-02-osciquant
 date: 2025-01-15
-venue: 'Arxiv'
-pubtype: 'preprint'
+venue: 'Transactions on Machine Learning Research (TMLR)'
+pubtype: 'journal'
 project: 'sustofai'
-paperurl: https://arxiv.org/abs/2502.00490
-pdf: https://arxiv.org/pdf/2502.00490
+paperurl: https://openreview.net/forum?id=bPwcJ0nkDC
+pdf: https://openreview.net/forum?id=bPwcJ0nkDC
 ---
