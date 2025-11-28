@@ -26,7 +26,8 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
-* 2025-10: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
+* 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
+* 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
 * 2025-07: New chapter the provides "A Recipe for Sustainable AI" from RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 * 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
