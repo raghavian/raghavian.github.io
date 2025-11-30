@@ -27,8 +27,8 @@ If you are interested in joining our team check out the open positions advertise
 
 ## News
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
+* 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
 * 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
-* 2025-07: New chapter the provides "A Recipe for Sustainable AI" from RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 * 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
 * 2025-06: [Paper](https://arxiv.org/abs/2504.00692) accepted to Aarhus 2025 Conference on Computing [X] Crisis.
@@ -40,6 +40,7 @@ If you are interested in joining our team check out the open positions advertise
 * 2025-01: RS has started as a partner in a new EU Project: [DataPACT](https://datapact.eu/) to develop compliance tools focused on environmental sustainability of AI.
 
 <!-- 
+* 2025-07: New chapter the provides "A Recipe for Sustainable AI" from RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-01: RS presented [PePR](https://proceedings.mlr.press/v265/selvan25a.html) as an oral presentation at NLDL 2025.
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
 * 2024-11: RS is now an [ELLIS](https://ellis.eu/) member.
