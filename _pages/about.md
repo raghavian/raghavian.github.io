@@ -31,16 +31,16 @@ If you are interested in joining our team check out the open positions advertise
 * 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
 * 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
 * 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
-* 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
 * 2025-06: [Paper](https://arxiv.org/abs/2504.00692) accepted to Aarhus 2025 Conference on Computing [X] Crisis.
 * 2025-05: [Paper](https://arxiv.org/abs/2506.01774) accepted to ACM Software Engineering Notes.
 * 2025-05: [Paper](https://osf.io/k8gte_v2/) accepted to the Journal of Imaging Neuroscience.
 * 2025-04: [Paper](https://doi.org/10.1145/3706598.3714227) at CHI-2025 received a Special Recognition for [Sustainable Practices](https://chi2025.acm.org/special-recognition-for-sustainable-practices-winners-runners-up/).
+
+<!-- 
+* 2025-07: [Paper](https://arxiv.org/abs/2507.14163) accepted to IEEE MLSP 2025.
 * 2025-03: [Paper](https://arxiv.org/abs/2402.05675) accepted to be presented at Scandinavian Conference on Image Analysis (SCIA-2025)
 * 2025-03: RS will be collaborating with [Remko Boom](https://scholar.google.com/citations?user=xJl_08wAAAAJ&hl=en&oi=ao) on a new [50M DKK project](https://food.ku.dk/english/news/2025/ai4naturalfood/) to revolutionize sustainable plant-based food production.
 * 2025-01: RS has started as a partner in a new EU Project: [DataPACT](https://datapact.eu/) to develop compliance tools focused on environmental sustainability of AI.
-
-<!-- 
 * 2025-07: New chapter the provides "A Recipe for Sustainable AI" from RS's upcoming book on [Sustainable AI](https://www.oreilly.com/library/view/sustainable-ai/9781098155506/) is available now.
 * 2025-01: RS presented [PePR](https://proceedings.mlr.press/v265/selvan25a.html) as an oral presentation at NLDL 2025.
 * 2024-11: [Paper](https://arxiv.org/abs/2406.01345) accepted as a spotlight to be presented at NeurIPS 2024.
