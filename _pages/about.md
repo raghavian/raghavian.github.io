@@ -26,6 +26,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2025-12: [Paper](https://openreview.net/forum?id=bPwcJ0nkDC) accepted to Transactions on Machine Learning Research (TMLR).
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
 * 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
 * 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
