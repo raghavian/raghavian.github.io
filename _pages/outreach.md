@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _This Computer Scientist Exposed AI's Dirty Secret_ Podcast/Interview. 2025.([link](https://raghavian.github.io/sustainable-ai/))
 * _ChatGPT-5 er både klogere og hurtigere – men energiforbruget er muligvis uændret, mener ekspert_. Finans.dk ([link](https://finans.dk/tech/ECE18425958/chatgpt5-er-baade-klogere-og-hurtigere-men-energiforbruget-er-muligvis-uaendret-mener-ekspert/))
 * _How the US tech industry is shaping the transition to green energy_. Nature Index 2025 Energy ([link](https://www.nature.com/articles/d41586-025-00743-7) [pdf](files/nature2025.pdf))
 * _AI-revolutionen kræver en sikker hånd på roret_. Danish Datacenter Industry Seminar. ([link](https://www.datacenterindustrien.dk/ai-revolutionen-krver-en-sikker-hand-pa-roret)) ([pdf](files/ddi2024.pdf))

@@ -17,15 +17,17 @@ RS published a book _Sustainable AI_. Check out the webpage for the book [here.]
 
 ## Hiring
 
- 
+<!-- 
 **Current openings**: 
 
 * Postdoctoral position to work on ML for Sustainable Food (deadline 15th Jan. 2026, [details](https://employment.ku.dk/faculty/?show=152845))
+-->
 
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
 
 
 ## News
+* 2026-01: [Comment article](https://www.nature.com/articles/s41581-026-01047-3) published accepted at Nature Reviews Nephrology. 
 * 2025-12: [Paper](https://openreview.net/forum?id=bPwcJ0nkDC) accepted to Transactions on Machine Learning Research (TMLR).
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
 * 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
