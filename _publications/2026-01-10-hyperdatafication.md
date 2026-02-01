@@ -8,6 +8,6 @@ date: 2026-01-10
 venue: 'Preprint'
 pubtype: 'preprint'
 project: 'sustofai'
-paperurl: https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf 
-pdf: https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf 
+paperurl: https://researchprofiles.ku.dk/en/publications/how-hyper-datafication-impacts-the-sustainability-costs-in-fronti/ 
+pdf: https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf
 ---
