@@ -8,6 +8,6 @@ date: 2026-01-10
 venue: 'Preprint'
 pubtype: 'preprint'
 project: 'sustofai'
-paperurl: 
-pdf: 
+paperurl: https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf 
+pdf: https://raghavian.github.io/_pages/files/wilson2026hyperdatafication.pdf 
 ---
