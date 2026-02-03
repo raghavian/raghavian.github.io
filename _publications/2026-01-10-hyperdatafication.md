@@ -8,6 +8,6 @@ date: 2026-01-10
 venue: 'Preprint'
 pubtype: 'preprint'
 project: 'sustofai'
-paperurl: https://researchprofiles.ku.dk/en/publications/how-hyper-datafication-impacts-the-sustainability-costs-in-fronti/ 
+paperurl: https://arxiv.org/abs/2602.00056
 pdf: https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf
 ---
