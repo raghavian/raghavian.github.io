@@ -15,6 +15,9 @@ Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) a
 
 RS published a book _Sustainable AI_. Check out the webpage for the book [here.](https://raghavian.github.io/sustainable-ai/)
 
+## Workshop on Sustainable AI
+
+We are organizing SAINTS'26, a half day workshop on 6 March, 2026, on the topic of Sustainable Artificial Intelligence for Sciences. See program and sign up [here](https://saintslab.github.io/workshop2026/).
 ## Hiring
 
 <!-- 
