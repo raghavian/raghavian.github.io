@@ -31,6 +31,7 @@ If you are interested in joining our team check out the open positions advertise
 
 
 ## News
+* 2026-02: Saints Lab is organizing SAINTS'26 on 6 March, 2026. See program and sign up [here](https://saintslab.github.io/workshop2026/).
 * 2026-01: [Comment article](https://www.nature.com/articles/s41581-026-01047-3) published accepted at Nature Reviews Nephrology. 
 * 2025-12: [Paper](https://openreview.net/forum?id=bPwcJ0nkDC) accepted to Transactions on Machine Learning Research (TMLR).
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
