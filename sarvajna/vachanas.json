@@ -164,7 +164,7 @@
   "id": 25,
   "theme": "caste",
   "kannada": "ಹೊಲಸು ಮಾಂಸದ ಹುತ್ತ ! ಎಲುವಿನ ಹಂದರವು |\n\nಹೊಲೆ ಬಲಿದ ತನುವಿನೊಳಗಿರ್ದು ಮದರೊಳಗೆ |\nಕುಲವನರಸುವರೆ ಸರ್ವಜ್ಞ",
-  "transliteration": "Holasu maamsada hutta ! eluvina handaravu |\n\nhole balida tanuvinolagirdu madarolage |\nkulavanarasuvare Sarvajna",
+  "transliteration": "Holasu maamsada hutta ! eluvina handaravu |\nhole balida tanuvinolagirdu madarolage |\nkulavanarasuvare Sarvajna",
   "translation": "This body is a mound of foul flesh and a frame of bones; while dwelling within this physical form filled with impurities and pride, why do people go searching for caste? O Sarvajna."
   },
   {
@@ -243,5 +243,40 @@
     "kannada": "ಮಾಳನೂ ಮಾಳಿಯೂ | ಕೂಳಿತ್ತ ಹೆಮ್ಮೆ ಯಲಿ |\nಕೇಳಲೆನ್ನಾರ ಮಗನೆಂದು ನಾ ಶಿವನ |\nಸೇಳದವನೆಂದೆ ಸರ್ವಜ್ಞ",
     "transliteration": "Maalanoo Maaliyu | koolitta hemme yali |\nkelalennara maganendu naa shivana |\nseladavanende Sarvajna",
     "translation": "Mala and Mali may claim me with pride as their son, but listen—I am the one who was drawn forth by Shiva himself, O Sarvajna."
+  },
+  {
+    "id": 37,
+    "theme": "oneness",
+    "kannada": "ನೂರಕಿದರು ಅವರಾಗ | ಕೂಕತನದೊಳು ಬೇಗ |\nಲೋಕದೊಳಗೆಲ್ಲ ಕಂಡುದನು ನುಡಿದು ತಾ |\nನೇಕವಾಗಿಹನು ಸರ್ವಜ್ಞ",
+    "transliteration": "Noorakidaru avaraaga | kookatanadolu bega |\nlookadolagella kandudanu nudidu taa |\nneekavaagihanu Sarvajna",
+    "translation": "Though many looked down upon his birth with mockery, he spoke only of what he witnessed in the world and became one with the Ultimate, O Sarvajna."
+  },
+  {
+    "id": 38,
+    "theme": "liberation",
+    "kannada": "ಕುರುಹು ದೊರೆಯಿತು ದೇಹ | ಅರಿವನರಿಯಿತು ಪ್ರಾಣ |\nಹರುವಾಗಿಹೋಯ್ತು ಭವಪಾಶ ಮುಕ್ತಿಯ |\nಇರವು ನಿರವಯವು ಸರ್ವಜ್ಞ",
+    "transliteration": "Kuruhu doreyitu deha | arivanariyitu praana |\nharuvaagihoytu bhavapaasha muktiya |\niravu niravayavu Sarvajna",
+    "translation": "The body found its purpose and the life-breath realized true awareness; the bonds of worldly existence were severed, leading to a state of formless liberation, O Sarvajna."
+  },
+  {
+    "id": 39,
+    "theme": "illusion",
+    "kannada": "ವೂರಿ ಬೆಳೆಯಲು ತನುವು | ಆರು ಬಣ್ಣ್ಯವನುಡಿಸಿ |\nಮೂರು ರುಚಿಡೋರಿ ಮರೆಸಿ ತಾ ತನ್ನನೆ |\nತೋರದೇ ಹೋದ ಸರ್ವಜ್ಞ",
+    "transliteration": "Oori beleyalu tanuvu | aaru bannyavanudisi |\nmooru ruchidoori maresi taa tannane |\ntooradee hooda Sarvajna",
+    "translation": "As the body grew, draped in six colors and distracted by triple tastes, the soul forgot its true self and remained hidden, O Sarvajna."
+  },
+  {
+    "id": 40,
+    "theme": "devotion",
+    "kannada": "ಕುಲಗೆಟ್ಟಿವರ ಚಿಂತೆ | ಒಳಗಿರ್ಸರಂತಲ್ಲ |\nಕುಲಗೆಟ್ಟು ಶಿವನ ಮರೆಹೊಕ್ಳು ಖಸಿಗಳು |\nಕುಲವಾದರಯ್ಯ ಸರ್ವಜ್ಞ",
+    "transliteration": "Kulagettivara chinte | olagirsarantalla |\nkulagettu shivana marehoklu khasigalu |\nkulavaadarayya Sarvajna",
+    "translation": "Do not worry about those who have lost their caste; those who abandon worldly status to seek refuge in Shiva become the highest lineage themselves, O Sarvajna."
+  },
+  {
+    "id": 41,
+    "theme": "equality",
+    "kannada": "ಎಲುವಿನೀಕಾಯಕ್ಕೆ | ಸಲೆ ಚರ್ಮದ ಹೊದಿಕೆ |\nಮಲಮೂತ್ರ ಕ್ರಿಮಿಗಳೊಳಗಿರ್ದ ದೇಹಕೆ |\nಕುಲವಾವುದಯ್ಯ ಸರ್ವಜ್ಞ",
+    "transliteration": "Eluvineekaayakke | sale charmada hodike |\nmalamootra krimigalolagirda dehaake |\nkulavaavudayya Sarvajna",
+    "translation": "For this body made of bone and covered in a wrap of skin—a vessel for waste and germs—how can there be any talk of caste, O Sarvajna?"
   }
 ]
