@@ -68,7 +68,7 @@
             }
 
             try {
-                const response = await fetch('vachanas.json');
+                const response = await fetch('uttangi.json');
                 if (!response.ok) throw new Error("HTTP error " + response.status);
                 allVachanas = await response.json();
                 currentFilteredData = [...allVachanas];
