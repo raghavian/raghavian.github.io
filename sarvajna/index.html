@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarvajna Vachana Archive (ಸರ್ವಜ್ಞ ವಚನಗಳು)</title>
+    <title>Sarvajna Vachana Archive</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;600&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <style>
@@ -44,7 +44,7 @@
 
     <footer class="bg-white border-t border-gray-200 py-6 mt-auto">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500 font-sans">
-            <p>Open Source Archive compiled from public domain. Maintained by Raghavendra Selvan. 2026. </p>
+            <p>Open Source Archive compiled for linguistic preservation and study.</p>
         </div>
     </footer>
 
@@ -68,9 +68,15 @@
             }
 
             try {
-                const response = await fetch('uttangi.json');
+                const response = await fetch('vachanas.json');
                 if (!response.ok) throw new Error("HTTP error " + response.status);
                 allVachanas = await response.json();
+                
+                for (let i = allVachanas.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [allVachanas[i], allVachanas[j]] = [allVachanas[j], allVachanas[i]];
+                }
+                
                 currentFilteredData = [...allVachanas];
             } catch (error) {
                 console.error("External fetch failed. Please verify network access to the JSON corpus.", error);
