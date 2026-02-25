@@ -52,7 +52,19 @@
         let currentPage = 1;
         const itemsPerPage = 10;
 
+        function updateUrlState() {
+            const url = new URL(window.location);
+            url.searchParams.set('page', currentPage);
+            window.history.pushState({}, '', url);
+        }
+
         async function fetchAndRenderVachanas() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialPage = parseInt(urlParams.get('page'), 10);
+            if (!isNaN(initialPage) && initialPage > 0) {
+                currentPage = initialPage;
+            }
+
             try {
                 const response = await fetch('vachanas.json');
                 if (!response.ok) throw new Error("HTTP error " + response.status);
@@ -115,6 +127,7 @@
             prevBtn.onclick = () => {
                 if (currentPage > 1) {
                     currentPage--;
+                    updateUrlState();
                     renderCards();
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
@@ -131,6 +144,7 @@
             nextBtn.onclick = () => {
                 if (currentPage < totalPages) {
                     currentPage++;
+                    updateUrlState();
                     renderCards();
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
@@ -150,6 +164,7 @@
                 vachana.kannada.includes(query)
             );
             currentPage = 1;
+            updateUrlState();
             renderCards();
         });
 
