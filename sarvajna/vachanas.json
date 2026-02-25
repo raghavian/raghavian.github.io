@@ -68,5 +68,75 @@
     "kannada": "ಕತ್ತೆಯನು ತಂದು ಕಸ್ತೂರಿಯನು ಹಚ್ಚಿದರೆ\nಕತ್ತೆ ತಾ ತನ್ನ ಹಳೆಯ\nಗುಣವನು ಬಿಡಬಲ್ಲದೆ ಸರ್ವಜ್ಞ",
     "transliteration": "Katteyanu tandu kastooriyanu hachchidare\nkatte taa tanna haleya\ngunavanu bidaballade Sarvajna.",
     "translation": "Applying precious aromatic compounds to a donkey cannot overwrite its fundamental behavioral programming or inherent characteristics, O Sarvajna."
+  },
+  {
+    "id": 11,
+    "theme": "health",
+    "kannada": "ಊಟವನು ಮಾಡುವಾಗ ಮಾತಾಡಬಾರದು\nದಾಟುವಾಗ ಹೊಳೆಯ ನಗದಿರು\nಕೂಟದಲ್ಲಿ ನಿದ್ದೆಗೈಯದಿರು ಸರ್ವಜ್ಞ",
+    "transliteration": "Ootavanu maaduvaaga maataadabaaradu\ndaatuvaaga holeya nagadiru\nkootadalli niddegaiyadiru Sarvajna.",
+    "translation": "Do not converse while consuming meals, refrain from laughing while crossing a river, and avoid sleeping during public gatherings, O Sarvajna."
+  },
+  {
+    "id": 12,
+    "theme": "contentment",
+    "kannada": "ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ ತಾಯಿಗಿಂತ ದೇವರಿಲ್ಲ\nಅಪ್ಪನಿಗಿಂತ ಹಿತರಿಲ್ಲ\nಹೆಪ್ಪಿಗಿಂತ ಮಿಗಿಲು ಇಲ್ಲ ಸರ್ವಜ್ಞ",
+    "transliteration": "Uppiginta ruchiyilla taayiginta devarilla\nappaniginta hitarilla\nheppiginta migilu illa Sarvajna.",
+    "translation": "There is no taste superior to salt, no deity superior to a mother, no well-wisher superior to a father, and nothing coagulates better than curd, O Sarvajna."
+  },
+  {
+    "id": 13,
+    "theme": "hypocrisy",
+    "kannada": "ಬಾಯಲ್ಲಿ ಜಪಮಣಿ ಕಂಕುಳಲ್ಲಿ ದೊಣ್ಣೆ\nಮಾಯದ ಭಕ್ತಿ ಮಾಡುವವರ\nನಾಯಿ ಕಚ್ಚದೆ ಬಿಡದು ಸರ್ವಜ್ಞ",
+    "transliteration": "Baayalli japamani kankulalli donne\nmaayada bhakti maaduvavara\nnaayi kacchade bidadu Sarvajna.",
+    "translation": "Those who chant with beads in their mouth while hiding a weapon under their armpit practice deceptive devotion; a dog will inevitably bite them, O Sarvajna."
+  },
+  {
+    "id": 14,
+    "theme": "impermanence",
+    "kannada": "ನಿನ್ನೆಯ ದಿನವಿತ್ತು ಇಂದಿಲ್ಲ ನಾಳೆಯದು\nಇನ್ನೆಲ್ಲಿಹುದು ಮನುಜರಿಗೆ\nಮಣ್ಣಿನಲಿ ಬೆರೆತು ಹೋಗುವರು ಸರ್ವಜ್ಞ",
+    "transliteration": "Ninneya dinavittu indilla naaleyadu\ninnellihudu manujarige\nmanninali beretu hoguvaru Sarvajna.",
+    "translation": "Yesterday existed, today is vanishing, and tomorrow is uncertain for mortals; ultimately, all humans will dissolve into the soil, O Sarvajna."
+  },
+  {
+    "id": 15,
+    "theme": "wealth",
+    "kannada": "ಒಡಲಿಗೆ ಅನ್ನವಿಲ್ಲದೆ ಮೈಗೆ ಬಟ್ಟೆಯಿಲ್ಲದೆ\nಒಡವೆ ವಸ್ತುಗಳ ಕೂಡಿಟ್ಟ\nದಡ್ಡರನು ಏನೆಂಬೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Odalige annavillade maige batteyillade\nodave vastugala kooditta\ndaddaranu enembe Sarvajna.",
+    "translation": "What can one call the fools who hoard jewelry and material possessions while denying their bodies adequate food and clothing, O Sarvajna?"
+  },
+  {
+    "id": 16,
+    "theme": "friendship",
+    "kannada": "ಕಷ್ಟ ಬಂದಾಗ ಕೈಬಿಡುವ ಗೆಳೆಯನು\nನಷ್ಟವಾದಾಗ ನಗುವವನು\nಇಷ್ಟವಿಲ್ಲದವನು ವಿಷಕಿಂತ ಕಡೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Kashta bandaaga kaibiduva geleyanu\nnashtavaadaaga naguvavanu\nishtavilladavanu vishakinta kade Sarvajna.",
+    "translation": "A friend who abandons you in hardship, laughs at your losses, and harbors ill will is worse than lethal poison, O Sarvajna."
+  },
+  {
+    "id": 17,
+    "theme": "fate",
+    "kannada": "ಹಣೆಯಲಿ ಬರೆದಂತೆ ಆಗುವುದು ಕಡೆಯಲಿ\nಮಣೆಯಲಿ ಕುಳಿತು ಅತ್ತರೂ\nಹಣೆಬರಹ ತಪ್ಪದು ಸರ್ವಜ್ಞ",
+    "transliteration": "Haneyali baredante aaguvudu kadeyali\nmaneyali kulitu attaroo\nhanebaraha tappadu Sarvajna.",
+    "translation": "Destiny unfolds exactly as written on one's forehead; even if one sits on a stool and weeps continuously, predetermined fate remains unaltered, O Sarvajna."
+  },
+  {
+    "id": 18,
+    "theme": "speech",
+    "kannada": "ಮುತ್ತು ಒಡೆದರೆ ಹೋಯ್ತು ಮಾತು ಮೀರಿದರೆ ಹೋಯ್ತು\nಹತ್ತು ದಿಕ್ಕಿಗೆ ಹಬ್ಬುವುದು\nಮುತ್ತಿನಂತ ಮಾತು ಇರಬೇಕು ಸರ್ವಜ್ಞ",
+    "transliteration": "Muttu odedare hoytu maatu meeridare hoytu\nhattu dikkige habbuvudu\nmuttinanta maatu irabeku Sarvajna.",
+    "translation": "A broken pearl is ruined, and a broken promise is lost; words spread in all ten directions, therefore one's speech must be as pure as a pearl, O Sarvajna."
+  },
+  {
+    "id": 19,
+    "theme": "arrogance",
+    "kannada": "ಅಲ್ಪನಿಗೆ ಐಶ್ವರ್ಯ ಬಂದರೆ ಅರ್ಧ ರಾತ್ರಿಯಲ್ಲಿ\nಕೊಡೆ ಹಿಡಿಯುವನು ಮೆರೆಯುವನು\nಕಡು ಮೂರ್ಖನವನು ಸರ್ವಜ್ಞ",
+    "transliteration": "Alpanige aishwarya bandare ardha raatriyalli\nkode hidiyuvanu mereyuvanu\nkadu moorkhanavanu Sarvajna.",
+    "translation": "If a petty man acquires sudden wealth, he will demand an umbrella be held over him at midnight to flaunt his status; he is an absolute fool, O Sarvajna."
+  },
+  {
+    "id": 20,
+    "theme": "knowledge",
+    "kannada": "ವಿದ್ಯೆಯಿಲ್ಲದವನು ಪಶುವಿಗಿಂತ ಕಡೆಯು\nವಿದ್ಯೆಯ ಕಲಿತರೆ ಲೋಕದಲಿ\nವಿದ್ಯೆಯೇ ಬೆಳಕು ಸರ್ವಜ್ಞ",
+    "transliteration": "Vidyeyilladavanu pashuviginta kadeyu\nvidyeya kalitare lokadali\nvidyeye belaku Sarvajna.",
+    "translation": "One without education is inferior to a beast; if one acquires knowledge, they will recognize that education functions as the fundamental light of the world, O Sarvajna."
   }
 ]
