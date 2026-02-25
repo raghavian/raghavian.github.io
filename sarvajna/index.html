@@ -26,7 +26,7 @@
                 <p class="text-sm text-gray-500 mt-2">A digital repository of 16th-century Kannada philosophical poetry</p>
             </div>
             <div class="mt-4 md:mt-0">
-                <input type="text" placeholder="Search verses or themes..." class="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm font-sans" disabled>
+                <input id="search-input" type="text" placeholder="Search verses or themes..." class="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm font-sans">
             </div>
         </div>
     </header>
@@ -44,38 +44,59 @@
     </footer>
 
     <script>
+        let allVachanas = [];
+
         async function fetchAndRenderVachanas() {
             try {
                 const response = await fetch('vachanas.json');
-                const vachanaData = await response.json();
-                const container = document.getElementById('archive-container');
-                
-                vachanaData.forEach(vachana => {
-                    const card = document.createElement('article');
-                    card.className = 'bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col transition-shadow hover:shadow-md';
-                    
-                    card.innerHTML = `
-                        <div class="px-6 py-4 bg-gray-50 border-b border-gray-100 flex justify-between items-center">
-                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 uppercase tracking-wide font-sans">
-                                ${vachana.theme}
-                            </span>
-                            <span class="text-xs text-gray-400 font-mono">ID: ${String(vachana.id).padStart(4, '0')}</span>
-                        </div>
-                        <div class="p-6 flex-grow flex flex-col">
-                            <p class="kannada-text text-xl text-gray-900 mb-6 font-semibold whitespace-pre-line">${vachana.kannada}</p>
-                            <p class="text-sm text-gray-600 italic mb-6 flex-grow whitespace-pre-line">${vachana.transliteration}</p>
-                            <div class="pt-4 border-t border-gray-100">
-                                <p class="text-base text-gray-800 leading-relaxed font-medium">"${vachana.translation}"</p>
-                            </div>
-                        </div>
-                    `;
-                    
-                    container.appendChild(card);
-                });
+                if (!response.ok) throw new Error("HTTP error " + response.status);
+                allVachanas = await response.json();
             } catch (error) {
-                console.error("Error loading the vachana corpus:", error);
+                console.error("External fetch failed. Please verify network access to the JSON corpus.", error);
+                return;
             }
+
+            renderCards(allVachanas);
         }
+
+        function renderCards(vachanaData) {
+            const container = document.getElementById('archive-container');
+            container.innerHTML = '';
+            
+            vachanaData.forEach(vachana => {
+                const card = document.createElement('article');
+                card.className = 'bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col transition-shadow hover:shadow-md';
+                
+                card.innerHTML = `
+                    <div class="px-6 py-4 bg-gray-50 border-b border-gray-100 flex justify-between items-center">
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 uppercase tracking-wide font-sans">
+                            ${vachana.theme}
+                        </span>
+                        <span class="text-xs text-gray-400 font-mono">ID: ${String(vachana.id).padStart(4, '0')}</span>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <p class="kannada-text text-xl text-gray-900 mb-6 font-semibold whitespace-pre-line">${vachana.kannada}</p>
+                        <p class="text-sm text-gray-600 italic mb-6 flex-grow whitespace-pre-line">${vachana.transliteration}</p>
+                        <div class="pt-4 border-t border-gray-100">
+                            <p class="text-base text-gray-800 leading-relaxed font-medium">"${vachana.translation}"</p>
+                        </div>
+                    </div>
+                `;
+                
+                container.appendChild(card);
+            });
+        }
+
+        document.getElementById('search-input').addEventListener('input', (event) => {
+            const query = event.target.value.toLowerCase();
+            const filteredData = allVachanas.filter(vachana => 
+                vachana.theme.toLowerCase().includes(query) ||
+                vachana.translation.toLowerCase().includes(query) ||
+                vachana.transliteration.toLowerCase().includes(query) ||
+                vachana.kannada.includes(query)
+            );
+            renderCards(filteredData);
+        });
 
         document.addEventListener('DOMContentLoaded', fetchAndRenderVachanas);
     </script>
