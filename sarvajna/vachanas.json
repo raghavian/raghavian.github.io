@@ -174,12 +174,75 @@
     "transliteration": "Taayembenallade | taayi naanembene? |\ntaayiyendaanu nudidenu parastreeya |\ntaayiyendembe Sarvajna",
     "translation": "I shall call her 'Mother'; would I call her anything else? I address every other woman as 'Mother', O Sarvajna."
   },
-{
+  {
   "id": 27,
   "theme": "brotherhood",
   "kannada": "ಊರೆಲ್ಲ ನೆಂಟರು ! ಕೇರಿಯೆಲ್ಲ ಬಳಗೆ |\nಧಾರಿಣಿಯಲ್ಲ ಕುಲದೈವನಾಗಿನ್ನು |\nಯಾರನ್ನು ಬಿಡಲೊ ! ಸರ್ವಜ್ಞ",
   "transliteration": "Uurella nentaru! Keeriyella balage |\ndhaariniyalla kuladaivanaaginnu |\nyaarannu bidalo! Sarvajna",
   "translation": "The whole village is my kin; the entire street is my family. Since the whole world is my clan's deity, whom can I possibly exclude, O Sarvajna?"
-}
+  },
+  {
+  "id": 28,
+  "theme": "origin",
+  "kannada": "ಮಾಸೂರ ಬಸವರಸ | ಕೂಸನೀಶನ ಕೇಳೆ |\nಕಾಶಿಯ ಅಭವನೊಳು ನಡೆದ ವರವದುನೆ |\nನೂಸಿತೆಂತೆನಲು ಸರ್ವಜ್ಞ",
+  "transliteration": "Maasura Basavarasa | koosaneeshana kele |\nKaashiya abhavanolu nadeda varavadune |\nnoositentenalu Sarvajna",
+  "translation": "When Basavarasa of Masuru prayed to God for a child, a boon was granted in the presence of the Lord of Kashi; thus was Sarvajna born."
+  },
+  {
+    "id": 29,
+    "theme": "birth",
+    "kannada": "ಗಂಡಾಗಬೇಕೆಂದು | ಪಿಂಡವನು ನುಂಗಲದು |\nರಂಡೆ ಮಾಳವ್ವೆಯೊಳು ಬರುವದೆಂತೆನಲು |\nಕಂಡದನು ಪೇಳುವೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Gandagabekendu | pindavanu nungaladu |\nrande maalavveyolu baruvadentenalu |\nkandadanu peluve Sarvajna",
+    "translation": "Desiring a son, he (Basavarasa) swallowed the consecrated offering (pinda); but as for how it came to pass through the widow Malavve, I shall tell you as it happened, O Sarvajna."
+  },
+  {
+    "id": 30,
+    "theme": "circumstance",
+    "kannada": "ಗಡಿಗೆ ಮಡಿಕೆಯ ಕೋಡು | ಅಡಿಗೆಯ ವೇಳೆಯೊಳು |\nಬಿಡದೆ ಮಳೆ ಮೋಡ ನೊಡೆಯಲೃ ಈರ್ವರಿಗೆ |\nತಡಬಡಲಾಯ್ತು ಸರ್ವಜ್ಞ",
+    "transliteration": "Gadige madikeya koodu | adigeya veleyolu |\nbidade male mooda nodeyalaru eervarige |\ntadabadalaaytu Sarvajna",
+    "translation": "Amidst the pots and pans at the time of cooking, when the rain clouds burst without cease, it led to a moment of confusion and union between the two, O Sarvajna."
+  },
+  {
+    "id": 31,
+    "theme": "ancestry",
+    "kannada": "ಅಂಬಲೂಕೊಳಗೆಸೆನ | ಕುಂಬಾರ ನಾಲೆಯಲಿ |\nಇಂಬಿನ ಕಳೆಯ ಮಾಳಿಯೂಳು ಬಸವರನ |\nಸಿಂಬಿಟ್ಟ ನೆನ್ನ ಸರ್ವಜ್ಞ",
+    "transliteration": "Ambalookolagesena | kumbara naaleyali |\nimbina kaleya maaliyoolu basavarana |\nsimbitta nenna Sarvajna",
+    "translation": "In the potter's street of Ambalur, within the beautiful potter-woman Mali, Basavarasa placed his seed, O Sarvajna."
+  },
+  {
+    "id": 32,
+    "theme": "conception",
+    "kannada": "ಬಿಂದುವನು ಬಿಟ್ಟುಹೋ | ದಂದು ಬಸಿರಾದವಳು |\nಒಂದಾಗಿ ಹೊತ್ತ ದಶಮಾಸ ಉದರದೊಳು |\nನಿಂದಾನು ಬೆಳೆದೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Binduvanu bittuho | dandu basiraadavalu |\nondaagi hotta dashamaasa udaradolu |\nnindaanu belede Sarvajna",
+    "translation": "From the moment the seed was released, she became pregnant; she carried me in her womb for ten months, and there I grew, O Sarvajna."
+  },
+  {
+    "id": 33,
+    "theme": "birth",
+    "kannada": "ಹೆತ್ತನಳು ಮಾಳಿಯೆ | ನ್ನೂತ್ತಿ ತೆಗೆದವಳು ಬೆ |\nನ್ನೊತ್ತಿ ಹಿಡಿದವಳು ಕಾಳಿ ತಾ ಮೊರದೊಳಗೆ |\nಬಿತ್ತರಿಸಿದವಳು ಸರ್ವಜ್ಞ",
+    "transliteration": "Hettanalu Maaliye | nnotti tegedavalu be |\nnnotti hididavalu Kaali taa moradolage |\nbittarisidavalu Sarvajna",
+    "translation": "Mali was the mother who gave birth; Kali was the one who lifted me up, supported my back, and laid me out in the winnowing basket, O Sarvajna."
+  },
+  {
+    "id": 34,
+    "theme": "mystery",
+    "kannada": "ಬೆಳೆಯನ್ನ ದರಿಜೆಂದು | ಕಳಯ ಕಂಡವರಿಲ್ಲ |\nಮೊಳೆಯನಿ ಸಸಿಯನರಿತು ತಾಂ ಮಾಳಿಯನು |\nತಿಳಿವವರು ಅರಿಗು ಸರ್ವಜ್ಞ",
+    "transliteration": "Beleyanna darijendu | kalaya kandavarilla |\nmoleyani sasiyanaritu taan maaliyanu |\ntilivavaru arigu Sarvajna",
+    "translation": "No one truly saw the spark or the growth; only those who understand how a sprout becomes a plant can truly know the mother Mali, O Sarvajna."
+  },
+  {
+    "id": 35,
+    "theme": "identity",
+    "kannada": "ಗಂಡು ತನ್ನದು ಎಂದು | ಲೆಂಡೆ ಸುತನೆಂಬುವಳು |\nಖಂಡಪರಶುವಿನ ವರಪುತ್ರ ಆನು ಸೆರೆ |\nಕಂಡುದನೆ ನುಡಿದೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Gandu tannadu endu | lende sutanembuvalu |\nkhandaparashuvina varaputra aanu sere |\nkandudane nudide Sarvajna",
+    "translation": "The woman claims this son is hers, but I am the boon-born son of Lord Shiva (Khandaparashu); I speak only the truth of what I have seen, O Sarvajna."
+  },
+  {
+    "id": 36,
+    "theme": "divinity",
+    "kannada": "ಮಾಳನೂ ಮಾಳಿಯೂ | ಕೂಳಿತ್ತ ಹೆಮ್ಮೆ ಯಲಿ |\nಕೇಳಲೆನ್ನಾರ ಮಗನೆಂದು ನಾ ಶಿವನ |\nಸೇಳದವನೆಂದೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Maalanoo Maaliyu | koolitta hemme yali |\nkelalennara maganendu naa shivana |\nseladavanende Sarvajna",
+    "translation": "Mala and Mali may claim me with pride as their son, but listen—I am the one who was drawn forth by Shiva himself, O Sarvajna."
+  }
 ]
 
