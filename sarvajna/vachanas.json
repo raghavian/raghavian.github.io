@@ -141,10 +141,16 @@
   },
   {
     "id": 21,
-    "theme": "caste",
+    "theme": "equality",
     "kannada": "ಜಾತಿಹೀನನ ಮನೆಯ ಜ್ಯೋತಿ ತಾ ಹೀನವೇ\nಜಾತಿ ವಿಜಾತಿ ಎನಬೇಡ ದೇವನೊಲಿದಾತನೇ\nಜಾತಕನು ಸರ್ವಜ್ಞ",
-    "transliteration": "",
-    "translation": "" 
+    "transliteration": "Jaatiheenana maneya jyoti taa heenave\njaati vijaati enabeda devanolidataane\njaatakanu Sarvajna.",
+    "translation": "Is the light within an outcaste's home inferior? Do not differentiate by caste; the individual blessed by the divine is the true noble, O Sarvajna."
+  },
+  {
+    "id": 22,
+    "theme": "charity",
+    "kannada": "ಕೊಟ್ಟದ್ದು ತನಗೆ ಬಚ್ಚಿಟ್ಟದ್ದು ಪರರಿಗೆ\nಕೊಟ್ಟದ್ದು ಕೆಟ್ಟಿತೆನಬೇಡ ಮುಂದಕ್ಕೆ\nಕಟ್ಟಿಹುದು ಬುತ್ತಿ ಸರ್ವಜ್ಞ",
+    "transliteration": "Kottaddu tanage bacchittaddu pararige\nkottaddu kettitenabeda mundakke\nkattihudu butti Sarvajna.",
+    "translation": "What is given away belongs to you, what is hoarded goes to others; never assume charity is wasted, as it serves as provisions for the future, O Sarvajna."
   }
-
 ]
