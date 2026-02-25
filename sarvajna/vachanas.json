@@ -12,5 +12,61 @@
     "kannada": "ಮೂರ್ಖಂಗೆ ಬುದ್ಧಿಯನು ನೂರ್ಕಾಲ ಹೇಳಿದರೆ\nಬೋರ್ಕಲ್ಲ ಮೇಲೆ ಮಳಿಗರಿದರಾ ಕಲ್ಲು\nನೀರ್ಕೊಳ್ಳಬಹುದೆ ಸರ್ವಜ್ಞ",
     "transliteration": "Moorkhange buddhiyanu noorkala helidare\nborkalla mele maligaridara kallu\nneerkollabahude Sarvajna.",
     "translation": "Giving advice to a fool for a hundred years is like heavy rain pouring on a hard stone; the stone does not absorb the water, O Sarvajna."
+  },
+  {
+    "id": 3,
+    "theme": "spirituality",
+    "kannada": "ಯಾವುದೇ ಕುಲವಿರಲಿ ಏನೇ ಆದರು ಇರಲಿ\nದೇವನೊಬ್ಬನೆ ಎಂಬ ಅರಿವಿರಲು\nಭಾವ ಶುದ್ಧಿಯೆ ಮುಕ್ತಿ ಸರ್ವಜ್ಞ",
+    "transliteration": "Yaavude kulavirali ene aadaru irali\ndevanobbane emba ariviralu\nbhaava shuddhiye mukti Sarvajna.",
+    "translation": "Regardless of caste or origin, realizing the singularity of the creator and maintaining pure intentions constitutes the definitive path to liberation, O Sarvajna."
+  },
+  {
+    "id": 4,
+    "theme": "wisdom",
+    "kannada": "ಎಲ್ಲ ಬಲ್ಲವನಿಲ್ಲ ಬಲ್ಲವರು ಬಹುಳಿಲ್ಲ\nಬಲ್ಲಿದರ ನುಡಿಗಳನು ಕೇಳಿ ಸ್ವಲ್ಪ\nಬಲ್ಲವನಾಗು ನೀ ಸರ್ವಜ್ಞ",
+    "transliteration": "Ella ballavanilla ballavaru bahulilla\nballidara nudigalanu keli svalpa\nballavanaagu nee Sarvajna.",
+    "translation": "Omniscience is a myth and true experts are scarce; one must incrementally build intelligence by listening to the verified knowledge of others, O Sarvajna."
+  },
+  {
+    "id": 5,
+    "theme": "finance",
+    "kannada": "ಸಾಲವನು ಕೊಂಬಾಗ ಹಾಲೋಗರುಂಡಂತೆ\nಸಾಲಿಗರು ಕಂಬಿಯನೇರಿದಾಗ\nಕೀಲು ಮುರಿದಂತೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Saalavanu kombaaga haalogarundante\nsaaligaru kambiyaneeridaaga\nkeelu muridante Sarvajna.",
+    "translation": "Incurring debt provides the immediate comfort of consuming sweet milk, but the subsequent arrival of creditors induces distress akin to shattered bones, O Sarvajna."
+  },
+  {
+    "id": 6,
+    "theme": "ethics",
+    "kannada": "ಹಿರಿಯರುದ್ದರಿಸಿದ ನುಡಿಯ ಮರೆಯದಿರು\nಸಿರಿಯು ಬಂದಾಗ ಮೆರೆಯದಿರು\nಪರರ ನಿಂದನೆಯ ಮಾಡದಿರು ಸರ್ವಜ್ಞ",
+    "transliteration": "Hiriyaruddharisida nudiya mareyadiru\nsiriyu bandaaga mereyadiru\nparara nindaneya maadadiru Sarvajna.",
+    "translation": "Retain the proven guidance of predecessors, avoid broadcasting your accrued wealth, and categorically refuse to engage in the slander of your peers, O Sarvajna."
+  },
+  {
+    "id": 7,
+    "theme": "religion",
+    "kannada": "ಓದಿದರೇನು ವೇದವ ಮುಗಿಸಿದರೇನು\nಕಾದಿ ಕರಗಿದರೇನೆ ಫಲವಿಲ್ಲ\nಬೋಧೆಯಿಲ್ಲದವಗೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Oodidarenu vedava mugisidarenu\nkaadi karagidarene phalavilla\nbodheyilladavage Sarvajna.",
+    "translation": "Processing textual scriptures and undergoing physical deterioration through fasting offer no functional benefit to a mind devoid of genuine comprehension, O Sarvajna."
+  },
+  {
+    "id": 8,
+    "theme": "truth",
+    "kannada": "ಸತ್ಯವನು ನುಡಿವವಗೆ ಎತ್ತಲು ಜಯವಿಹುದು\nಸತ್ಯವೇ ತಾಯಿ ತಂದೆಯು\nಸತ್ಯವೇ ನಿತ್ಯವು ಸರ್ವಜ್ಞ",
+    "transliteration": "Satyavanu nudivavage ettalu jayavihudu\nsatyave taayi tandeyu\nsatyave nityavu Sarvajna.",
+    "translation": "Operating on absolute truth guarantees universal success; truth acts as the generative source of reality and remains the only eternal constant, O Sarvajna."
+  },
+  {
+    "id": 9,
+    "theme": "charity",
+    "kannada": "ಅನ್ನವನು ಇಕ್ಕುವುದು ತನ್ನವರಿಗಲ್ಲದಲೆ\nಅನ್ಯರಿಗೆ ಇಕ್ಕುವುದು ಅತಿಶಯವು\nಅನ್ನವೇ ಪ್ರಾಣ ಸರ್ವಜ್ಞ",
+    "transliteration": "Annavanu ikkuvudu tannavarigalladale\nanyarige ikkuvudu atishayavu\nannave praana Sarvajna.",
+    "translation": "Providing sustenance to familial relations is basic biological duty; feeding unrelated strangers demonstrates advanced moral superiority since food sustains all biological function, O Sarvajna."
+  },
+  {
+    "id": 10,
+    "theme": "character",
+    "kannada": "ಕತ್ತೆಯನು ತಂದು ಕಸ್ತೂರಿಯನು ಹಚ್ಚಿದರೆ\nಕತ್ತೆ ತಾ ತನ್ನ ಹಳೆಯ\nಗುಣವನು ಬಿಡಬಲ್ಲದೆ ಸರ್ವಜ್ಞ",
+    "transliteration": "Katteyanu tandu kastooriyanu hachchidare\nkatte taa tanna haleya\ngunavanu bidaballade Sarvajna.",
+    "translation": "Applying precious aromatic compounds to a donkey cannot overwrite its fundamental behavioral programming or inherent characteristics, O Sarvajna."
   }
 ]
