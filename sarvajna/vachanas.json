@@ -155,23 +155,31 @@
   },
   {
   "id": 24,
-  "theme": "spirituality and equality",
+  "theme": "equality",
   "kannada": "ಕುಲಗೆಟ್ಟಿವರ ಚಿಂತೆ | ಒಳಗಿರ್ಸರಂತಲ್ಲ |\nಕುಲಗೆಟ್ಟು ಶಿವನ ಮರೆಹೊಕ್ಕು ಖಸಿಗಳು |\nಕುಲವಾದರಯ್ಯ ಸರ್ವಜ್ಞ",
   "transliteration": "Kulagettivara chinte | olagirsarantalla |\nkulagettu shivana marehokku khasigalu |\nkulavaadarayya Sarvajna",
   "translation": "Do not dwell on the status of those who have 'lost' their caste; it is not something to keep in your heart. Those who abandon caste pride and seek refuge in Shiva become the truly noble lineage, O Sarvajna."
   },
   {
   "id": 25,
-  "theme": "critique of caste and body nature",
+  "theme": "caste",
   "kannada": "ಹೊಲಸು ಮಾಂಸದ ಹುತ್ತ ! ಎಲುವಿನ ಹಂದರವು |\n\nಹೊಲೆ ಬಲಿದ ತನುವಿನೊಳಗಿರ್ದು ಮದರೊಳಗೆ |\nಕುಲವನರಸುವರೆ ಸರ್ವಜ್ಞ",
   "transliteration": "Holasu maamsada hutta ! eluvina handaravu |\n\nhole balida tanuvinolagirdu madarolage |\nkulavanarasuvare Sarvajna",
   "translation": "This body is a mound of foul flesh and a frame of bones; while dwelling within this physical form filled with impurities and pride, why do people go searching for caste? O Sarvajna."
   },
   {
     "id": 26,
-    "theme": "virtue and respect for women",
+    "theme": "women",
     "kannada": "ತಾಯೆಂಬೆನಲ್ಲದೆ | ತಾಯಿ ನಾನೆಂಬೆನೆ? |\nತಾಯಿಯೆಂದಾನು ನುಡಿದೇನು ಪರಸ್ತ್ರೀಯ |\nತಾಯಿಯೆಂದೆಂಬೆ ಸರ್ವಜ್ಞ",
     "transliteration": "Taayembenallade | taayi naanembene? |\ntaayiyendaanu nudidenu parastreeya |\ntaayiyendembe Sarvajna",
     "translation": "I shall call her 'Mother'; would I call her anything else? I address every other woman as 'Mother', O Sarvajna."
-  }
+  },
+{
+  "id": 27,
+  "theme": "brotherhood",
+  "kannada": "ಊರೆಲ್ಲ ನೆಂಟರು ! ಕೇರಿಯೆಲ್ಲ ಬಳಗೆ |\nಧಾರಿಣಿಯಲ್ಲ ಕುಲದೈವನಾಗಿನ್ನು |\nಯಾರನ್ನು ಬಿಡಲೊ ! ಸರ್ವಜ್ಞ",
+  "transliteration": "Uurella nentaru! Keeriyella balage |\ndhaariniyalla kuladaivanaaginnu |\nyaarannu bidalo! Sarvajna",
+  "translation": "The whole village is my kin; the entire street is my family. Since the whole world is my clan's deity, whom can I possibly exclude, O Sarvajna?"
+}
 ]
+
