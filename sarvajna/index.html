@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvajna Vachana Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;600&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f8fafc;
+        }
+        .kannada-text {
+            font-family: 'Noto Sans Kannada', sans-serif;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased min-h-screen flex flex-col">
+    
+    <header class="bg-white border-b border-gray-200 shadow-sm py-8 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div>
+                <h1 class="text-3xl font-bold text-gray-900 tracking-tight">Sarvajna Vachana Archive</h1>
+                <p class="text-sm text-gray-500 mt-2">A digital repository of 16th-century Kannada philosophical poetry</p>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <input type="text" placeholder="Search verses or themes..." class="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-sm font-sans" disabled>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
+        <div id="archive-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Vachana cards will be injected here by JavaScript -->
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-6 mt-auto">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500 font-sans">
+            <p>Open Source Archive compiled for linguistic preservation and study.</p>
+        </div>
+    </footer>
+
+    <script>
+        async function fetchAndRenderVachanas() {
+            try {
+                const response = await fetch('vachanas.json');
+                const vachanaData = await response.json();
+                const container = document.getElementById('archive-container');
+                
+                vachanaData.forEach(vachana => {
+                    const card = document.createElement('article');
+                    card.className = 'bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col transition-shadow hover:shadow-md';
+                    
+                    card.innerHTML = `
+                        <div class="px-6 py-4 bg-gray-50 border-b border-gray-100 flex justify-between items-center">
+                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 uppercase tracking-wide font-sans">
+                                ${vachana.theme}
+                            </span>
+                            <span class="text-xs text-gray-400 font-mono">ID: ${String(vachana.id).padStart(4, '0')}</span>
+                        </div>
+                        <div class="p-6 flex-grow flex flex-col">
+                            <p class="kannada-text text-xl text-gray-900 mb-6 font-semibold whitespace-pre-line">${vachana.kannada}</p>
+                            <p class="text-sm text-gray-600 italic mb-6 flex-grow whitespace-pre-line">${vachana.transliteration}</p>
+                            <div class="pt-4 border-t border-gray-100">
+                                <p class="text-base text-gray-800 leading-relaxed font-medium">"${vachana.translation}"</p>
+                            </div>
+                        </div>
+                    `;
+                    
+                    container.appendChild(card);
+                });
+            } catch (error) {
+                console.error("Error loading the vachana corpus:", error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchAndRenderVachanas);
+    </script>
+</body>
+</html>
