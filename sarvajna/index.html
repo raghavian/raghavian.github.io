@@ -25,7 +25,7 @@
                 <h1 class="text-3xl font-bold text-gray-900 tracking-tight">
                     <a href="index.html" class="hover:text-gray-600 transition-colors">Sarvajna Vachana Archive</a>
                 </h1>
-                <p class="text-sm text-gray-500 mt-2">A digital repository of 16th-century Kannada philosophical poet</p>
+                <p class="text-sm text-gray-500 mt-2">A digital repository of 16th-century Kannada philosophical poet, Sarvajna</p>
             </div>
             <div class="mt-4 md:mt-0 flex items-center space-x-3">
                 <button id="order-toggle" class="whitespace-nowrap px-4 py-2 border border-gray-300 rounded-md shadow-sm bg-white text-gray-700 text-sm font-sans hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500">
@@ -47,7 +47,7 @@
 
     <footer class="bg-white border-t border-gray-200 py-6 mt-auto">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500 font-sans">
-            <p>Open Source Archive compiled from public domain. Maintained by Raghavendra Selvan. 2026. </p>
+            <p>Open Source Archive compiled from public domain. Maintained by Raghavendra Selvan. 2026.</p>
         </div>
     </footer>
 
@@ -78,6 +78,12 @@
                 originalVachanas = await response.json();
                 
                 allVachanas = [...originalVachanas];
+                if (isRandomized) {
+                    for (let i = allVachanas.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [allVachanas[i], allVachanas[j]] = [allVachanas[j], allVachanas[i]];
+                    }
+                }
                 currentFilteredData = [...allVachanas];
             } catch (error) {
                 console.error("External fetch failed. Please verify network access to the JSON corpus.", error);
