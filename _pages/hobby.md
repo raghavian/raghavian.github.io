@@ -10,7 +10,7 @@ redirect_from:
 Sarvajna Archives
 ======
 
-[![image](images/sarvajna.png)](https://raghavian.github.io/sarvajna/)
+#[![image](images/sarvajna.png)](https://raghavian.github.io/sarvajna/)
 
 Check out the project [here](https://raghavian.github.io/sarvajna/).
 

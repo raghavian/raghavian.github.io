@@ -18,8 +18,8 @@ main:
   - title: "Outreach"
     url: /outreach/    
 
-   #- title: "Hobby Projects"
-   # url: /hobby/    
+  - title: "Hobby Projects"
+    url: /hobby/    
    
     #  - title: "Guide"
     #url: /markdown/
