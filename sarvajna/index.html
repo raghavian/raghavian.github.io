@@ -25,9 +25,13 @@
                 <h1 class="text-3xl font-bold text-gray-900 tracking-tight">
                     <a href="index.html" class="hover:text-gray-600 transition-colors">Sarvajna Vachana Archive</a>
                 </h1>
-                <p class="text-sm text-gray-500 mt-2">A digital repository of 16th-century Kannada philosophical poet, Sarvajna</p>
+                <p class="text-sm text-gray-500 mt-2">A digital repository of 16th-century Kannada philosophical poetry</p>
+                <nav class="mt-4 flex space-x-6 text-sm font-sans font-medium">
+                    <a href="#" id="nav-archive" class="text-indigo-600 hover:text-indigo-800 transition-colors">Archive</a>
+                    <a href="#about" id="nav-about" class="text-gray-500 hover:text-gray-900 transition-colors">About</a>
+                </nav>
             </div>
-            <div class="mt-4 md:mt-0 flex items-center space-x-3">
+            <div id="archive-controls" class="mt-4 md:mt-0 flex items-center space-x-3">
                 <button id="order-toggle" class="whitespace-nowrap px-4 py-2 border border-gray-300 rounded-md shadow-sm bg-white text-gray-700 text-sm font-sans hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500">
                     Order: Random
                 </button>
@@ -37,11 +41,20 @@
     </header>
 
     <main class="flex-grow max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
-        <div id="archive-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Vachana cards will be injected here by JavaScript -->
+        <div id="archive-view">
+            <div id="archive-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Vachana cards will be injected here by JavaScript -->
+            </div>
+            <div id="pagination-container" class="mt-10 flex justify-center items-center space-x-6">
+                <!-- Pagination controls will be injected here by JavaScript -->
+            </div>
         </div>
-        <div id="pagination-container" class="mt-10 flex justify-center items-center space-x-6">
-            <!-- Pagination controls will be injected here by JavaScript -->
+
+        <div id="about-view" class="hidden bg-white rounded-xl shadow-sm border border-gray-100 p-8 md:p-12 text-gray-800 leading-relaxed">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 font-sans">About Sarvajna and the Archival Methodology</h2>
+            <p class="mb-6">Sarvajna was a sixteenth-century rationalist, philosopher and poet operating within the Kannada linguistic region. He is historically recognised for utilising the tripadi, a precise three-line metrical structure, to deliver concentrated observations on sociology, ethics, and pragmatic survival. Rather than engaging in abstract theological discourse, his compositions functioned as direct empirical critiques of religious hypocrisy, caste stratification, and resource inequality. His identity remains partially obscured by the oral tradition that preserved his work, leading scholars to conclude that the name functioned as both a personal signature and a collective pseudonym adopted by subsequent generations of wandering moralists. The persistence of his verses within the cultural memory is attributed to their structural rhythm and the unadorned accuracy of their social commentary.</p>
+            <p>This archival initiative aims to digitally preserve the historically authenticated corpus of his work.The main source for the archiving is based on the seminal research carried out by Channappa Uttangi, "Sarvajnana VachanagaLu" (1927). OCR-extracted text and scanned PDF available on <a href="https://archive.org/details/bmshri.sarvagnavachanag0000chan">archive.org</a> are used as the primary sources. I verify the OCR-extracted text with the scanned PDF, and adjust the transcribed vachanas. Then, these are input to Google Gemini for transliteration and translation. I verify the translation again, and then input the three tuple (vachana, transliteration, translation) into a <a href="https://github.com/raghavian/raghavian.github.io/blob/master/sarvajna/uttangi.json">json</a> file which is parsed on the website.
+</p>
         </div>
     </main>
 
@@ -73,7 +86,7 @@
             }
 
             try {
-                const response = await fetch('uttangi.json');
+                const response = await fetch('vachanas.json');
                 if (!response.ok) throw new Error("HTTP error " + response.status);
                 originalVachanas = await response.json();
                 
@@ -207,7 +220,52 @@
             renderCards();
         });
 
-        document.addEventListener('DOMContentLoaded', fetchAndRenderVachanas);
+        function switchView(viewName) {
+            const archiveView = document.getElementById('archive-view');
+            const aboutView = document.getElementById('about-view');
+            const archiveControls = document.getElementById('archive-controls');
+            const navArchive = document.getElementById('nav-archive');
+            const navAbout = document.getElementById('nav-about');
+
+            if (viewName === 'about') {
+                archiveView.classList.add('hidden');
+                archiveControls.classList.add('hidden');
+                aboutView.classList.remove('hidden');
+                
+                navArchive.classList.remove('text-indigo-600', 'hover:text-indigo-800');
+                navArchive.classList.add('text-gray-500', 'hover:text-gray-900');
+                navAbout.classList.remove('text-gray-500', 'hover:text-gray-900');
+                navAbout.classList.add('text-indigo-600', 'hover:text-indigo-800');
+            } else {
+                archiveView.classList.remove('hidden');
+                archiveControls.classList.remove('hidden');
+                aboutView.classList.add('hidden');
+                
+                navArchive.classList.remove('text-gray-500', 'hover:text-gray-900');
+                navArchive.classList.add('text-indigo-600', 'hover:text-indigo-800');
+                navAbout.classList.remove('text-indigo-600', 'hover:text-indigo-800');
+                navAbout.classList.add('text-gray-500', 'hover:text-gray-900');
+            }
+        }
+
+        document.getElementById('nav-archive').addEventListener('click', (e) => {
+            e.preventDefault();
+            switchView('archive');
+            window.history.pushState({}, '', window.location.pathname + window.location.search);
+        });
+
+        document.getElementById('nav-about').addEventListener('click', (e) => {
+            e.preventDefault();
+            switchView('about');
+            window.history.pushState({}, '', '#about');
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.location.hash === '#about') {
+                switchView('about');
+            }
+            fetchAndRenderVachanas();
+        });
     </script>
 </body>
 </html>
