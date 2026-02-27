@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Team"
-    url: /people/
+    url: https://saintslab.github.io/people/
 
   - title: "Publications"
     url: /publications/
