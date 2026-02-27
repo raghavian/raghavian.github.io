@@ -6,11 +6,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Supervision"
-    url: /supervision/
+  - title: "Book"
+    url: https://raghavian.github.io/sustainable-ai/
         
   - title: "Projects"
     url: /projects/
@@ -21,6 +18,8 @@ main:
   - title: "Outreach"
     url: /outreach/    
 
+   - title: "Hobby Projects"
+    url: /hobby/    
    
     #  - title: "Guide"
     #url: /markdown/
