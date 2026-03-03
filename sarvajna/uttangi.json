@@ -215,5 +215,55 @@
     "kannada": "ಮಂಡೆಬೋಳಾದೊಡಂ ದಂಡಕೋಲ್ವಿಡಿದೊಡಂ |\nಹೆಂಡತಿಯಬಿಟ್ಟು ನಡೆದೊಡಂ ಗುರುಮುಖ |\nಕಂಡಲ್ಲದಿಲ್ಲ ಸರ್ವಜ್ಞ ||",
     "transliteration": "manDEbOLAdoDam danDakOlviDiDoDam |\nhenDatiyabiTTu nadedoDam gurumukha |\nkanDalladilla Sarvajna ||",
     "translation": "Shaving one's head, carrying a staff, or leaving one's wife behind—none of these lead to the goal unless one has seen the face of the Guru, O Sarvajna."
+  },
+  {
+    "id": 31,
+    "theme": "guru",
+    "kannada": "ಊರಿಂಗೆ ದಾರಿಯನು ಯಾರು ತೋರಿದಡೇನು |\nಸಾರಾಯದಾನಿಜವ ತೋರುವ ಗುರುವು |\nಯಾರಾದಡೇನು ಸರ್ವಜ್ಞ ||",
+    "transliteration": "Uringe dAriyanu yAru tOridaDEnu |\nsArAyadAnijava tOruva guruvu |\nyArAdaDEnu Sarvajna ||",
+    "translation": "What does it matter who shows the way to the village? The Guru who reveals the essence of truth—whoever they may be—is the one who matters, O Sarvajna."
+  },
+  {
+    "id": 32,
+    "theme": "yogi",
+    "kannada": "ಪರತತ್ವ ತನ್ನೊಳಗೆ ಎರವಿಲ್ಲದಿರುತಿರ್ದು |\nಪರದೇಶಿಯಂತೆ ಇರುತಿಪ್ಸಯೋಗಿಯನು |\nಪರಮಗುರುವೆಂಬೆ ಸರ್ವಜ್ಞ ||",
+    "transliteration": "paratattva tannoLage eravilladirutirdu |\nparadEshiyante irutipsayOgiyanu |\nparamaguruvembe Sarvajna ||",
+    "translation": "The yogi who holds the supreme truth within themselves without any duality, yet lives like a stranger to the world—I call such a one the supreme Guru, O Sarvajna."
+  },
+  {
+    "id": 33,
+    "theme": "devotion",
+    "kannada": "ಹರನಿಚ್ಛೆಯಿಲ್ಲದಲೆ ಹರಿದು ಹೋಗದು ಪಾಪ |\nಹರಭಕ್ತಿಯುಳ್ಳ ಗುರುವರನೋರ್ವನೇ |\nನರ ದೈವವೆಂಬೆ ಸರ್ವಜ್ಞ ||",
+    "transliteration": "haranichcheyilladale haridu hOgadu pApa |\nharabhaktiyuLLa guruvaranOrvanE |\nnara daivavembe Sarvajna ||",
+    "translation": "Without the will of Hara, sins do not wash away; the noble Guru who possesses deep devotion to Hara is indeed a God in human form, O Sarvajna."
+  },
+  {
+    "id": 34,
+    "theme": "guru",
+    "kannada": "ಬಂಧುಗಳು ಆದವರು ಬಂದುಂಡು ಹೋಗುವರು |\nಬಂಧನವಕಳೆಯಲರಿಯರು ಗುರುವಿಂದ |\nಬಂಧುಗಳುಂಟೆ? ಸರ್ವಜ್ಞ ||",
+    "transliteration": "bandhugaLu Adavaru bandunDu hOguvaru |\nbandhanavakaLeyalariyaru guruvinda |\nbandhugaLunTe? Sarvajna ||",
+    "translation": "Relatives come and share a meal, then depart; they do not know how to break the bonds of worldly attachment. Is there any relative greater than the Guru? O Sarvajna."
+  },
+  {
+    "id": 35,
+    "theme": "guru",
+    "kannada": "ಜೀಯ! ಸದ್ಗುರುನಾಥ ! ಕಾಯಪುಸಿಯನೆ ತೋರಿ |\nಮಾಯಪಾಶವ ಹರಿಸುತ್ತ ಶಿಷ್ಯಂಗೆ |\nತಾಯಿಯಂತಾದ ಸರ್ವಜ್ಞ ||",
+    "transliteration": "jIya! sadgurunAtha! kAyapusiyane tOri |\nmAyapAshava harisutta shishyange |\ntAyiyantAda Sarvajna ||",
+    "translation": "O Lord! The noble Guru, by showing the transience of the body and cutting through the nets of illusion, becomes like a mother to the disciple, O Sarvajna."
+  },
+  {
+    "id": 36,
+    "theme": "guru",
+    "kannada": "ತಂದೆಗೂ ಗುರುವಿಗೂ ಒಂದು ಅಂತರವುಂಟು |\nತಂದೆ ತೋರುವ ಸದ್ಗುರುವ; ಗುರುರಾಯ |\nಬಂಧನವ ಕಳೆವ ಸರ್ವಜ್ಞ ||",
+    "transliteration": "tandegU guruvigU ondu antaravunTu |\ntande tOruva sadguruva; gururAya |\nbandhanava kaLeva Sarvajna ||",
+    "translation": "There is a difference between a father and a Guru; the father introduces one to the noble Guru, but it is the Guru who liberates one from all bonds, O Sarvajna."
+  },
+  {
+    "id": 37,
+    "theme": "guru",
+    "kannada": "ಗುರುವಿಗೂ ದೈವಕ್ಕೂ ಹಿರಿದು ಆಂತರವುಂಟು |\nಗುರುತೋರ್ವ ದೈವದೆಡೆಗಳ ದೈವತಾ |\nಗುರುವ ತೋರುವದೆ? ಸರ್ವಜ್ಞ ||",
+    "transliteration": "guruvigU daivakkU hiridu antaravunTu |\ngurutOrva daivadeDegaLa daivatA |\nguruva tOruvade? Sarvajna ||",
+    "translation": "There is a great difference between the Guru and God; the Guru points the way to God, but does God ever show the way to a Guru? O Sarvajna."
   }
+]
 ]
