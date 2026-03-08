@@ -39,5 +39,5 @@ Abstract to one word theme. All transliterations should follow the Uppercase for
 * Vowels: Upper case (A, I, U, E, O) represents Dheerga (long) sounds.
 * Consonants: Upper case (T, D, N, L) represents Retroflex (hard) sounds.
 
-Respond to me in English.
+Keep track of the ids and increment as we work through new vachanas. Respond to me in English.
 ```
