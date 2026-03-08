@@ -32,6 +32,7 @@
                 </nav>
             </div>
             <div id="archive-controls" class="mt-4 md:mt-0 flex items-center space-x-3">
+            <span id="total-count" class="text-sm font-medium text-gray-500 whitespace-nowrap bg-gray-50 px-3 py-2 rounded-md border border-gray-200 hidden sm:inline-block">0 Archived</span>
                 <button id="order-toggle" class="whitespace-nowrap px-4 py-2 border border-gray-300 rounded-md shadow-sm bg-white text-gray-700 text-sm font-sans hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500">
                     Order: Random
                 </button>
@@ -91,7 +92,9 @@
                 const response = await fetch('uttangi.json');
                 if (!response.ok) throw new Error("HTTP error " + response.status);
                 originalVachanas = await response.json();
-                
+
+                document.getElementById('total-count').textContent = `${originalVachanas.length} Archived`;            
+
                 allVachanas = [...originalVachanas];
                 if (isRandomized) {
                     for (let i = allVachanas.length - 1; i > 0; i--) {
