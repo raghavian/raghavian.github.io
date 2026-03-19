@@ -15,20 +15,22 @@ Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) a
 
 RS published a book _Sustainable AI_. Check out the webpage for the book [here.](https://raghavian.github.io/sustainable-ai/)
 
+<!-- 
+
 ## Events
 
 We are organizing SAINTS'26, a half day workshop on 6 March, 2026, on the topic of Sustainable Artificial Intelligence for Sciences. See program and sign up [here](https://saintslab.github.io/workshop2026/).
+-->
 
 ## Hiring
 
-<!-- 
 **Current openings**: 
 
-* Postdoctoral position to work on ML for Sustainable Food (deadline 15th Jan. 2026, [details](https://employment.ku.dk/faculty/?show=152845))
--->
+* PhD Position on Sustainable AI and Resource Efficient Machine Learning at Linkoping University with Sebastian Mair, that RS will co-supervise. (deadline 24th April, 2026, [details](https://liu.se/en/work-at-liu/vacancies/28717))
 
+<!-- 
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
-
+-->
 
 ## News
 * 2026-02: Saints Lab is organizing SAINTS'26 on 6 March, 2026. See program and sign up [here](https://saintslab.github.io/workshop2026/).
