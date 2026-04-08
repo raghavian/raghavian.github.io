@@ -1,5 +1,5 @@
 ---
-title: "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models"
+title: "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data"
 authbefore: "Frederik Lizak Johansen, Adam F Sapnik, Erik Bjørnager Dam, " 
 authafter: ", Kirsten M Ø Jensen"
 collection: publications
