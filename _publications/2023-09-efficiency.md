@@ -5,7 +5,7 @@ authafter: ""
 collection: publications
 permalink: /publication/2023-09-efficiency
 date: 2025-06-30
-venue: 'Communications of ACM. (<span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">CACM</span>)'
+venue: 'Communications of ACM. <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">CACM</span>'
 pubtype: 'journal'
 project: 'sustofai'
 paperurl: https://doi.org/10.1145/3724500
