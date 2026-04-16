@@ -5,7 +5,7 @@ authafter: ""
 collection: publications
 permalink: /publication/2025-02-decifer
 date: 2026-04-08
-venue: 'Transactions on Machine Learning Research (<span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">TMLR</span>)'
+venue: 'Transactions on Machine Learning Research. <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">TMLR</span>'
 pubtype: 'journal'
 project: 'ai4sciences'
 paperurl: https://openreview.net/forum?id=LftFQ35l47
