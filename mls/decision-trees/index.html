@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decision Tree Partitioning Lab</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; background: #f0f2f5; display: flex; flex-direction: column; align-items: center; padding: 20px; color: #1c1e21; }
+        .wrapper { display: flex; gap: 30px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1); max-width: 1300px; }
+        .table-container { flex: 1; max-height: 600px; overflow-y: auto; }
+        table { border-collapse: collapse; width: 100%; font-size: 12px; border: 1px solid #ddd; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; position: sticky; top: 0; }
+        .viz-container { flex: 1.5; position: relative; display: flex; flex-direction: column; align-items: center; }
+        svg { border: 2px solid #333; background: #fff; cursor: crosshair; margin-top: 10px; }
+        .controls { margin-bottom: 15px; display: flex; gap: 8px; align-items: center; }
+        button { padding: 8px 14px; cursor: pointer; border: 1px solid #ccd0d5; background: #fff; border-radius: 6px; font-weight: 600; font-size: 0.9rem; }
+        button.active { background: #1877f2; color: #fff; border-color: #1877f2; }
+        .undo-btn { border-color: #fbca04; color: #8a6d00; }
+        .reset-btn { color: #d93025; border-color: #fce8e6; }
+        .axis-label { font-size: 14px; font-weight: bold; fill: #444; }
+        .tick-label { font-size: 11px; fill: #777; }
+        .legend { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 15px; font-size: 12px; width: 100%; }
+        .legend-item { display: flex; align-items: center; gap: 8px; }
+        .dot { width: 10px; height: 10px; border-radius: 50%; }
+    </style>
+</head>
+<body>
+
+<h2 style="margin-bottom: 10px;">Decision Tree Boundary Lab</h2>
+<p style="margin-bottom: 20px; color: #606770;">Manually partition the space to classify the data points.</p>
+
+<div class="wrapper">
+    <div class="table-container">
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Temp (°C)</th>
+                    <th>Rain (mm)</th>
+                    <th>Tropical</th>
+                    <th>Climate Group</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="viz-container">
+        <div class="controls">
+            <span>Mode:</span>
+            <button id="v-btn" class="active" onclick="setMode('V')">Temp Split</button>
+            <button id="h-btn" onclick="setMode('H')">Rain Split</button>
+            <button class="undo-btn" onclick="undo()">⟲ Undo</button>
+            <button class="reset-btn" onclick="reset()">Clear All</button>
+        </div>
+        
+        <svg id="plot" width="550" height="450"></svg>
+
+        <div class="legend">
+            <div class="legend-item"><div class="dot" style="background:#e74c3c"></div> Tropical (A)</div>
+            <div class="legend-item"><div class="dot" style="background:#e67e22"></div> Arid (B)</div>
+            <div class="legend-item"><div class="dot" style="background:#95a5a6"></div> Temperate (C)</div>
+            <div class="legend-item"><div class="dot" style="background:#3498db"></div> Continental (D)</div>
+            <div class="legend-item"><div class="dot" style="background:#9b59b6"></div> Polar (E)</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const data = [
+        { c: "Brazil", t: 25, r: 2500, trop: "Yes", g: "Tropical (A)", code: "A" },
+        { c: "Saudi Arabia", t: 30, r: 100, trop: "No", g: "Arid (B)", code: "B" },
+        { c: "Germany", t: 10, r: 800, trop: "No", g: "Temperate (C)", code: "C" },
+        { c: "Canada", t: -5, r: 600, trop: "No", g: "Continental (D)", code: "D" },
+        { c: "Siberia", t: -15, r: 150, trop: "No", g: "Polar (E)", code: "E" },
+        { c: "India", t: 28, r: 1500, trop: "Yes", g: "Tropical (A)", code: "A" },
+        { c: "Australia", t: 22, r: 500, trop: "No", g: "Arid (B)", code: "B" },
+        { c: "Argentina", t: 12, r: 1200, trop: "No", g: "Temperate (C)", code: "C" },
+        { c: "Greenland", t: -10, r: 100, trop: "No", g: "Polar (E)", code: "E" },
+        { c: "Mexico", t: 20, r: 800, trop: "Yes", g: "Tropical (A)", code: "A" },
+        { c: "Russia", t: -10, r: 600, trop: "No", g: "Continental (D)", code: "D" }
+    ];
+
+    const colors = { A: "#e74c3c", B: "#e67e22", C: "#95a5a6", D: "#3498db", E: "#9b59b6" };
+    const palette = ["#fff5f5", "#f0f7ff", "#f5fff5", "#fffdf0", "#f0f0ff", "#fff0fd", "#f2f2f2", "#e8f4fd"];
+    
+    let mode = 'V';
+    let regions = [{ t1: -25, r1: 0, t2: 35, r2: 2600, color: "#ffffff" }];
+    let history = []; // Stack to store previous states
+
+    const svg = document.getElementById('plot');
+    const P = { L: 60, R: 30, T: 20, B: 60 };
+    const W = 550, H = 450;
+
+    const tX = t => P.L + (t + 25) * (W - P.L - P.R) / 60;
+    const rY = r => (H - P.B) - (r * (H - P.T - P.B) / 2600);
+    const xT = x => (x - P.L) * 60 / (W - P.L - P.R) - 25;
+    const yR = y => ((H - P.B) - y) * 2600 / (H - P.T - P.B);
+
+    function render() {
+        svg.innerHTML = '';
+        regions.forEach((reg) => {
+            const x = tX(reg.t1), y = rY(reg.r2);
+            const w = tX(reg.t2) - x, h = rY(reg.r1) - y;
+            svg.innerHTML += `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${reg.color}" stroke="#ccc" stroke-width="0.5" />`;
+        });
+
+        // Axes
+        for (let t = -20; t <= 30; t += 10) {
+            svg.innerHTML += `<line x1="${tX(t)}" y1="${H-P.B}" x2="${tX(t)}" y2="${H-P.B+6}" stroke="#444" />`;
+            svg.innerHTML += `<text x="${tX(t)}" y="${H-P.B+22}" class="tick-label" text-anchor="middle">${t}°</text>`;
+        }
+        for (let r = 0; r <= 2500; r += 500) {
+            svg.innerHTML += `<line x1="${P.L-6}" y1="${rY(r)}" x2="${P.L}" y2="${rY(r)}" stroke="#444" />`;
+            svg.innerHTML += `<text x="${P.L-12}" y="${rY(r)+4}" class="tick-label" text-anchor="end">${r}</text>`;
+        }
+        svg.innerHTML += `<text x="${P.L + (W-P.L-P.R)/2}" y="${H-10}" class="axis-label" text-anchor="middle">Temperature (°C)</text>`;
+        svg.innerHTML += `<text x="18" y="${(H-P.B)/2}" class="axis-label" text-anchor="middle" transform="rotate(-90,18,${(H-P.B)/2})">Annual Rainfall (mm)</text>`;
+
+        data.forEach(d => {
+            svg.innerHTML += `<circle cx="${tX(d.t)}" cy="${rY(d.r)}" r="6" fill="${colors[d.code]}" stroke="#fff" stroke-width="2" />`;
+        });
+    }
+
+    svg.onclick = (e) => {
+        const rect = svg.getBoundingClientRect();
+        const mouseT = xT(e.clientX - rect.left);
+        const mouseR = yR(e.clientY - rect.top);
+
+        for (let i = 0; i < regions.length; i++) {
+            const reg = regions[i];
+            if (mouseT >= reg.t1 && mouseT <= reg.t2 && mouseR >= reg.r1 && mouseR <= reg.r2) {
+                // Save state to history before mutating
+                history.push(JSON.parse(JSON.stringify(regions)));
+                
+                const newCol = palette[regions.length % palette.length];
+                if (mode === 'V') {
+                    regions.push({ ...reg, t1: mouseT, color: newCol });
+                    reg.t2 = mouseT;
+                } else {
+                    regions.push({ ...reg, r1: mouseR, color: newCol });
+                    reg.r2 = mouseR;
+                }
+                break;
+            }
+        }
+        render();
+    };
+
+    function undo() {
+        if (history.length > 0) {
+            regions = history.pop();
+            render();
+        }
+    }
+
+    function setMode(m) { 
+        mode = m; 
+        document.getElementById('v-btn').className = m === 'V' ? 'active' : ''; 
+        document.getElementById('h-btn').className = m === 'H' ? 'active' : ''; 
+    }
+
+    function reset() { 
+        history = [];
+        regions = [{ t1: -25, r1: 0, t2: 35, r2: 2600, color: "#fff" }]; 
+        render(); 
+    }
+
+    // Populate Table
+    const tbody = document.querySelector('#data-table tbody');
+    data.forEach(d => {
+        tbody.innerHTML += `<tr>
+            <td>${d.c}</td>
+            <td>${d.t}</td>
+            <td>${d.r}</td>
+            <td style="font-weight:bold; color:${d.trop === 'Yes' ? '#27ae60' : '#7f8c8d'}">${d.trop}</td>
+            <td style="color:${colors[d.code]}; font-weight:bold;">${d.g}</td>
+        </tr>`;
+    });
+    render();
+</script>
+</body>
+</html>
