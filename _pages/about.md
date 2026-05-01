@@ -32,6 +32,8 @@ If you are interested in joining our team check out the open positions advertise
 -->
 
 ## News
+* 2026-05: [Paper](https://arxiv.org/abs/2502.20016) accepted to be presented at ICML, 2026. 
+* 2026-05: [Paper](https://arxiv.org/abs/2602.19789) accepted to be presented at ICML, 2026. 
 * 2026-04: [Paper](https://arxiv.org/abs/2602.00056) accepted to be presented at ACM FAccT, 2026. 
 * 2026-04: [Paper](https://openreview.net/forum?id=LftFQ35l47) accepted to Transactions on Machine Learning Research (TMLR).
 * 2026-02: Saints Lab is organizing SAINTS'26 on 6 March, 2026. See program and sign up [here](https://saintslab.github.io/workshop2026/).
