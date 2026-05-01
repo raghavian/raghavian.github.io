@@ -32,13 +32,13 @@ If you are interested in joining our team check out the open positions advertise
 -->
 
 ## News
-* 2026-05: [Paper](https://arxiv.org/abs/2502.20016) accepted to be presented at ICML, 2026. 
-* 2026-05: [Paper](https://arxiv.org/abs/2602.19789) accepted to be presented at ICML, 2026. 
-* 2026-04: [Paper](https://arxiv.org/abs/2602.00056) accepted to be presented at ACM FAccT, 2026. 
-* 2026-04: [Paper](https://openreview.net/forum?id=LftFQ35l47) accepted to Transactions on Machine Learning Research (TMLR).
+* 2026-05: [Bakhtiarifard et al.](https://arxiv.org/abs/2502.20016), "Position: Neglecting the Sustainability of AI is fuelling a Global AI Arms Race" accepted to be presented at ICML, 2026.
+* 2026-05: [Wilson et al.](https://arxiv.org/abs/2602.19789), "Position: Stop Preaching and Start Practising Data Frugality for Responsible Development of AI" accepted to be presented at ICML, 2026. 
+* 2026-04: [Wilson et al.](https://arxiv.org/abs/2602.00056), "How Hyper-Datafication Impacts the Sustainability Costs in Frontier AI" accepted to be presented at ACM FAccT, 2026. 
+* 2026-04: [Johansen et al.](https://openreview.net/forum?id=LftFQ35l47), "deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models" accepted to Transactions on Machine Learning Research (TMLR).
 * 2026-02: Saints Lab is organizing SAINTS'26 on 6 March, 2026. See program and sign up [here](https://saintslab.github.io/workshop2026/).
 * 2026-01: [Comment article](https://www.nature.com/articles/s41581-026-01047-3) published accepted at Nature Reviews Nephrology. 
-* 2025-12: [Paper](https://openreview.net/forum?id=bPwcJ0nkDC) accepted to Transactions on Machine Learning Research (TMLR).
+* 2025-12: [Wenshøj et al.](https://openreview.net/forum?id=bPwcJ0nkDC), "Oscillations Make Neural Networks Robust to Quantization" accepted to Transactions on Machine Learning Research (TMLR).
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
 * 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
 * 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
