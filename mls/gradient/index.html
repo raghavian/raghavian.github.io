@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Convex Optimization | MLS</title>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: var(--text); margin: 0; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        h1 { margin: 0; font-size: 1.8rem; font-weight: 300; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; margin-bottom: 10px; display: inline-block;}
+        .wrapper { display: flex; gap: 30px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
+        .viz-container { flex: 2; position: relative; }
+        canvas { border: 1px solid #ddd; background: #fff; cursor: crosshair; width: 100%; height: auto; }
+        .controls-panel { flex: 0.8; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
+        .control-group { margin-bottom: 20px; }
+        label { font-size: 0.85rem; font-weight: 600; display: flex; justify-content: space-between; margin-bottom: 5px; }
+        input[type="range"] { width: 100%; }
+        .value-display { font-family: monospace; background: #eee; padding: 2px 5px; border-radius: 3px; }
+        .math-block { background: #eee; padding: 10px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; }
+        button { width: 100%; padding: 10px; background: var(--ucph-red); color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; margin-bottom: 10px; }
+        button:hover { opacity: 0.9; }
+    </style>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
+    <h1>Gradient Descent & Local Optima</h1>
+</header>
+
+<div class="wrapper">
+    <div class="controls-panel">
+        <div class="math-block">
+            <strong>Objective:</strong> Minimize $f(x)$ <br>
+            <strong>Update Rule:</strong> <br>
+            $x_{t+1} = x_t - \eta \nabla f(x_t)$
+        </div>
+        
+        <div class="control-group">
+            <label>Initialization ($x_0$): <span id="x0-val" class="value-display">0</span></label>
+            <input type="range" id="x0" min="-2.5" max="2.5" step="0.1" value="0.5">
+        </div>
+
+        <div class="control-group">
+            <label>Learning Rate ($\eta$): <span id="lr-val" class="value-display">0.05</span></label>
+            <input type="range" id="lr" min="0.001" max="0.3" step="0.001" value="0.05">
+        </div>
+
+        <div class="control-group">
+            <label>Optimization Steps: <span id="steps-val" class="value-display">20</span></label>
+            <input type="range" id="steps" min="1" max="100" step="1" value="20">
+        </div>
+
+        <button onclick="runOptimization()">Run Optimization</button>
+        <p style="font-size: 0.8rem; color: #666;">Observe the trajectory arrows. Red indicates the path; the <strong>Cyan</strong> point represents the final converged state $\theta^*$.</p>
+    </div>
+
+    <div class="viz-container">
+        <canvas id="canvas" width="800" height="500"></canvas>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    const inputs = { x0: document.getElementById('x0'), lr: document.getElementById('lr'), steps: document.getElementById('steps') };
+    const displays = { x0: document.getElementById('x0-val'), lr: document.getElementById('lr-val'), steps: document.getElementById('steps-val') };
+
+    const f = x => Math.pow(x, 4) - 4 * Math.pow(x, 2) + x + 10;
+    const df = x => 4 * Math.pow(x, 3) - 8 * x + 1;
+
+    const scaleX = x => (x + 3) * (canvas.width / 6);
+    const scaleY = y => canvas.height - (y * (canvas.height / 20));
+
+    let path = [];
+
+    function drawArrowhead(fromX, fromY, toX, toY) {
+        const headLength = 10;
+        const angle = Math.atan2(toY - fromY, toX - fromX);
+        ctx.beginPath();
+        ctx.moveTo(toX, toY);
+        ctx.lineTo(toX - headLength * Math.cos(angle - Math.PI / 6), toY - headLength * Math.sin(angle - Math.PI / 6));
+        ctx.moveTo(toX, toY);
+        ctx.lineTo(toX - headLength * Math.cos(angle + Math.PI / 6), toY - headLength * Math.sin(angle + Math.PI / 6));
+        ctx.strokeStyle = 'rgba(231, 76, 60, 0.4)'; // Lighter red for arrows
+        ctx.stroke();
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Axes
+        ctx.strokeStyle = '#eee';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(0, scaleY(0)); ctx.lineTo(canvas.width, scaleY(0));
+        ctx.moveTo(scaleX(0), 0); ctx.lineTo(scaleX(0), canvas.height);
+        ctx.stroke();
+
+        // Target Function f(x)
+        ctx.strokeStyle = '#2c3e50';
+        ctx.lineWidth = 2.5;
+        ctx.beginPath();
+        for (let x = -3; x <= 3; x += 0.05) {
+            const px = scaleX(x), py = scaleY(f(x));
+            if (x === -3) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+        }
+        ctx.stroke();
+
+        // Trajectory
+        if (path.length > 0) {
+            path.forEach((x, i) => {
+                const px = scaleX(x), py = scaleY(f(x));
+                
+                // Draw segment and arrow
+                if (i > 0) {
+                    const prevX = scaleX(path[i-1]), prevY = scaleY(f(path[i-1]));
+                    ctx.strokeStyle = 'rgba(231, 76, 60, 0.6)';
+                    ctx.beginPath();
+                    ctx.moveTo(prevX, prevY);
+                    ctx.lineTo(px, py);
+                    ctx.stroke();
+                    drawArrowhead(prevX, prevY, px, py);
+                }
+
+                // Point styling
+                const isLast = i === path.length - 1;
+                ctx.fillStyle = isLast ? '#00d2d3' : '#e74c3c'; // Cyan for final point
+                ctx.beginPath();
+                ctx.arc(px, py, isLast ? 7 : 4, 0, Math.PI * 2);
+                ctx.fill();
+                if(isLast) {
+                    ctx.strokeStyle = '#2c3e50';
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                }
+            });
+        }
+
+        // Init ghost marker
+        const initX = parseFloat(inputs.x0.value);
+        ctx.fillStyle = 'rgba(144, 17, 17, 0.2)';
+        ctx.beginPath();
+        ctx.arc(scaleX(initX), scaleY(f(initX)), 10, 0, Math.PI * 2);
+        ctx.fill();
+    }
+
+    function runOptimization() {
+        let x = parseFloat(inputs.x0.value);
+        const lr = parseFloat(inputs.lr.value);
+        const steps = parseInt(inputs.steps.value);
+        path = [x];
+
+        for (let i = 0; i < steps; i++) {
+            const grad = df(x);
+            x = x - lr * grad;
+            path.push(x);
+            if (Math.abs(grad) < 1e-5) break; // Convergence check
+        }
+        draw();
+    }
+
+    Object.values(inputs).forEach(input => {
+        input.addEventListener('input', () => {
+            displays[input.id].innerText = input.value;
+            path = []; 
+            draw();
+        });
+    });
+
+    draw();
+</script>
+</body>
+</html>
