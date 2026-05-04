@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>k-NN Decision Boundaries | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
+        .viz-side { flex: 1.8; position: relative; }
+        .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
+        canvas { border: 1px solid #333; background: #fff; width: 100%; height: auto; }
+        .control-group { margin-bottom: 20px; }
+        label { font-size: 0.9rem; font-weight: bold; display: block; margin-bottom: 8px; }
+        input[type="range"] { width: 100%; cursor: pointer; }
+        .math-block { background: #eee; padding: 15px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); }
+        .legend { display: flex; gap: 15px; margin-top: 10px; font-size: 0.8rem; justify-content: center; }
+        .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+        .regen-btn { width: 100%; padding: 12px; background: #333; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        .regen-btn:hover { background: #000; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>k-Nearest Neighbors Visualizer</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9;">Visualizing local decision boundaries in $\mathbb{R}^2$</div>
+</header>
+
+<div class="wrapper">
+    <div class="viz-side">
+        <canvas id="knnCanvas" width="500" height="500"></canvas>
+        <div class="legend">
+            <span><span class="dot" style="background:#3498db"></span> Class A</span>
+            <span><span class="dot" style="background:#e67e22"></span> Class B</span>
+            <span><span class="dot" style="background:#2ecc71"></span> Class C</span>
+        </div>
+    </div>
+
+    <div class="controls-side">
+        <div class="math-block">
+            <strong>The Voting Mechanism:</strong>
+            $$ \hat{y}(x) = \text{mode}\{y_i \mid x_i \in N_k(x)\} $$
+            Where $N_k(x)$ is the neighborhood of $k$ closest samples.
+        </div>
+
+        <div class="control-group">
+            <label>Number of Neighbors ($k$): <span id="k-val" style="color:var(--ucph-red)">3</span></label>
+            <input type="range" id="k-slider" min="1" max="25" step="1" value="3">
+        </div>
+
+        <div style="font-size: 0.85rem; color: #666; margin-bottom: 20px;">
+            Changing $k$ alters the <strong>Voronoi-like</strong> tessellation. A low $k$ creates complex, non-linear boundaries that are highly sensitive to individual outliers.
+        </div>
+        
+        <button class="regen-btn" onclick="generateData()">Regenerate New Dataset</button>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('knnCanvas');
+    const ctx = canvas.getContext('2d');
+    const kSlider = document.getElementById('k-slider');
+    const kDisplay = document.getElementById('k-val');
+
+    let points = [];
+    const colors = ["#3498db", "#e67e22", "#2ecc71"];
+    // Using slightly higher opacity for the background to clearly overwrite
+    const bgColors = ["rgba(52, 152, 219, 0.25)", "rgba(230, 126, 34, 0.25)", "rgba(46, 204, 113, 0.25)"];
+
+    function generateData() {
+        points = []; // Clear the logical array
+        const centers = [{x: 125, y: 125}, {x: 375, y: 125}, {x: 250, y: 375}];
+        
+        for(let i=0; i<3; i++) {
+            for(let j=0; j<15; j++) {
+                points.push({
+                    x: centers[i].x + (Math.random() - 0.5) * 150,
+                    y: centers[i].y + (Math.random() - 0.5) * 150,
+                    label: i
+                });
+            }
+        }
+        
+        // Add random "interloper" noise
+        for(let i=0; i<8; i++) {
+            points.push({
+                x: Math.random() * 500, 
+                y: Math.random() * 500, 
+                label: Math.floor(Math.random() * 3)
+            });
+        }
+        draw();
+    }
+
+    function getKNN(x, y, k) {
+        const distances = points.map(p => ({
+            dist: (p.x - x)**2 + (p.y - y)**2,
+            label: p.label
+        }));
+        distances.sort((a, b) => a.dist - b.dist);
+        
+        const votes = [0, 0, 0];
+        for(let i=0; i<k; i++) {
+            votes[distances[i].label]++;
+        }
+        
+        // Return index of max votes
+        let maxV = -1, winner = 0;
+        for(let i=0; i<3; i++) {
+            if(votes[i] > maxV) { maxV = votes[i]; winner = i; }
+        }
+        return winner;
+    }
+
+    function draw() {
+        // STEP 1: CLEAR THE ENTIRE CANVAS
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        const k = parseInt(kSlider.value);
+        kDisplay.innerText = k;
+
+        // STEP 2: DRAW DECISION SURFACE
+        const step = 6; // Larger steps = faster rendering
+        for(let x=0; x<canvas.width; x+=step) {
+            for(let y=0; y<canvas.height; y+=step) {
+                const label = getKNN(x + step/2, y + step/2, k);
+                ctx.fillStyle = bgColors[label];
+                ctx.fillRect(x, y, step, step);
+            }
+        }
+
+        // STEP 3: DRAW TRAINING POINTS
+        points.forEach(p => {
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, 6, 0, Math.PI*2);
+            ctx.fillStyle = colors[p.label];
+            ctx.fill();
+            ctx.strokeStyle = "#fff";
+            ctx.lineWidth = 2;
+            ctx.stroke();
+        });
+    }
+
+    kSlider.oninput = draw;
+    generateData(); // Initial call
+</script>
+</body>
+</html>
