@@ -8,17 +8,56 @@
         :root { --ucph-red: #901111; --text: #2c3e50; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); margin: 0; background: #fdfdfd; }
         header { background: var(--ucph-red); color: white; padding: 3rem 1rem; text-align: center; }
-        .container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
         h1 { margin: 0; font-size: 2.2rem; font-weight: 300; }
         .subtitle { opacity: 0.9; font-style: italic; }
-        .exercise-list { list-style: none; padding: 0; margin-top: 2rem; }
-        .exercise-card { background: white; border: 1px solid #eee; border-radius: 8px; margin-bottom: 1rem; transition: transform 0.2s; }
-        .exercise-card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        .exercise-card a { display: block; padding: 1.5rem; text-decoration: none; color: inherit; }
+        
+        /* Updated Grid Layout */
+        .exercise-list { 
+            list-style: none; 
+            padding: 0; 
+            margin-top: 2rem; 
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            gap: 1.5rem; /* Spacing between cards */
+        }
+
+        .exercise-card { 
+            background: white; 
+            border: 1px solid #eee; 
+            border-radius: 8px; 
+            transition: transform 0.2s, box-shadow 0.2s; 
+            display: flex;
+        }
+        
+        .exercise-card:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+        }
+        
+        .exercise-card a { 
+            display: block; 
+            padding: 1.5rem; 
+            text-decoration: none; 
+            color: inherit; 
+            width: 100%;
+        }
+        
         .exercise-tag { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; color: var(--ucph-red); font-weight: bold; }
         .exercise-title { display: block; font-size: 1.2rem; font-weight: 600; margin: 0.3rem 0; }
         .exercise-desc { font-size: 0.9rem; color: #666; }
+        
         footer { text-align: center; margin-top: 4rem; padding: 2rem; font-size: 0.8rem; color: #999; border-top: 1px solid #eee; }
+
+        /* Responsive adjustment for mobile */
+        @media (max-width: 768px) {
+            .exercise-list {
+                grid-template-columns: 1fr; /* Switch to single column on small screens */
+            }
+            .container {
+                max-width: 600px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -32,7 +71,6 @@
     <p>Welcome to the interactive laboratory for the Machine Learning in Sciences (MLS) course at UCPH. These tools are designed to provide intuition about fundamental ML concepts that will be covered in the course.</p>
 
     <ul class="exercise-list">
-        <!-- Exercise 1: Linear Classifier -->
         <li class="exercise-card">
             <a href="linear/index.html">
                 <span class="exercise-tag">Supervised Learning</span>
@@ -41,17 +79,14 @@
             </a>
         </li>
 
-        <!-- Exercise 2: Decision Trees -->
         <li class="exercise-card">
             <a href="knn/index.html">
                 <span class="exercise-tag">Supervised Learning</span>
                 <span class="exercise-title">k-Nearest Neighbour</span>
-                <span class="exercise-desc">Interactively see the influence of changing k on the classification decision boudary.
-                </span>
+                <span class="exercise-desc">Interactively see the influence of changing k on the classification decision boundary.</span>
             </a>
         </li>
 
-        <!-- Exercise 2: Decision Trees -->
         <li class="exercise-card">
             <a href="decision-trees/index.html">
                 <span class="exercise-tag">Supervised Learning</span>
@@ -60,7 +95,6 @@
             </a>
         </li>
 
-        <!-- Exercise 3: Representation Learning -->
         <li class="exercise-card">
             <a href="https://raghavian.github.io/repr-learn/">
                 <span class="exercise-tag">Unsupervised Learning</span>
@@ -69,7 +103,6 @@
             </a>
         </li>
 
-        <!-- Exercise 3: Gradient Descent -->
         <li class="exercise-card">
             <a href="dimensionality/index.html">
                 <span class="exercise-tag">Basics</span>
@@ -78,7 +111,6 @@
             </a>
         </li>
 
-        <!-- Exercise 3: Gradient Descent -->
         <li class="exercise-card">
             <a href="gradient/index.html">
                 <span class="exercise-tag">Basics</span>
@@ -87,8 +119,6 @@
             </a>
         </li>
 
-
-        <!-- Exercise 3: Backprop -->
         <li class="exercise-card">
             <a href="backprop/index.html">
                 <span class="exercise-tag">Basics</span>
@@ -97,15 +127,22 @@
             </a>
         </li>
 
-
-        <!-- Placeholder for Exercise 2 -->
-        <li class="exercise-card" style="opacity: 0.6;">
-            <a href="#">
-                <span class="exercise-tag">Coming Soon</span>
+        <li class="exercise-card">
+            <a href="k-means/index.html">
+                <span class="exercise-tag">Unsupervised Learning</span>
                 <span class="exercise-title">Clustering</span>
                 <span class="exercise-desc">Try out k-means clustering.</span>
             </a>
         </li>
+
+        <li class="exercise-card">
+            <a href="pca/index.html">
+                <span class="exercise-tag">Unsupervised Learning</span>
+                <span class="exercise-title">Principal Component Analysis</span>
+                <span class="exercise-desc">Try out PCA and explore explained variance.</span>
+            </a>
+        </li>
+
     </ul>
 </div>
 

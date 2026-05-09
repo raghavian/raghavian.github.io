@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>k-means Clustering | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
+        .viz-side { flex: 1.8; position: relative; }
+        .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
+        canvas { border: 1px solid #333; background: #fff; width: 100%; cursor: crosshair; }
+        .math-block { background: #eee; padding: 15px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); }
+        .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; }
+        button { padding: 10px; cursor: pointer; border-radius: 6px; border: 1px solid #ccc; font-weight: bold; }
+        .primary-btn { background: var(--ucph-red); color: white; border: none; }
+        .secondary-btn { background: #fff; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>k-means Clustering Visualizer</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9;">Expectation Maximization-style Hard Clustering</div>
+</header>
+
+<div class="wrapper">
+    <div class="viz-side">
+        <canvas id="kmeansCanvas" width="600" height="500"></canvas>
+        <p style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 10px;">
+            Drag the <b>X</b> markers to move initial centroids.
+        </p>
+    </div>
+
+    <div class="controls-side">
+        <div class="math-block">
+            <strong>Objective Function:</strong>
+            Minimize the Within-Cluster Sum of Squares (WCSS):
+            $$ J = \sum_{j=1}^k \sum_{x_i \in S_j} \|x_i - \mu_j\|^2 $$
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label>Number of Clusters ($k$): <b id="k-val">3</b></label>
+            <input type="range" id="k-slider" min="2" max="6" value="3" style="width:100%">
+        </div>
+
+        <div class="btn-group">
+            <button class="primary-btn" onclick="step()">Next Step</button>
+            <button class="secondary-btn" onclick="run()">Run to End</button>
+            <button class="secondary-btn" onclick="reset()">Reset Points</button>
+            <button class="secondary-btn" onclick="initCentroids()" style="border-color: var(--ucph-red)">Reset Centroids</button>
+        </div>
+
+        <div id="stats" style="margin-top:20px; font-size:0.9rem; border-top:1px solid #ddd; padding-top:10px;">
+            Iteration: <span id="iter-count" class="highlight">0</span><br>
+            Current WCSS: <span id="wcss-val" class="highlight">-</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('kmeansCanvas');
+    const ctx = canvas.getContext('2d');
+    const kSlider = document.getElementById('k-slider');
+    
+    let points = [];
+    let centroids = [];
+    let iterations = 0;
+    let dragging = null;
+
+    const colors = ["#e74c3c", "#3498db", "#2ecc71", "#f1c40f", "#9b59b6", "#e67e22"];
+
+    function reset() {
+        points = [];
+        iterations = 0;
+        for (let i = 0; i < 150; i++) {
+            points.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                cluster: -1
+            });
+        }
+        initCentroids();
+    }
+
+    function initCentroids() {
+        const k = parseInt(kSlider.value);
+        centroids = [];
+        iterations = 0;
+        for (let i = 0; i < k; i++) {
+            centroids.push({
+                x: 50 + Math.random() * (canvas.width - 100),
+                y: 50 + Math.random() * (canvas.height - 100),
+                id: i
+            });
+        }
+        points.forEach(p => p.cluster = -1);
+        draw();
+    }
+
+    function step() {
+        const k = centroids.length;
+        // 1. Assignment Step
+        let changed = false;
+        points.forEach(p => {
+            let minDist = Infinity;
+            let bestCluster = -1;
+            centroids.forEach((c, idx) => {
+                const d = Math.pow(p.x - c.x, 2) + Math.pow(p.y - c.y, 2);
+                if (d < minDist) { minDist = d; bestCluster = idx; }
+            });
+            if (p.cluster !== bestCluster) changed = true;
+            p.cluster = bestCluster;
+        });
+
+        // 2. Update Step
+        centroids.forEach((c, idx) => {
+            const clusterPoints = points.filter(p => p.cluster === idx);
+            if (clusterPoints.length > 0) {
+                c.x = clusterPoints.reduce((acc, p) => acc + p.x, 0) / clusterPoints.length;
+                c.y = clusterPoints.reduce((acc, p) => acc + p.y, 0) / clusterPoints.length;
+            }
+        });
+
+        iterations++;
+        draw();
+        return changed;
+    }
+
+    function run() {
+        let count = 0;
+        while(step() && count < 100) { count++; }
+    }
+
+    function calculateWCSS() {
+        let total = 0;
+        points.forEach(p => {
+            if (p.cluster !== -1) {
+                const c = centroids[p.cluster];
+                total += Math.pow(p.x - c.x, 2) + Math.pow(p.y - c.y, 2);
+            }
+        });
+        return total;
+    }
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Draw Points
+        points.forEach(p => {
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+            ctx.fillStyle = p.cluster === -1 ? "#ccc" : colors[p.cluster];
+            ctx.fill();
+        });
+
+        // Draw Centroids
+        centroids.forEach((c, i) => {
+            ctx.strokeStyle = "#000";
+            ctx.lineWidth = 4;
+            const size = 10;
+            ctx.beginPath();
+            ctx.moveTo(c.x - size, c.y - size); ctx.lineTo(c.x + size, c.y + size);
+            ctx.moveTo(c.x + size, c.y - size); ctx.lineTo(c.x - size, c.y + size);
+            ctx.stroke();
+            
+            ctx.strokeStyle = colors[i];
+            ctx.lineWidth = 2;
+            ctx.stroke();
+        });
+
+        document.getElementById('iter-count').innerText = iterations;
+        const wcss = calculateWCSS();
+        document.getElementById('wcss-val').innerText = wcss === 0 ? "-" : Math.round(wcss).toLocaleString();
+    }
+
+    // Interaction Logic
+    canvas.onmousedown = (e) => {
+        const rect = canvas.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+        
+        centroids.forEach((c, i) => {
+            if (Math.hypot(c.x - mouseX, c.y - mouseY) < 20) {
+                dragging = i;
+            }
+        });
+    };
+
+    window.onmousemove = (e) => {
+        if (dragging !== null) {
+            const rect = canvas.getBoundingClientRect();
+            centroids[dragging].x = e.clientX - rect.left;
+            centroids[dragging].y = e.clientY - rect.top;
+            iterations = 0; // Reset progress if centroids moved
+            draw();
+        }
+    };
+
+    window.onmouseup = () => { dragging = null; };
+
+    kSlider.oninput = () => {
+        document.getElementById('k-val').innerText = kSlider.value;
+        initCentroids();
+    };
+
+    reset();
+</script>
+</body>
+</html>

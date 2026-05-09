@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PCA & Spectral Analysis | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
+        .viz-side { flex: 1.5; position: relative; }
+        .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
+        canvas { border: 1px solid #333; background: #fff; width: 100%; height: auto; }
+        .math-block { background: #eee; padding: 15px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); }
+        .spectrum-container { height: 150px; display: flex; align-items: flex-end; gap: 10px; margin-top: 10px; padding-bottom: 20px; border-bottom: 1px solid #ccc; }
+        .bar { background: var(--ucph-red); width: 40px; transition: height 0.3s; position: relative; }
+        .bar-label { position: absolute; bottom: -20px; left: 0; width: 100%; text-align: center; font-size: 0.7rem; }
+        .bar-val { position: absolute; top: -18px; left: 0; width: 100%; text-align: center; font-size: 0.7rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Principal Component Analysis (PCA)</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9;">Spectral Decomposition & Variance Maximization</div>
+</header>
+
+<div class="wrapper">
+    <div class="viz-side">
+        <canvas id="pcaCanvas" width="500" height="500"></canvas>
+        <p style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 10px;">
+            Principal Components $\mathbf{v}_1$ (Red) and $\mathbf{v}_2$ (Blue) overlayed on centered data.
+        </p>
+    </div>
+
+    <div class="controls-side">
+        <div class="math-block">
+            <strong>Eigenvalue Spectrum:</strong>
+            For centered data $\mathbf{X}$, we decompose the covariance matrix $\mathbf{\Sigma}$:
+            $$ \mathbf{\Sigma} \mathbf{v}_i = \lambda_i \mathbf{v}_i $$
+            $\lambda_i$ represents the variance explained by the $i$-th component.
+        </div>
+
+        <label>Data Correlation: <b id="corr-val">0.8</b></label>
+        <input type="range" id="corr-slider" min="-0.95" max="0.95" step="0.05" value="0.8" style="width:100%; margin-bottom: 20px;">
+
+        <h3 style="margin-bottom:5px;">Scree Plot (Explained Variance)</h3>
+        <div class="spectrum-container" id="spectrum">
+            <div class="bar" id="bar1"><div class="bar-val">0%</div><div class="bar-label">PC1</div></div>
+            <div class="bar" id="bar2"><div class="bar-val">0%</div><div class="bar-label">PC2</div></div>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <button onclick="generateData()" style="width:100%; padding:10px; cursor:pointer; font-weight:bold;">Regenerate Samples</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('pcaCanvas');
+    const ctx = canvas.getContext('2d');
+    const corrSlider = document.getElementById('corr-slider');
+    
+    let rawData = [];
+    let centeredData = [];
+
+    function generateData() {
+        const corr = parseFloat(corrSlider.value);
+        document.getElementById('corr-val').innerText = corr;
+        rawData = [];
+        
+        // Generate correlated 2D Gaussian
+        for (let i = 0; i < 200; i++) {
+            const u1 = Math.random(), u2 = Math.random();
+            const z1 = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+            const z2 = Math.sqrt(-2 * Math.log(u1)) * Math.sin(2 * Math.PI * u2);
+            
+            // Linear transform to introduce correlation
+            const x = z1;
+            const y = corr * z1 + Math.sqrt(1 - corr*corr) * z2;
+            rawData.push({x: x * 60, y: y * 60});
+        }
+        computePCA();
+    }
+
+    function computePCA() {
+        // 1. Center the data
+        const meanX = rawData.reduce((a, b) => a + b.x, 0) / rawData.length;
+        const meanY = rawData.reduce((a, b) => a + b.y, 0) / rawData.length;
+        centeredData = rawData.map(p => ({x: p.x - meanX, y: p.y - meanY}));
+
+        // 2. Covariance Matrix
+        let sxx = 0, syy = 0, sxy = 0;
+        centeredData.forEach(p => {
+            sxx += p.x * p.x;
+            syy += p.y * p.y;
+            sxy += p.x * p.y;
+        });
+        const n = centeredData.length;
+        const cov = [[sxx/(n-1), sxy/(n-1)], [sxy/(n-1), syy/(n-1)]];
+
+        // 3. Eigenvalues of 2x2 matrix: det(A - λI) = 0
+        const tr = cov[0][0] + cov[1][1];
+        const det = cov[0][0] * cov[1][1] - cov[0][1] * cov[1][0];
+        const gap = Math.sqrt(tr*tr - 4*det);
+        const l1 = (tr + gap) / 2;
+        const l2 = (tr - gap) / 2;
+
+        // 4. Eigenvectors
+        const getV = (l) => {
+            const v_x = cov[0][1];
+            const v_y = l - cov[0][0];
+            const mag = Math.sqrt(v_x*v_x + v_y*v_y);
+            return {x: v_x/mag, y: v_y/mag};
+        };
+        const v1 = getV(l1);
+        const v2 = {x: -v1.y, y: v1.x}; // Orthogonal
+
+        updateSpectrum(l1, l2);
+        draw(v1, v2, l1, l2);
+    }
+
+    function updateSpectrum(l1, l2) {
+        const total = l1 + l2;
+        const p1 = (l1 / total) * 100;
+        const p2 = (l2 / total) * 100;
+        
+        document.getElementById('bar1').style.height = p1 + '%';
+        document.getElementById('bar1').querySelector('.bar-val').innerText = Math.round(p1) + '%';
+        document.getElementById('bar2').style.height = p2 + '%';
+        document.getElementById('bar2').querySelector('.bar-val').innerText = Math.round(p2) + '%';
+    }
+
+    function draw(v1, v2, l1, l2) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const cx = canvas.width / 2;
+        const cy = canvas.height / 2;
+
+        // Grid
+        ctx.strokeStyle = "#eee";
+        ctx.beginPath();
+        for(let i=0; i<canvas.width; i+=50) {
+            ctx.moveTo(i, 0); ctx.lineTo(i, canvas.height);
+            ctx.moveTo(0, i); ctx.lineTo(canvas.width, i);
+        }
+        ctx.stroke();
+
+        // Data
+        ctx.fillStyle = "rgba(44, 62, 80, 0.5)";
+        centeredData.forEach(p => {
+            ctx.beginPath();
+            ctx.arc(cx + p.x, cy - p.y, 3, 0, Math.PI*2);
+            ctx.fill();
+        });
+
+        // PC Axes
+        const drawVec = (v, l, color) => {
+            const len = Math.sqrt(l) * 2;
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(cx - v.x*len, cy + v.y*len);
+            ctx.lineTo(cx + v.x*len, cy - v.y*len);
+            ctx.stroke();
+        };
+        drawVec(v1, l1, "#e74c3c");
+        drawVec(v2, l2, "#3498db");
+    }
+
+    corrSlider.oninput = generateData;
+    generateData();
+</script>
+</body>
+</html>
