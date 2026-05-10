@@ -1,7 +1,7 @@
 ---
 title: "An Empirical Study of the Influence of Adversarial Fine-Tuning on Compressed Neural Networks"
 authbefore: "Hallgrimur Thorsteinsson, Valdemar J Henriksen, Daniel I R Cruz, " 
-authafter: "Tong Chen"
+authafter: ", Tong Chen"
 collection: publications
 permalink: /publication/2024-03-adver-fine
 date: 2026-04-30
