@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activation Functions | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1100px; border-radius: 8px; margin-bottom: 20px; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1100px; width: 100%; }
+        .viz-side { flex: 1.5; position: relative; }
+        .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
+        canvas { border-radius: 4px; background: #fff; width: 100%; height: auto; }
+        .math-block { background: #eee; padding: 15px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); min-height: 80px; }
+        .function-select { width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 6px; border: 1px solid #ccc; font-weight: bold; cursor: pointer; }
+        .param-group { margin-bottom: 20px; display: none; }
+        .legend { display: flex; gap: 20px; justify-content: center; margin-top: 15px; font-size: 0.9rem; }
+        .line-ref { width: 25px; height: 3px; display: inline-block; vertical-align: middle; margin-right: 8px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Activation Functions Visualizer</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9;">Non-linearity and Gradient Flow</div>
+</header>
+
+<div class="wrapper">
+    <div class="viz-side">
+        <canvas id="plotCanvas" width="600" height="400"></canvas>
+        <div class="legend">
+            <span><span class="line-ref" style="background:var(--ucph-red)"></span> Function $f(x)$</span>
+            <span><span class="line-ref" style="border-top: 3px dashed #3498db; height:0;"></span> Derivative $f'(x)$</span>
+        </div>
+    </div>
+
+    <div class="controls-side">
+        <label>Select Function:</label>
+        <select id="func-select" class="function-select" onchange="update()">
+            <option value="sigmoid">Sigmoid</option>
+            <option value="tanh">Hyperbolic Tangent (tanh)</option>
+            <option value="relu">ReLU</option>
+            <option value="leaky_relu">Leaky ReLU</option>
+        </select>
+
+        <div id="math-box" class="math-block"></div>
+
+        <div id="leaky-params" class="param-group">
+            <label>Negative Slope ($\alpha$): <b id="alpha-val">0.10</b></label>
+            <input type="range" id="alpha-slider" min="0.0" max="0.5" step="0.01" value="0.1" style="width:100%" oninput="update()">
+        </div>
+
+        <p style="font-size: 0.85rem; color: #666; line-height: 1.5;">
+            <b>Vanishing Gradients:</b> Watch the blue dashed line. When it approaches zero, the weight updates in early layers of a deep network will effectively stall.
+        </p>
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('plotCanvas');
+    const ctx = canvas.getContext('2d');
+    const funcSelect = document.getElementById('func-select');
+    const alphaSlider = document.getElementById('alpha-slider');
+    const mathBox = document.getElementById('math-box');
+
+    const functions = {
+        sigmoid: {
+            f: x => 1 / (1 + Math.exp(-x)),
+            df: x => { let s = 1 / (1 + Math.exp(-x)); return s * (1 - s); },
+            tex: "$$f(x) = \\frac{1}{1 + e^{-x}} \\quad f'(x) = f(x)(1-f(x))$$"
+        },
+        tanh: {
+            f: x => Math.tanh(x),
+            df: x => 1 - Math.pow(Math.tanh(x), 2),
+            tex: "$$f(x) = \\frac{e^x - e^{-x}}{e^x + e^{-x}} \\quad f'(x) = 1 - f(x)^2$$"
+        },
+        relu: {
+            f: x => Math.max(0, x),
+            df: x => x > 0 ? 1 : 0,
+            tex: "$$f(x) = \\max(0, x) \\quad f'(x) = \\begin{cases} 1 & x > 0 \\\\ 0 & x \\le 0 \\end{cases}$$"
+        },
+        leaky_relu: {
+            f: (x, a) => x > 0 ? x : a * x,
+            df: (x, a) => x > 0 ? 1 : a,
+            tex: "$$f(x) = \\max(\\alpha x, x) \\quad f'(x) = \\begin{cases} 1 & x > 0 \\\\ \\alpha & x \\le 0 \\end{cases}$$"
+        }
+    };
+
+    function update() {
+        const type = funcSelect.value;
+        const alpha = parseFloat(alphaSlider.value);
+        
+        document.getElementById('alpha-val').innerText = alpha.toFixed(2);
+        document.getElementById('leaky-params').style.display = type === 'leaky_relu' ? 'block' : 'none';
+        
+        mathBox.innerHTML = functions[type].tex;
+        if (window.MathJax && MathJax.typesetPromise) {
+            MathJax.typesetPromise();
+        }
+        
+        draw(type, alpha);
+    }
+
+    function draw(type, alpha) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const w = canvas.width, h = canvas.height;
+        const scaleX = 50, scaleY = 100;
+        const offsetX = w / 2, offsetY = h / 2 + 50; // Shifted origin for better ReLU view
+
+        // Grid lines
+        ctx.strokeStyle = "#f0f0f0";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        for(let i=-6; i<=6; i++) {
+            ctx.moveTo(offsetX + i*scaleX, 0); ctx.lineTo(offsetX + i*scaleX, h);
+            ctx.moveTo(0, offsetY - i*scaleY); ctx.lineTo(w, offsetY - i*scaleY);
+        }
+        ctx.stroke();
+
+        // Main Axes
+        ctx.strokeStyle = "#333";
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(0, offsetY); ctx.lineTo(w, offsetY); // X-axis
+        ctx.moveTo(offsetX, 0); ctx.lineTo(offsetX, h); // Y-axis
+        ctx.stroke();
+
+        // Numerical Labels
+        ctx.fillStyle = "#666";
+        ctx.font = "11px monospace";
+        ctx.textAlign = "center";
+        for(let i=-5; i<=5; i++) {
+            if(i === 0) continue;
+            ctx.fillText(i, offsetX + i*scaleX, offsetY + 15);
+        }
+        ctx.textAlign = "right";
+        for(let i=-1; i<=2; i++) {
+            if(i === 0) continue;
+            ctx.fillText(i, offsetX - 8, offsetY - i*scaleY + 4);
+        }
+
+        // Plot Function f(x)
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = "#901111";
+        ctx.beginPath();
+        for(let x=-w/2; x<w/2; x++) {
+            const valX = x / scaleX;
+            const valY = functions[type].f(valX, alpha);
+            const px = offsetX + x, py = offsetY - valY * scaleY;
+            if(x === -w/2) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+        }
+        ctx.stroke();
+
+        // Plot Derivative f'(x)
+        ctx.setLineDash([6, 4]);
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = "#3498db";
+        ctx.beginPath();
+        for(let x=-w/2; x<w/2; x++) {
+            const valX = x / scaleX;
+            const valY = functions[type].df(valX, alpha);
+            const px = offsetX + x, py = offsetY - valY * scaleY;
+            if(x === -w/2) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+        }
+        ctx.stroke();
+        ctx.setLineDash([]);
+    }
+
+    // Ensure the plot renders on load
+    window.onload = update;
+</script>
+</body>
+</html>
