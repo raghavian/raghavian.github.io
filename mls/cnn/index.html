@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CNN Convolution Lab | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; --f0: #2ecc71; --f1: #e74c3c; --f2: #3498db; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1400px; border-radius: 8px; margin-bottom: 20px; }
+        .wrapper { display: flex; gap: 20px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1400px; width: 100%; }
+        
+        .viz-container { flex: 2.5; display: flex; flex-direction: column; gap: 20px; }
+        .grid-row { display: flex; justify-content: space-around; align-items: flex-start; gap: 15px; }
+        
+        .matrix-container { display: flex; flex-direction: column; align-items: center; }
+        .matrix { display: grid; border: 2px solid #333; background: #fff; }
+        .cell { width: 30px; height: 30px; border: 1px solid #ddd; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-family: monospace; transition: background 0.1s; }
+        
+        /* Filter highlight colors */
+        .cell.active0 { background: rgba(46, 204, 113, 0.3); border: 1px solid var(--f0); }
+        .cell.active1 { background: rgba(231, 76, 60, 0.3); border: 1px solid var(--f1); }
+        .cell.active2 { background: rgba(52, 152, 219, 0.3); border: 1px solid var(--f2); }
+        .cell.padding { background: #f0f0f0; color: #bbb; }
+        
+        .filter-grid { display: grid; grid-template-columns: repeat(3, 1fr); border: 2px solid #333; margin-top: 5px; }
+        .f-cell { width: 35px; height: 35px; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: bold; }
+        
+        .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
+        .math-block { background: #eee; padding: 15px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); }
+        button { width: 100%; padding: 10px; margin-top: 10px; cursor: pointer; border-radius: 6px; border: 1px solid #ccc; font-weight: bold; }
+        .active-btn { background: var(--ucph-red); color: white; border: none; }
+        .label-sm { font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Convolutional Layer Visualizer</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9;">Multi-Channel Feature Extraction</div>
+</header>
+
+<div class="wrapper">
+    <div class="viz-container">
+        <div class="grid-row">
+            <div class="matrix-container">
+                <div class="label-sm">Input $\mathbf{X}$</div>
+                <div id="input-grid" class="matrix"></div>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px; align-self: flex-start;">
+                <div class="matrix-container">
+                    <div class="label-sm" style="color:var(--f0)">$K_0$ (Mean)</div>
+                    <div id="f0-grid" class="filter-grid"></div>
+                </div>
+                <div class="matrix-container">
+                    <div class="label-sm" style="color:var(--f1)">$K_1$ (Edge)</div>
+                    <div id="f1-grid" class="filter-grid"></div>
+                </div>
+                <div class="matrix-container">
+                    <div class="label-sm" style="color:var(--f2)">$K_2$ (Sharpen)</div>
+                    <div id="f2-grid" class="filter-grid"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+                <div class="matrix-container">
+                    <div class="label-sm">$\mathbf{Y}_0$ (Blurred)</div>
+                    <div id="out0-grid" class="matrix"></div>
+                </div>
+                <div class="matrix-container">
+                    <div class="label-sm">$\mathbf{Y}_1$ (Edges)</div>
+                    <div id="out1-grid" class="matrix"></div>
+                </div>
+                <div class="matrix-container">
+                    <div class="label-sm">$\mathbf{Y}_2$ (Sharp)</div>
+                    <div id="out2-grid" class="matrix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls-side">
+        <div class="math-block">
+            <strong>The Mean Operation ($K_0$):</strong>
+            Acts as a low-pass filter. Each output pixel is the average of its $3 \times 3$ neighborhood:
+            $$ K_{0} = \frac{1}{9} \begin{bmatrix} 1 & 1 & 1 \\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{bmatrix} $$
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label style="font-weight:bold; font-size:0.9rem;">Padding Mode:</label>
+            <div style="display: flex; gap: 10px; margin-top: 5px;">
+                <button id="pad-none" class="active-btn" onclick="setPadding(0)">Valid</button>
+                <button id="pad-same" onclick="setPadding(1)">Same</button>
+            </div>
+        </div>
+
+        <div id="step-info" style="font-size: 0.85rem; background: #fff; padding: 12px; border-radius: 6px; border: 1px solid #ddd; line-height: 1.4;">
+            <b>Instructions:</b> Hover over any <b>Output cell</b> ($\mathbf{Y}$) to see the corresponding receptive field in the <b>Input</b> ($\mathbf{X}$).
+        </div>
+        
+        <p style="font-size: 0.8rem; color: #666; margin-top: 15px;">
+            The different kernels capture different spatial frequencies. $K_0$ smooths the signal, while $K_1$ and $K_2$ emphasize high-frequency changes.
+        </p>
+    </div>
+</div>
+
+<script>
+    let padding = 0;
+    const inputSize = 7;
+    const kernelSize = 3;
+    
+    // Toy data: A "cross" pattern in a field of zeros
+    const inputData = [
+        [0,0,0,1,0,0,0],
+        [0,0,0,1,0,0,0],
+        [0,0,0,1,0,0,0],
+        [1,1,1,1,1,1,1],
+        [0,0,0,1,0,0,0],
+        [0,0,0,1,0,0,0],
+        [0,0,0,1,0,0,0]
+    ];
+
+    // Filter Kernels
+    const k0 = Array(3).fill(null).map(() => Array(3).fill(0.11)); // Mean (1/9 approx)
+    const k1 = [[-1,-1,-1], [2,2,2], [-1,-1,-1]];                  // Horizontal Edge
+    const k2 = [[0,-1,0], [-1,5,-1], [0,-1,0]];                     // Sharpen
+
+    function setPadding(p) {
+        padding = p;
+        document.getElementById('pad-none').className = p === 0 ? 'active-btn' : '';
+        document.getElementById('pad-same').className = p === 1 ? 'active-btn' : '';
+        render();
+    }
+
+    function render() {
+        const inputGrid = document.getElementById('input-grid');
+        const displaySize = inputSize + 2 * padding;
+        inputGrid.style.gridTemplateColumns = `repeat(${displaySize}, 30px)`;
+
+        // Render Input with Padding
+        inputGrid.innerHTML = '';
+        for(let r=0; r<displaySize; r++) {
+            for(let c=0; c<displaySize; c++) {
+                const isPad = (r < padding || r >= displaySize - padding || c < padding || c >= displaySize - padding);
+                let val = 0;
+                if(!isPad) val = inputData[r-padding][c-padding];
+                inputGrid.innerHTML += `<div class="cell ${isPad ? 'padding' : ''}" id="in-${r}-${c}">${val}</div>`;
+            }
+        }
+
+        // Render All Filters and Maps
+        renderFilter('f0-grid', k0);
+        renderFilter('f1-grid', k1);
+        renderFilter('f2-grid', k2);
+
+        renderOutput('out0-grid', k0, 'active0');
+        renderOutput('out1-grid', k1, 'active1');
+        renderOutput('out2-grid', k2, 'active2');
+    }
+
+    function renderOutput(container, kernel, activeClass) {
+        const el = document.getElementById(container);
+        el.innerHTML = '';
+        const outputSize = padding === 0 ? (inputSize - kernelSize + 1) : inputSize;
+        el.style.gridTemplateColumns = `repeat(${outputSize}, 30px)`;
+        
+        for(let r=0; r<outputSize; r++) {
+            for(let c=0; c<outputSize; c++) {
+                let sum = 0;
+                for(let i=0; i<kernelSize; i++) {
+                    for(let j=0; j<kernelSize; j++) {
+                        const inR = r + i, inC = c + j;
+                        const displaySize = inputSize + 2 * padding;
+                        const isPad = (inR < padding || inR >= displaySize - padding || inC < padding || inC >= displaySize - padding);
+                        const val = isPad ? 0 : inputData[inR-padding][inC-padding];
+                        sum += val * kernel[i][j];
+                    }
+                }
+                const cell = document.createElement('div');
+                cell.className = 'cell';
+                cell.innerText = sum.toFixed(1).replace('.0', '');
+                cell.onmouseover = () => highlightWindow(r, c, activeClass);
+                cell.onmouseout = clearHighlight;
+                el.appendChild(cell);
+            }
+        }
+    }
+
+    function highlightWindow(r, c, activeClass) {
+        clearHighlight();
+        for(let i=0; i<kernelSize; i++) {
+            for(let j=0; j<kernelSize; j++) {
+                const target = document.getElementById(`in-${r+i}-${c+j}`);
+                if(target) target.classList.add(activeClass);
+            }
+        }
+    }
+
+    function clearHighlight() {
+        document.querySelectorAll('.cell').forEach(c => {
+            c.classList.remove('active0', 'active1', 'active2');
+        });
+    }
+
+    function renderFilter(id, kernel) {
+        const g = document.getElementById(id);
+        g.innerHTML = '';
+        kernel.flat().forEach(v => {
+            g.innerHTML += `<div class="f-cell">${v === 0.11 ? '0.1' : v}</div>`;
+        });
+    }
+
+    setPadding(0);
+</script>
+</body>
+</html>
