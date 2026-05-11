@@ -14,6 +14,7 @@
         :root { --ucph-red: #901111; --text: #2c3e50; }
         body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
         header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1250px; border-radius: 8px; margin-bottom: 20px; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; }
         .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1250px; width: 100%; }
         .viz-side { flex: 2; min-width: 650px; }
         .formula-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; max-height: 600px; overflow-y: auto; }
@@ -24,6 +25,25 @@
         .grad-tag { color: #e74c3c; font-weight: 800; }
         .controls { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-top: 10px; }
         .math-step { margin-bottom: 15px; font-size: 0.95rem; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .task-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        }
+
+        .task-description {
+        background: #fff;
+        padding: 1.2rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eee;
+        border-left: 5px solid var(--ucph-red);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+        }
+
     </style>
 </head>
 <body>
@@ -32,6 +52,13 @@
     <h1>The Mechanics of Backpropagation</h1>
     <div style="font-size: 0.9rem; opacity: 0.9;">Computational Graph & Gradient Flow</div>
 </header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Computing analytical gradients can become cumbersome for complex functions. In neural networks, the most common method to compute the gradients of the loss function with respect to the model weights is by using backpropagation (BP). BP operationalises the chain-rule and is able to compute gradients of very complex functions and forms the backbone of optimisation in deep learning. In this task, you can track the different operations in the forward pass, and see how the chain rule is operationalised in the backward pass to compute the gradients.
+    </div>
+</div>
+
 
 <div class="wrapper">
     <div class="viz-side">
