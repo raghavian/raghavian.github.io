@@ -13,6 +13,7 @@
         :root { --ucph-red: #901111; --text: #2c3e50; }
         body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
         header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; }
         .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
         .viz-side { flex: 1.8; position: relative; }
         .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
@@ -22,14 +23,41 @@
         button { padding: 10px; cursor: pointer; border-radius: 6px; border: 1px solid #ccc; font-weight: bold; }
         .primary-btn { background: var(--ucph-red); color: white; border: none; }
         .secondary-btn { background: #fff; }
+        .task-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        }
+
+        .task-description {
+        background: #fff;
+        padding: 1.2rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eee;
+        border-left: 5px solid var(--ucph-red);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+        }
+
     </style>
 </head>
 <body>
 
 <header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
     <h1>k-means Clustering Visualizer</h1>
     <div style="font-size: 0.9rem; opacity: 0.9;">Expectation Maximization-style Hard Clustering</div>
 </header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Unsupervised clustering is an extremely useful application when exploring unlabelled datasets in low dimensions. In this task, the influence of initial points, number of clusters, and the number of optimisation steps can be explored.  
+    </div>
+</div>
+
 
 <div class="wrapper">
     <div class="viz-side">
