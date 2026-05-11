@@ -13,6 +13,7 @@
         :root { --ucph-red: #901111; --text: #2c3e50; }
         body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
         header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; }
         .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
         .viz-side { flex: 1.8; position: relative; }
         .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
@@ -30,9 +31,17 @@
 <body>
 
 <header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
     <h1>k-Nearest Neighbors Visualizer</h1>
     <div style="font-size: 0.9rem; opacity: 0.9;">Visualizing local decision boundaries in $\mathbb{R}^2$</div>
 </header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> k-nearest neighbour algorithm is one of the simplest non-linear machine learning models. In this task, you can check the influence of number of neighbours used to assign the label to the datapoints, and how the decision boundaries change in tesselations. With increasing number of neighbours, the decision boundaries become smoother.   
+    </div>
+</div>
+
 
 <div class="wrapper">
     <div class="viz-side">
