@@ -13,6 +13,7 @@
         :root { --ucph-red: #901111; --text: #2c3e50; }
         body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
         header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; }
         .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1200px; width: 100%; }
         .viz-side { flex: 1.5; position: relative; }
         .controls-side { flex: 1; background: #f8f9fa; padding: 20px; border-radius: 12px; border: 1px solid #ddd; }
@@ -22,14 +23,41 @@
         .bar { background: var(--ucph-red); width: 40px; transition: height 0.3s; position: relative; }
         .bar-label { position: absolute; bottom: -20px; left: 0; width: 100%; text-align: center; font-size: 0.7rem; }
         .bar-val { position: absolute; top: -18px; left: 0; width: 100%; text-align: center; font-size: 0.7rem; font-weight: bold; }
+        .task-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        }
+
+        .task-description {
+        background: #fff;
+        padding: 1.2rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eee;
+        border-left: 5px solid var(--ucph-red);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+        }
+
     </style>
 </head>
 <body>
 
 <header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
     <h1>Principal Component Analysis (PCA)</h1>
     <div style="font-size: 0.9rem; opacity: 0.9;">Spectral Decomposition & Variance Maximization</div>
 </header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Computing distances in high-dimensions is problematic due to the curse of dimensionality. One way to alleviate this is by performing dimensionality reduction. This is most effective when the different dimensions are correlated to some degree. In these cases, the information between dimensions can be linearly combined into fewer dimensions. One of the most popular method to do this is the principal component analysis, which projects data onto eigen vectors and provides insight into the amount of information retained/discarded. In this example, adjust the amount of correlation between dimensions to see how much information can be extracted just in one dimension.  
+    </div>
+</div>
+
 
 <div class="wrapper">
     <div class="viz-side">
