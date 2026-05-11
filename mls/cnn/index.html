@@ -36,14 +36,38 @@
         button { width: 100%; padding: 10px; margin-top: 10px; cursor: pointer; border-radius: 6px; border: 1px solid #ccc; font-weight: bold; }
         .active-btn { background: var(--ucph-red); color: white; border: none; }
         .label-sm { font-size: 0.8rem; font-weight: bold; margin-bottom: 5px; text-align: center; }
+        .task-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        }
+
+        .task-description {
+        background: #fff;
+        padding: 1.2rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eee;
+        border-left: 5px solid var(--ucph-red);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+        }
     </style>
 </head>
 <body>
 
 <header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
     <h1>Convolutional Layer Visualizer</h1>
     <div style="font-size: 0.9rem; opacity: 0.9;">Multi-Channel Feature Extraction</div>
 </header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Convolution operations are fundamental to understanding how CNNs learn. In this task, three filters with fixed parameters are used to extract different features from the input data. First filter or CNN kernel simply obtains the mean over all the values in a 3x3 region whereas the other two are a bit more sophisticated. CNNs learn the values of these kernels depending on the training data which gives them a lot of flexibility in solving complex tasks.
+    </div>
 
 <div class="wrapper">
     <div class="viz-container">
