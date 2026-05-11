@@ -84,7 +84,7 @@
             <button class="reset-btn" onclick="reset()">Clear All</button>
         </div>
         
-        <svg id="plot" width="550" height="450"></svg>
+        <svg id="plot" width="600" height="450"></svg>
 
         <div class="legend">
             <div class="legend-item"><div class="dot" style="background:#e74c3c"></div> Tropical (A)</div>
@@ -119,8 +119,8 @@
     let history = []; // Stack to store previous states
 
     const svg = document.getElementById('plot');
-    const P = { L: 60, R: 30, T: 20, B: 60 };
-    const W = 550, H = 450;
+    const P = { L: 100, R: 30, T: 20, B: 60 };
+    const W = 600, H = 450;
 
     const tX = t => P.L + (t + 25) * (W - P.L - P.R) / 60;
     const rY = r => (H - P.B) - (r * (H - P.T - P.B) / 2600);
