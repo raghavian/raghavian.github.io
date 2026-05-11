@@ -27,6 +27,25 @@
         .nt-cell { color: var(--not-trop); font-weight: bold; }
         .axis-label { font-size: 12px; fill: #666; font-weight: bold; }
         .tick-label { font-size: 10px; fill: #999; }
+                .task-container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+        }
+
+        .task-description {
+        background: #fff;
+        padding: 1.2rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #eee;
+        border-left: 5px solid var(--ucph-red);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+        }
+
     </style>
   <script>
     window.MathJax = {
@@ -45,6 +64,12 @@
     <h1>Binary Linear Classification</h1>
     <div style="font-size: 0.9rem; margin-top: 5px;">Classifying: Tropical vs. Others</div>
 </header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Linear classifiers operating in two dimensions, comprise three tunable parameters. In this task, each parameter can be individually controlled to see how the linear decision boundary changes. The data in this case should be linearly separable if the three parameters are tuned achieving 100% accuracy. 
+    </div>
+</div>
 
 <div class="wrapper">
     <div class="controls-panel">
