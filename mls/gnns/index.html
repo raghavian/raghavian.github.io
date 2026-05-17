@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph Neural Networks | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1100px; border-radius: 8px; margin-bottom: 20px; width: 100%; box-sizing: border-box; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1100px; width: 100%; box-sizing: border-box; }
+        
+        .table-container { flex: 1.1; max-height: 560px; overflow-y: auto; }
+        .viz-container { flex: 1.4; display: flex; flex-direction: column; align-items: center; }
+        
+        svg { border: 1px solid #eee; border-radius: 6px; background: #fff; width: 100%; height: auto; }
+        .math-block { background: #eee; padding: 12px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); }
+        
+        table { width: 100%; border-collapse: collapse; font-size: 0.82rem; text-align: left; }
+        th, td { padding: 8px 6px; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; color: var(--text); }
+        tr.selected { background: #fff5f5; }
+
+        .controls { display: flex; gap: 8px; align-items: center; margin-bottom: 15px; width: 100%; font-size: 0.9rem; flex-wrap: wrap; }
+        .controls button { padding: 6px 12px; border: 1px solid #ccc; background: #fff; cursor: pointer; border-radius: 4px; font-weight: 600; font-size: 0.8rem; color: var(--text); }
+        .controls button.active { background: var(--ucph-red); color: white; border-color: var(--ucph-red); }
+        
+        .legend { display: flex; gap: 15px; justify-content: center; margin-top: 15px; font-size: 0.85rem; }
+        .legend-item { display: flex; align-items: center; gap: 5px; }
+        .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+        
+        .task-container { max-width: 1100px; width: 100%; margin: 0 auto 20px auto; padding: 0; box-sizing: border-box; }
+        .task-description { background: #fff; padding: 1.2rem 1.5rem; border-radius: 8px; border: 1px solid #eee; border-left: 5px solid var(--ucph-red); font-size: 0.95rem; line-height: 1.6; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
+    <h1>Graph Neural Networks (Multi-Layer GNN)</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9; margin-top: 5px;">Receptive Field Expansion via Two Message Passing Hops</div>
+</header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Graph Neural Networks stack multiple message passing layers to expand their receptive field. Click on a node to trace its calculations. Notice how changing the operator changes how features propagate from 1-hop away in Layer 1 ($h^{(1)}$) to 2-hops away in Layer 2 ($h^{(2)}$). For instance, under Sum aggregation, Node D can now detect Node A's original features via the path $A \rightarrow B \rightarrow D$.
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="table-container">
+        <div class="math-block" id="math-trace">
+            $$\mathbf{h}_v^{(l)} = \bigoplus_{u \in \mathcal{N}(v)} W_{v,u} \mathbf{h}_u^{(l-1)}$$
+        </div>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Node</th>
+                    <th>$h_v^{(0)}$</th>
+                    <th>Layer 1 $h_v^{(1)}$</th>
+                    <th>Layer 2 $h_v^{(2)}$</th>
+                    <th>$\mathcal{N}(v)$</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="viz-container">
+        <div class="controls">
+            <span>Operator:</span>
+            <button id="sum-btn" class="active" onclick="setMode('sum')">Sum</button>
+            <button id="mean-btn" onclick="setMode('mean')">Mean</button>
+            <button id="gcn-btn" onclick="setMode('gcn')">GCN Norm</button>
+            <button id="loop-btn" class="active" onclick="toggleLoops()">Self-Loops: ON</button>
+        </div>
+        
+        <svg id="plot" width="600" height="450"></svg>
+
+        <div class="legend">
+            <div class="legend-item"><div class="dot" style="background:#e74c3c"></div> Node A</div>
+            <div class="legend-item"><div class="dot" style="background:#e67e22"></div> Node B</div>
+            <div class="legend-item"><div class="dot" style="background:#2ecc71"></div> Node C</div>
+            <div class="legend-item"><div class="dot" style="background:#3498db"></div> Node D</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Topology Definition
+    const nodesData = {
+        A: { id: "A", x: 150, y: 130, h0: 2.0, neighbors: ["B", "C"], color: "#e74c3c" },
+        B: { id: "B", x: 450, y: 130, h0: 1.0, neighbors: ["A", "C", "D"], color: "#e67e22" },
+        C: { id: "C", x: 150, y: 320, h0: 4.0, neighbors: ["A", "B"], color: "#2ecc71" },
+        D: { id: "D", x: 450, y: 320, h0: 3.0, neighbors: ["B"], color: "#3498db" }
+    };
+
+    let mode = 'sum';
+    let selfLoops = true;
+    let selectedNode = 'A';
+
+    const svg = document.getElementById('plot');
+
+    function calculateMultiLayerGNN() {
+        const h1 = {};
+        const h2 = {};
+        const degrees = {};
+        
+        // 1. Calculate degrees
+        Object.keys(nodesData).forEach(v => {
+            degrees[v] = nodesData[v].neighbors.length + (selfLoops ? 1 : 0);
+        });
+
+        // 2. Layer 1 Message Passing (h0 -> h1)
+        Object.keys(nodesData).forEach(v => {
+            let neighbors = [...nodesData[v].neighbors];
+            if (selfLoops) neighbors.push(v);
+
+            let sum = 0;
+            neighbors.forEach(u => {
+                let w = 1.0;
+                if (mode === 'mean') w = 1.0 / degrees[v];
+                else if (mode === 'gcn') w = 1.0 / Math.sqrt(degrees[v] * degrees[u]);
+                sum += w * nodesData[u].h0;
+            });
+            h1[v] = sum;
+        });
+
+        // 3. Layer 2 Message Passing (h1 -> h2)
+        Object.keys(nodesData).forEach(v => {
+            let neighbors = [...nodesData[v].neighbors];
+            if (selfLoops) neighbors.push(v);
+
+            let sum = 0;
+            neighbors.forEach(u => {
+                let w = 1.0;
+                if (mode === 'mean') w = 1.0 / degrees[v];
+                else if (mode === 'gcn') w = 1.0 / Math.sqrt(degrees[v] * degrees[u]);
+                sum += w * h1[u]; // Aggregating layer 1 representations
+            });
+            h2[v] = sum;
+        });
+
+        return { h1, h2, degrees };
+    }
+
+    function render() {
+        svg.innerHTML = '';
+        const { h1, h2, degrees } = calculateMultiLayerGNN();
+
+        // Draw Edges
+        const drawnEdges = new Set();
+        Object.keys(nodesData).forEach(v => {
+            nodesData[v].neighbors.forEach(u => {
+                const edgeKey = [v, u].sort().join('-');
+                if (!drawnEdges.has(edgeKey)) {
+                    drawnEdges.add(edgeKey);
+                    const n1 = nodesData[v];
+                    const n2 = nodesData[u];
+                    svg.innerHTML += `<line x1="${n1.x}" y1="${n1.y}" x2="${n2.x}" y2="${n2.y}" stroke="#eee" stroke-width="3" />`;
+                }
+            });
+        });
+
+        // Draw Nodes with Multi-Layer Stacks
+        Object.keys(nodesData).forEach(v => {
+            const node = nodesData[v];
+            const isTarget = v === selectedNode;
+
+            if (isTarget) {
+                svg.innerHTML += `<circle cx="${node.x}" cy="${node.y}" r="45" fill="${node.color}" opacity="0.15" />`;
+            }
+
+            svg.innerHTML += `<circle cx="${node.x}" cy="${node.y}" r="34" fill="#ffffff" stroke="${isTarget ? 'var(--ucph-red)' : '#333'}" stroke-width="${isTarget ? 3 : 1.5}" style="cursor:pointer;" onclick="selectNode('${v}')" />`;
+            svg.innerHTML += `<text x="${node.x}" y="${node.y - 14}" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50" style="pointer-events:none;">Node ${v}</text>`;
+            svg.innerHTML += `<text x="${node.x}" y="${node.y - 1}" font-size="9" font-family="monospace" text-anchor="middle" fill="#3498db" style="pointer-events:none;">h0: ${node.h0.toFixed(1)}</text>`;
+            svg.innerHTML += `<text x="${node.x}" y="${node.y + 10}" font-size="9" font-family="monospace" text-anchor="middle" fill="#e67e22" style="pointer-events:none;">h1: ${h1[v].toFixed(1)}</text>`;
+            svg.innerHTML += `<text x="${node.x}" y="${node.y + 21}" font-size="9" font-family="monospace" text-anchor="middle" fill="#901111" style="pointer-events:none;">h2: ${h2[v].toFixed(2)}</text>`;
+        });
+
+        // Update Data Table
+        const tbody = document.querySelector('#data-table tbody');
+        tbody.innerHTML = '';
+        
+        Object.keys(nodesData).forEach(v => {
+            const node = nodesData[v];
+            let neighborsList = node.neighbors.join(', ');
+            if (selfLoops) neighborsList += `, *${v}`;
+
+            const row = document.createElement('tr');
+            if (v === selectedNode) row.className = 'selected';
+            row.style.cursor = 'pointer';
+            row.onclick = () => selectNode(v);
+
+            row.innerHTML = `
+                <td style="font-weight:bold; color:${node.color}">Node ${v}</td>
+                <td style="color:#3498db; font-weight:bold;">${node.h0.toFixed(1)}</td>
+                <td style="color:#e67e22;">${h1[v].toFixed(2)}</td>
+                <td style="color:var(--ucph-red); font-weight:bold;">${h2[v].toFixed(3)}</td>
+                <td>{${neighborsList}}</td>
+            `;
+            tbody.appendChild(row);
+        });
+
+        updateMathTrace(degrees, h1, h2);
+    }
+
+    function updateMathTrace(degrees, h1, h2) {
+        const node = nodesData[selectedNode];
+        let targets = [...node.neighbors];
+        if (selfLoops) targets.push(selectedNode);
+
+        let f1 = "", f2 = "";
+        
+        if (mode === 'sum') {
+            f1 = `$$h_{${selectedNode}}^{(1)} = ` + targets.map(t => `h_{${t}}^{(0)}`).join(' + ') + ` = ` + targets.map(t => nodesData[t].h0.toFixed(1)).join(' + ') + ` = ${h1[selectedNode].toFixed(2)}$$`;
+            f2 = `$$h_{${selectedNode}}^{(2)} = ` + targets.map(t => `h_{${t}}^{(1)}`).join(' + ') + ` = ` + targets.map(t => h1[t].toFixed(1)).join(' + ') + ` = ${h2[selectedNode].toFixed(2)}$$`;
+        } else if (mode === 'mean') {
+            const d = degrees[selectedNode];
+            f1 = `$$h_{${selectedNode}}^{(1)} = \\frac{1}{${d}} \\left(` + targets.map(t => `h_{${t}}^{(0)}`).join(' + ') + `\\right) = ${h1[selectedNode].toFixed(2)}$$`;
+            f2 = `$$h_{${selectedNode}}^{(2)} = \\frac{1}{${d}} \\left(` + targets.map(t => `h_{${t}}^{(1)}`).join(' + ') + `\\right) = ${h2[selectedNode].toFixed(2)}$$`;
+        } else if (mode === 'gcn') {
+            f1 = `$$h_{${selectedNode}}^{(1)} = ` + targets.map(t => `\\frac{h_{${t}}^{(0)}}{\\sqrt{${degrees[selectedNode]} \\cdot ${degrees[t]}}}`).join(' + ') + ` = ${h1[selectedNode].toFixed(2)}$$`;
+            f2 = `$$h_{${selectedNode}}^{(2)} = ` + targets.map(t => `\\frac{h_{${t}}^{(1)}}{\\sqrt{${degrees[selectedNode]} \\cdot ${degrees[t]}}}`).join(' + ') + ` = ${h2[selectedNode].toFixed(2)}$$`;
+        }
+
+        document.getElementById('math-trace').innerHTML = `
+            <strong>Node ${selectedNode} Multi-Hop Progression:</strong>
+            <div style="margin-top:5px; color:#e67e22;"><b>Layer 1 (1-Hop):</b></div> ${f1}
+            <div style="margin-top:5px; color:var(--ucph-red);"><b>Layer 2 (2-Hop Receptive Field):</b></div> ${f2}
+        `;
+        
+        if (window.MathJax && MathJax.typesetPromise) {
+            MathJax.typesetPromise();
+        }
+    }
+
+    function selectNode(v) {
+        selectedNode = v;
+        render();
+    }
+
+    function setMode(m) {
+        mode = m;
+        ['sum', 'mean', 'gcn'].forEach(id => {
+            document.getElementById(`${id}-btn`).className = id === m ? 'active' : '';
+        });
+        render();
+    }
+
+    function toggleLoops() {
+        selfLoops = !selfLoops;
+        const btn = document.getElementById('loop-btn');
+        btn.className = selfLoops ? 'active' : '';
+        btn.innerText = selfLoops ? 'Self-Loops: ON' : 'Self-Loops: OFF';
+        render();
+    }
+
+    render();
+</script>
+</body>
+</html>
