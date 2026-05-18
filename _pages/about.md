@@ -17,16 +17,17 @@ RS published a book _Sustainable AI_. Check out the webpage for the book [here.]
 
 
 
-## Events
-
-We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See program and sign up [here](https://di.ku.dk/english/events/event-calendar-2026/green-ai-workshop/).
-
 
 ## Hiring
 
 If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
 
 <!-- 
+## Events
+
+We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See program and sign up [here](https://di.ku.dk/english/events/event-calendar-2026/green-ai-workshop/).
+
+
 **Current openings**: 
 * PhD Position on Sustainable AI and Resource Efficient Machine Learning at Linkoping University with Sebastian Mair, that RS will co-supervise. (deadline 24th April, 2026, [details](https://liu.se/en/work-at-liu/vacancies/28717))
 -->
