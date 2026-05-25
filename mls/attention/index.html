@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self-Attention Mechanism | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1250px; border-radius: 8px; margin-bottom: 20px; width: 100%; box-sizing: border-box; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; float: left; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1250px; width: 100%; box-sizing: border-box; }
+        
+        .left-side { flex: 1.1; display: flex; flex-direction: column; gap: 15px; min-width: 450px; }
+        .right-side { flex: 1.4; display: flex; flex-direction: column; align-items: center; }
+        
+        svg { border: 1px solid #eee; border-radius: 8px; background: #fff; cursor: crosshair; }
+        .math-block { background: #eee; padding: 12px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 10px; border-left: 4px solid var(--ucph-red); width: 100%; box-sizing: border-box; }
+        
+        /* Attention Matrix Layout Grid adjusted for 7 tokens */
+        .matrix-grid { display: grid; grid-template-columns: 80px repeat(7, 55px); gap: 4px; margin-top: 15px; }
+        .matrix-cell { width: 55px; height: 45px; border: 1px solid #ddd; display: flex; align-items: center; justify-content: center; font-family: monospace; font-size: 0.75rem; border-radius: 4px; transition: transform 0.1s; }
+        .matrix-cell.header { border: none; font-weight: bold; background: none; font-family: inherit; font-size: 0.8rem; height: 30px; text-align: center; }
+        .row-header { width: 80px; height: 45px; display: flex; align-items: center; font-weight: bold; font-size: 0.8rem; }
+        
+        .hover-hint { font-size: 0.85rem; background: #fafafa; padding: 15px; border: 1px solid #eee; border-radius: 6px; min-height: 75px; width: 100%; box-sizing: border-box; margin-top: 15px; line-height: 1.5; }
+        .task-container { max-width: 1250px; width: 100%; margin: 0 auto 20px auto; padding: 0; box-sizing: border-box; }
+        .task-description { background: #fff; padding: 1.2rem 1.5rem; border-radius: 8px; border: 1px solid #eee; border-left: 5px solid var(--ucph-red); font-size: 0.95rem; line-height: 1.6; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
+    <h1>Transformer Self-Attention Space</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9; margin-top: 5px;">Contextual Homonym Resolution in $\mathbb{R}^2$</div>
+</header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Self-attention calculates directional alignment between word embeddings to build context. Drag the circular <b>Query handles</b> on the vector plot to change the hidden state $\mathbf{x}_i$ of each word. Notice the word homonyms: <b>"Can (1)"</b> (verb) and <b>"can (6)"</b> (noun) start with identical spellings but require completely different attention distributions over tokens like "pick" and "up" to resolve their semantic roles.
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="left-side">
+        <div class="math-block">
+            $$\text{Score}(i,j) = \frac{\mathbf{q}_i \mathbf{k}_j^T}{\sqrt{d_k}}, \quad A_{i,j} = \frac{e^{\text{Score}(i,j)}}{\sum_{m} e^{\text{Score}(i,m)}}$$
+        </div>
+        <h3 style="margin: 0 0 5px 0; font-size: 1rem;">Interactive Embedding Space</h3>
+        <svg id="vector-plot" width="450" height="400"></svg>
+        <div style="font-size: 0.8rem; color: #666; text-align: center; margin-top: 5px;">Drag colored nodes to rotate word vectors.</div>
+    </div>
+
+    <div class="right-side">
+        <h3 style="margin-top:0; margin-bottom:10px; font-size:1.1rem;">Attention Map Matrix ($A_{i,j}$)</h3>
+        <div id="matrix-container"></div>
+        <div class="hover-hint" id="calc-hint">Hover over cells to examine explicit normalization steps.</div>
+    </div>
+</div>
+
+<script>
+    // Updated Token String Sequence
+    const tokens = ["Can", "you", "pick", "up", "the", "can", "?"];
+    const dk = 2; 
+
+    // Initial 2D spatial orientations spread to emphasize syntax parsing
+    const vectors = {
+        "Can":   { x: 0.8,  y: 0.3,  color: "#e74c3c" },
+        "you":   { x: 0.1,  y: 0.9,  color: "#34495e" },
+        "pick":  { x: -0.5, y: 0.6,  color: "#e67e22" },
+        "up":    { x: -0.7, y: -0.2, color: "#9b59b6" },
+        "the":   { x: 0.3,  y: -0.7, color: "#16a085" },
+        "can":   { x: 0.5,  y: -0.5, color: "#3498db" },
+        "?":     { x: -0.2, y: -0.8, color: "#7f8c8d" }
+    };
+
+    let activeToken = null;
+    const svg = document.getElementById('vector-plot');
+    const cx = 225, cy = 200, scale = 150; 
+
+    function setupInteraction() {
+        svg.onmousedown = (e) => {
+            const rect = svg.getBoundingClientRect();
+            const mx = e.clientX - rect.left;
+            const my = e.clientY - rect.top;
+
+            tokens.forEach(t => {
+                const px = cx + vectors[t].x * scale;
+                const py = cy - vectors[t].y * scale;
+                if (Math.hypot(px - mx, py - my) < 15) {
+                    activeToken = t;
+                }
+            });
+        };
+
+        window.onmousemove = (e) => {
+            if (!activeToken) return;
+            const rect = svg.getBoundingClientRect();
+            const mx = e.clientX - rect.left;
+            const my = e.clientY - rect.top;
+
+            let vx = (mx - cx) / scale;
+            let vy = (cy - my) / scale;
+            const mag = Math.hypot(vx, vy);
+            if (mag > 0) {
+                vectors[activeToken].x = vx / mag;
+                vectors[activeToken].y = vy / mag;
+            }
+            updatePipeline();
+        };
+
+        window.onmouseup = () => { activeToken = null; };
+    }
+
+    function updatePipeline() {
+        drawVectors();
+        
+        const rawScores = {};
+        const attentionMatrix = {};
+
+        tokens.forEach(i => {
+            rawScores[i] = {};
+            attentionMatrix[i] = {};
+            let rowExpSum = 0;
+
+            tokens.forEach(j => {
+                const dot = vectors[i].x * vectors[j].x + vectors[i].y * vectors[j].y;
+                const score = dot / Math.sqrt(dk);
+                rawScores[i][j] = score;
+                rowExpSum += Math.exp(score);
+            });
+
+            tokens.forEach(j => {
+                attentionMatrix[i][j] = Math.exp(rawScores[i][j]) / rowExpSum;
+            });
+        });
+
+        renderMatrix(attentionMatrix, rawScores);
+    }
+
+    function drawVectors() {
+        svg.innerHTML = `
+            <line x1="0" y1="${cy}" x2="450" y2="${cy}" stroke="#f0f0f0" stroke-width="2" />
+            <line x1="${cx}" y1="0" x2="${cx}" y2="400" stroke="#f0f0f0" stroke-width="2" />
+            <circle cx="${cx}" cy="${cy}" r="${scale}" fill="none" stroke="#eee" stroke-dasharray="4 4" />
+        `;
+
+        tokens.forEach(t => {
+            const v = vectors[t];
+            const px = cx + v.x * scale;
+            const py = cy - v.y * scale;
+
+            svg.innerHTML += `<line x1="${cx}" y1="${cy}" x2="${px}" y2="${py}" stroke="${v.color}" stroke-width="3" />`;
+            svg.innerHTML += `<circle cx="${px}" cy="${py}" r="7" fill="${v.color}" stroke="#fff" stroke-width="2" style="cursor:pointer;" />`;
+            
+            // Deduplicate visual markers for distinct instances of 'can'
+            let labelText = t;
+            if (t === "Can") labelText = "Can (1)";
+            if (t === "can") labelText = "can (6)";
+            svg.innerHTML += `<text x="${px + 10}" y="${py + 4}" font-size="11" font-weight="bold" fill="#2c3e50">${labelText}</text>`;
+        });
+    }
+
+    function renderMatrix(matrix, raw) {
+        const container = document.getElementById('matrix-container');
+        container.innerHTML = ''; 
+
+        const grid = document.createElement('div');
+        grid.className = 'matrix-grid';
+
+        const corner = document.createElement('div');
+        corner.className = 'matrix-cell header';
+        grid.appendChild(corner);
+
+        tokens.forEach(t => {
+            const h = document.createElement('div');
+            h.className = 'matrix-cell header';
+            h.innerText = t === "Can" ? "Can(1)" : (t === "can" ? "can(6)" : t);
+            grid.appendChild(h);
+        });
+
+        tokens.forEach(i => {
+            const rh = document.createElement('div');
+            rh.className = 'row-header';
+            let rowLabel = i === "Can" ? "Can (1)" : (i === "can" ? "can (6)" : i);
+            rh.innerHTML = `<span>Query: <b>${rowLabel}</b></span>`;
+            grid.appendChild(rh);
+
+            tokens.forEach(j => {
+                const prob = matrix[i][j];
+                const score = raw[i][j];
+
+                const cell = document.createElement('div');
+                cell.className = 'matrix-cell';
+                
+                const alpha = Math.min(prob * 0.85 + 0.05, 0.9);
+                cell.style.backgroundColor = `rgba(144, 17, 17, ${alpha})`;
+                cell.style.color = alpha > 0.45 ? '#fff' : 'var(--text)';
+                cell.style.fontWeight = 'bold';
+                cell.innerText = prob.toFixed(2);
+
+                let iLabel = i === "Can" ? "Can(1)" : (i === "can" ? "can(6)" : i);
+                let jLabel = j === "Can" ? "Can(1)" : (j === "can" ? "can(6)" : j);
+
+                cell.onmouseover = () => {
+                    cell.style.transform = "scale(1.08)";
+                    cell.style.zIndex = "10";
+                    document.getElementById('calc-hint').innerHTML = `
+                        $\\mathbf{q}_{\\text{${iLabel}}} = [${vectors[i].x.toFixed(2)}, ${vectors[i].y.toFixed(2)}], \\quad \\mathbf{k}_{\\text{${jLabel}}} = [${vectors[j].x.toFixed(2)}, ${vectors[j].y.toFixed(2)}]$<br>
+                        Scaled Dot Product Score = $\\frac{\\mathbf{q} \\cdot \\mathbf{k}}{\\sqrt{2}} =$ <b>${score.toFixed(3)}</b><br>
+                        $\\text{softmax Weight} = e^{${score.toFixed(2)}} / \\sum e^S =$ <b style="color:var(--ucph-red)">${(prob * 100).toFixed(1)}%</b>
+                    `;
+                    if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise();
+                };
+
+                cell.onmouseout = () => {
+                    cell.style.transform = "none";
+                    document.getElementById('calc-hint').innerText = "Hover over cells to examine explicit normalization steps.";
+                };
+
+                grid.appendChild(cell);
+            });
+        });
+
+        container.appendChild(grid);
+    }
+
+    setupInteraction();
+    updatePipeline();
+</script>
+</body>
+</html>

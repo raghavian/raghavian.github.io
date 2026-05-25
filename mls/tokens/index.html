@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Tokenization | UCPH MLS</title>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$']] }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root { --ucph-red: #901111; --text: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fdfdfd; display: flex; flex-direction: column; align-items: center; padding: 20px; color: var(--text); }
+        header { background: var(--ucph-red); color: white; padding: 1.5rem; text-align: center; width: 100%; max-width: 1100px; border-radius: 8px; margin-bottom: 20px; width: 100%; box-sizing: border-box; }
+        .back-link { color: white; text-decoration: none; font-size: 0.8rem; opacity: 0.8; }
+        .wrapper { display: flex; gap: 25px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05); max-width: 1100px; width: 100%; box-sizing: border-box; }
+        
+        /* Layout Structure Matching Template */
+        .input-side { flex: 1.1; display: flex; flex-direction: column; gap: 15px; }
+        .viz-side { flex: 1.4; display: flex; flex-direction: column; align-items: center; width: 100%; }
+        
+        .math-block { background: #eee; padding: 12px; border-radius: 6px; font-size: 0.8rem; margin-bottom: 15px; border-left: 4px solid var(--ucph-red); width: 100%; box-sizing: border-box; }
+        
+        textarea { width: 100%; height: 100px; padding: 12px; border: 1px solid #ccc; border-radius: 6px; font-family: inherit; font-size: 0.95rem; resize: none; box-sizing: border-box; }
+        
+        /* Controls Styling */
+        .controls { display: flex; gap: 8px; align-items: center; margin-bottom: 15px; width: 100%; font-size: 0.9rem; }
+        .controls button { padding: 6px 12px; border: 1px solid #ccc; background: #fff; cursor: pointer; border-radius: 4px; font-weight: 600; font-size: 0.8rem; color: var(--text); }
+        .controls button.active { background: var(--ucph-red); color: white; border-color: var(--ucph-red); }
+        
+        /* Token Blocks Visualization */
+        .token-display { border: 1px solid #eee; border-radius: 6px; background: #fafafa; padding: 15px; width: 100%; min-height: 120px; box-sizing: border-box; display: flex; flex-wrap: wrap; gap: 6px; align-content: flex-start; }
+        .token-badge { padding: 4px 8px; border-radius: 4px; font-family: monospace; font-size: 0.85rem; font-weight: bold; border: 1px solid rgba(0,0,0,0.1); display: inline-flex; flex-direction: column; align-items: center; }
+        .token-idx { font-size: 0.65rem; font-weight: normal; opacity: 0.6; margin-top: 2px; }
+        
+        /* Stats Table */
+        table { width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left; margin-top: 15px; }
+        th, td { padding: 10px 8px; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; }
+        
+        .task-container { max-width: 1100px; width: 100%; margin: 0 auto 20px auto; padding: 0; box-sizing: border-box; }
+        .task-description { background: #fff; padding: 1.2rem 1.5rem; border-radius: 8px; border: 1px solid #eee; border-left: 5px solid var(--ucph-red); font-size: 0.95rem; line-height: 1.6; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="../index.html" class="back-link">⟵ Back to Course Overview</a>
+    <h1>Text Tokenization Laboratory</h1>
+    <div style="font-size: 0.9rem; opacity: 0.9; margin-top: 5px;">Discrete Sequence Decomposition and Vocabulary Mapping</div>
+</header>
+
+<div class="task-container">
+    <div class="task-description">
+        <strong>Task Description:</strong> Tokenization transforms continuous strings into sets of indices that parameterize neural embedding layers. Modify the input text string below and switch between Word, Character, and Subword (Byte-Pair Encoding proxy) tokenizer frameworks to observe adjustments to structural vocabulary footprints and sequence sequence tracking.
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="input-side">
+        <label style="font-weight: bold; font-size: 0.9rem;">Input Corpus String:</label>
+        <textarea id="corpus-input" oninput="tokenizeText()">Tokenization allows learning discrete representations from language sequences.</textarea>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Metric Attribute</th>
+                    <th>Computed Target Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sequence Token Length ($N$)</td>
+                    <td id="stat-len" style="font-weight:bold; color:var(--ucph-red);">0</td>
+                </tr>
+                <tr>
+                    <td>Unique Vocabulary Count ($|\mathcal{V}_{\text{local}}|$)</td>
+                    <td id="stat-vocab" style="color: #3498db; font-weight:bold;">0</td>
+                </tr>
+                <tr>
+                    <td>Average Token Length (chars)</td>
+                    <td id="stat-avg">0.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="viz-side">
+        <div class="controls">
+            <span>Strategy:</span>
+            <button id="word-btn" class="active" onclick="setStrategy('word')">Word-Level</button>
+            <button id="char-btn" onclick="setStrategy('char')">Character-Level</button>
+            <button id="sub-btn" onclick="setStrategy('subword')">Subword (BPE-Proxy)</button>
+        </div>
+        
+        <div class="math-block" id="math-trace">
+            $$\mathbf{x} = [t_1, t_2, \dots, t_N], \quad t_i \in \mathcal{V}$$
+        </div>
+
+        <div id="token-viewport" class="token-display"></div>
+    </div>
+</div>
+
+<script>
+    let currentStrategy = 'word';
+    
+    // Palette to distinctly highlight token divisions
+    const palette = [
+        { bg: "#e8f4fd", border: "#3498db", text: "#2980b9" },
+        { bg: "#fef5e7", border: "#e67e22", text: "#d35400" },
+        { bg: "#eaf2f8", border: "#a9cce3", text: "#2471a3" },
+        { bg: "#e8f8f5", border: "#2ecc71", text: "#27ae60" },
+        { bg: "#f5eef8", border: "#9b59b6", text: "#8e44ad" },
+        { bg: "#f9ebd2", border: "#f39c12", text: "#d35400" }
+    ];
+
+    // Subword split rules list (Proxy for Byte-Pair Encoding splits)
+    const subwordRules = [
+        "token", "ization", "allow", "s", "learn", "ing", 
+        "dis", "crete", "represent", "ation", "languag", "e", "sequenc", "es"
+    ];
+
+    function setStrategy(strategy) {
+        currentStrategy = strategy;
+        ['word', 'char', 'subword'].forEach(id => {
+            const btn = document.getElementById(`${id}-btn`);
+            if (btn) btn.className = id === strategy ? 'active' : '';
+        });
+        tokenizeText();
+    }
+
+    function tokenizeText() {
+        const text = document.getElementById('corpus-input').value;
+        let tokens = [];
+
+        if (currentStrategy === 'word') {
+            // Split by words, preserving punctuation clusters as individual tokens
+            tokens = text.match(/\b\w+\b|[^\s\w]/g) || [];
+        } else if (currentStrategy === 'char') {
+            // Split down into clean character byte streams
+            tokens = text.split('');
+        } else if (currentStrategy === 'subword') {
+            // Subword proxy logic matching explicit corpus substrings
+            const words = text.match(/\b\w+\b|[^\s\w]/g) || [];
+            words.forEach(word => {
+                let lowerWord = word.toLowerCase();
+                let matched = false;
+                
+                for (let i = 0; i < subwordRules.length; i++) {
+                    const rule = subwordRules[i];
+                    if (lowerWord.startsWith(rule) && lowerWord !== rule) {
+                        tokens.push(word.slice(0, rule.length));
+                        tokens.push("##" + word.slice(rule.length));
+                        matched = true;
+                        break;
+                    }
+                }
+                if (!matched) tokens.push(word);
+            });
+        }
+
+        renderTokens(tokens);
+        updateMetrics(tokens);
+    }
+
+    function renderTokens(tokens) {
+        const viewport = document.getElementById('token-viewport');
+        viewport.innerHTML = '';
+
+        tokens.forEach((token, idx) => {
+            const style = palette[idx % palette.length];
+            // Format whitespace markers visually for character lists
+            let displayToken = token;
+            if (token === ' ') displayToken = '␣';
+            else if (token === '\n') displayToken = '↵';
+
+            const badge = document.createElement('div');
+            badge.className = 'token-badge';
+            badge.style.backgroundColor = style.bg;
+            badge.style.borderColor = style.border;
+            badge.style.color = style.text;
+            
+            badge.innerHTML = `
+                <span>${escapeHtml(displayToken)}</span>
+                <span class="token-idx">#${idx}</span>
+            `;
+            viewport.appendChild(badge);
+        });
+    }
+
+    function updateMetrics(tokens) {
+        const totalLength = tokens.length;
+        const uniqueTokens = new Set(tokens.map(t => t.toLowerCase())).size;
+        
+        let totalChars = 0;
+        tokens.forEach(t => totalChars += t.length);
+        const avgLength = totalLength > 0 ? (totalChars / totalLength) : 0;
+
+        document.getElementById('stat-len').innerText = totalLength;
+        document.getElementById('stat-vocab').innerText = uniqueTokens;
+        document.getElementById('stat-avg').innerText = avgLength.toFixed(1);
+
+        // LaTeX trace card logic sync
+        let latex = "";
+        if (currentStrategy === 'word') {
+            latex = "$$\\mathcal{V}_{\\text{word}} \\subset \\text{Strings}, \\quad |\\mathcal{V}| \\approx 10^6$$";
+        } else if (currentStrategy === 'char') {
+            latex = "$$\\mathcal{V}_{\\text{char}} = \\{\\text{A}, \\dots, \\text{Z}, 0, \\dots, 9, \\dots\\}, \\quad |\\mathcal{V}| \\approx 256$$";
+        } else if (currentStrategy === 'subword') {
+            latex = "$$\\mathcal{V}_{\\text{subword}} = \\mathcal{V}_{\\text{char}} \\cup \\{\\text{frequent sub-strings}\\}, \\quad |\\mathcal{V}| \\approx 32\\text{k}$$";
+        }
+        document.getElementById('math-trace').innerHTML = latex;
+        
+        if (window.MathJax && MathJax.typesetPromise) {
+            MathJax.typesetPromise();
+        }
+    }
+
+    function escapeHtml(string) {
+        return String(string).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // Trigger initial calculations on page resolution
+    window.onload = tokenizeText;
+</script>
+</body>
+</html>
