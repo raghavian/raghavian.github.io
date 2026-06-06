@@ -109,6 +109,42 @@
     }
     details summary { cursor: pointer; font-weight: 600; }
     code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: .95rem; }
+
+  .organization-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .organization-item {
+    display: flex;
+    flex-direction: row;      /* Strictly forces horizontal side-by-side layout */
+    align-items: flex-start;  /* Keeps the logo aligned with the first line of text */
+    gap: 1.25rem;             /* Spacing between logo and text */
+    width: 100%;
+  }
+
+  .organization-logo {
+    flex-shrink: 0;           /* Prevents the logo column from compressing */
+    width: 116px;              /* Width of the left column */
+    display: flex;
+    justify-content: center;
+  }
+
+  .organization-logo img {
+    width: 100px;              /* Actual visual scaling of the asset */
+    height: auto;
+    object-fit: contain;
+  }
+
+  .organization-text {
+    flex-grow: 1;             /* Tells the text to swallow the remaining width */
+  }
+
+  .organization-text p {
+    margin: 0;                /* Prevents default paragraph margins from misaligning with the logo */
+  }
   </style>
 
   <!-- Structured data. Fill in your real author and dates. -->
@@ -207,7 +243,46 @@ the sustainability of your AI projects </li>
         </p>
       </section>
 
+<section id="grassroots">
+  <h2>Grassroots Climate Justice Movements</h2>
+  <p>
+    Globally, several initiatives are trying to bridge the needs of grassroots climate justice movements. I am focused on reaching out and collaborating with the ones operating in the majority world, as the impact of climate change will be more pronounced in these regions. Some of the organizations I am currently contributing the book proceeds to are:
+  </p>
 
+  <div class="organization-container">
+    <!-- PARI Block -->
+    <div class="organization-item">
+      <div class="organization-logo">
+        <a href="https://ruralindiaonline.org/en/stories/categories/climate-change/" target="_blank" rel="noopener">
+          <!-- Official PARI Favicon/Logo asset from their domain -->
+          <img src="pari.png" alt="PARI Logo" class="logo-img">
+        </a>
+      </div>
+      <div class="organization-text">
+        <p>
+          <strong><a href="https://ruralindiaonline.org/en/stories/categories/climate-change/">People's Archive of Rural India (PARI)</a>:</strong> 
+          Journalists who tell stories of rural India, and document the struggles of farmers and workers affected by climate change.
+        </p>
+      </div>
+    </div>
+
+    <!-- FERAL Block -->
+    <div class="organization-item">
+      <div class="organization-logo">
+        <a href="https://www.feralindia.org/" target="_blank" rel="noopener">
+          <!-- Official FERAL Favicon/Logo asset from their domain -->
+          <img src="feral.png" alt="FERAL Logo" class="logo-img">
+        </a>
+      </div>
+      <div class="organization-text">
+        <p>
+          <strong><a href="https://www.feralindia.org/">Foundation for Ecological Research, Advocacy and Learning (FERAL)</a>:</strong> 
+          Researchers working on natural resource management, monitoring sensitive ecosystems, and teaching relevant stakeholders operating primarily in coastal India.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
 
     <footer>
