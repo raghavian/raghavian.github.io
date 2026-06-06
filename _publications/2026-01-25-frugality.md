@@ -5,7 +5,7 @@ authafter: ", Sebastian Mair"
 collection: publications
 permalink: /publication/2026-01-25-frugality
 date: 2026-05-01
-venue: 'International Conference on Machine Learning. <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">ICML </span>'
+venue: 'International Conference on Machine Learning. (ICML)' 
 pubtype: 'conference'
 project: 'sustofai'
 paperurl: https://researchprofiles.ku.dk/en/publications/stop-preaching-and-start-practising-data-frugality-for-responsibl/
