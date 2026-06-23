@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Raghavendra Selvan (Raghav) is currently an Assistant Professor (Tenure-track) at the Machine Learning Section, Department of Computer Science, University of Copenhagen. His research spans sustainable machine learning, machine learning for sciences, medical image analysis, and graph neural networks. He holds a PhD from the University of Copenhagen and is affiliated with Pioneer Center for AI (Denmark) and the pan-European AI network ELLIS. Raghav was born in Bangalore, India. RS is the author of the new book "[Sustainable AI](https://raghavian.github.io/sustainable-ai/)".
+Raghavendra Selvan (Raghav) is a Tenure-Track Assistant Professor at the Machine Learning (ML) Section, Department of Computer Science, University of Copenhagen. His research spans efficient ML, ML for sciences, medical image analysis, and graph neural networks. He holds a PhD from the University of Copenhagen and is affiliated with Pioneer Center for AI (Denmark) and the pan-European AI network ELLIS. Raghav was born in Bangalore, India. RS is the author of the new book "[Sustainable AI](https://raghavian.github.io/sustainable-ai/)".
 
 ## Book Available Now! 
 
@@ -44,9 +44,9 @@ We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See 
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
 * 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
 * 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
-* 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 
 <!-- 
+* 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 * 2025-06: [Paper](https://arxiv.org/abs/2504.00692) accepted to Aarhus 2025 Conference on Computing [X] Crisis.
 * 2025-05: [Paper](https://arxiv.org/abs/2506.01774) accepted to ACM Software Engineering Notes.
 * 2025-05: [Paper](https://osf.io/k8gte_v2/) accepted to the Journal of Imaging Neuroscience.
