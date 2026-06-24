@@ -33,6 +33,7 @@ We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See 
 -->
 
 ## News
+* 2026-06: RS has been awarded Sapere Aude: DFF Research Leader grant for the new project [CITADL](https://dff.dk/en/our-funded-projects/meet-the-researchers/research-leaders/eksterne-personer-en/research-leaders-2026/raghavendra-selvan/)
 * 2026-06: RS has an invited comment article at The Lancet Digital Health: [Selvan (2026)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00039-7/fulltext)
 * 2026-05: [Bakhtiarifard et al.](https://arxiv.org/abs/2502.20016), "Position: Neglecting the Sustainability of AI is fuelling a Global AI Arms Race" accepted to be presented at <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">ICML</span>, 2026.
 * 2026-05: [Wilson et al.](https://arxiv.org/abs/2602.19789), "Position: Stop Preaching and Start Practising Data Frugality for Responsible Development of AI" accepted to be presented at <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">ICML</span>, 2026. 
