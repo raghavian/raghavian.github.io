@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _Sapere Aude: DFF Research Leader Portrait_. (2026). ([link](https://dff.dk/en/our-funded-projects/meet-the-researchers/research-leaders/eksterne-personer-en/research-leaders-2026/raghavendra-selvan/))
 * _Sulten teknologi: Så meget strøm koster det at skabe tekst, billeder og video med AI_. Videnskab.dk. 2026. ([link](https://videnskab.dk/teknologi/sulten-teknologi-saa-meget-stroem-koster-det-at-skabe-tekst-billeder-og-video-med-ai/))
 * _Datacentre bruger lige så meget strøm som Frankrig – og snart mere vand end hele Afrika_. Videnskab.dk. 2026.([link](https://videnskab.dk/teknologi/datacentre-bruger-lige-saa-meget-stroem-som-frankrig-og-snart-mere-vand-end-hele-afrika/))
 * _Irritation took me somewhere entirely new_. UCPH article on "Aha" moments of scientists. ([link](https://pkunet-shared.ku.dk/newsroom/news/pages/irritation-took-me-somewhere-entirely-new.aspx)[pdf](files/aha_Moment2026.pdf))
