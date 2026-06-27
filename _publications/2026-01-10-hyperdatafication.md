@@ -8,6 +8,6 @@ date: 2026-05-01
 venue: 'ACM Conference on Fairness, Accountability, and Transparency. (FAccT)'
 pubtype: 'conference'
 project: 'sustofai'
-paperurl: https://arxiv.org/abs/2602.00056
-pdf: https://researchprofiles.ku.dk/files/532743281/wilson2026hyperdatafication.pdf
+paperurl: https://dl.acm.org/doi/10.1145/3805689.3812393
+pdf: https://dl.acm.org/doi/pdf/10.1145/3805689.3812393
 ---
