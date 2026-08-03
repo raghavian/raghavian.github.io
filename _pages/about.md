@@ -46,10 +46,10 @@ We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See 
 * 2026-01: [Comment article](https://www.nature.com/articles/s41581-026-01047-3) published accepted at Nature Reviews Nephrology. 
 * 2025-12: [Wenshøj et al.](https://openreview.net/forum?id=bPwcJ0nkDC), "Oscillations Make Neural Networks Robust to Quantization" accepted to <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">TMLR</span>.
 * 2025-11: Sustainable AI now published, and available [online](https://raghavian.github.io/sustainable-ai/).
-* 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
-* 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
 
 <!-- 
+* 2025-11: RS has been recognised at the Department of CS, UCPH for "For sustained excellence in teaching, research and organizational contribution" in 2025.
+* 2025-11: RS has been recognised as an "[Outstanding Area Chair](https://www.nldl.org/organizers/program-commitee)" at NLDL-2026.
 * 2025-07: RS will be part of the [AIM@Cancer project](https://di.ku.dk/english/news/2025/supercomputer-and-ai-to-boost-danish-cancer-treatment--new-project-awarded-7-million/) contributing with workpackage on resource-efficient ML for radiotherapy applications.
 * 2025-06: [Paper](https://arxiv.org/abs/2504.00692) accepted to Aarhus 2025 Conference on Computing [X] Crisis.
 * 2025-05: [Paper](https://arxiv.org/abs/2506.01774) accepted to ACM Software Engineering Notes.
