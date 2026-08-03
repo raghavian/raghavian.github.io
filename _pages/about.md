@@ -33,6 +33,8 @@ We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See 
 -->
 
 ## News
+* 2026-08: RS has been awarded the [HC Ørestad Research Talent Prize](https://hcoersted.dk/2026/08/03/birgitte-skadhauge-modtager-h-c-orstedprisen-2026/) for 2026.
+* 2026-07: [Johansen et al.](https://doi.org/10.26434/chemrxiv.15000236/v2), "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data" accepted to Digital Discovery.
 * 2026-07: RS has been awarded Sapere Aude: DFF Research Leader grant for the new project [CITADL](https://dff.dk/en/our-funded-projects/meet-the-researchers/research-leaders/eksterne-personer-en/research-leaders-2026/raghavendra-selvan/)
 * 2026-07: Inie et al., "The CO2ST of Agentic AI in Research" accepted to the Nordic Conference on Human-Computer Interaction (NordCHI).
 * 2026-06: RS has an invited comment article at The Lancet Digital Health: [Selvan (2026)](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(26)00039-7/fulltext)
