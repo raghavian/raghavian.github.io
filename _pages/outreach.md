@@ -8,6 +8,7 @@ redirect_from:
 ---
 Media Coverage
 ---
+* _Datacentre til AI bruger mere vand end en halv milliard mennesker_. DR. (2026) ([link](https://www.dr.dk/nyheder/viden/klima/datacentre-til-ai-bruger-mere-vand-end-en-halv-milliard-mennesker))
 * _Sapere Aude: DFF Research Leader Portrait_. (2026). ([link](https://dff.dk/en/our-funded-projects/meet-the-researchers/research-leaders/eksterne-personer-en/research-leaders-2026/raghavendra-selvan/))
 * _Sulten teknologi: Så meget strøm koster det at skabe tekst, billeder og video med AI_. Videnskab.dk. 2026. ([link](https://videnskab.dk/teknologi/sulten-teknologi-saa-meget-stroem-koster-det-at-skabe-tekst-billeder-og-video-med-ai/))
 * _Datacentre bruger lige så meget strøm som Frankrig – og snart mere vand end hele Afrika_. Videnskab.dk. 2026.([link](https://videnskab.dk/teknologi/datacentre-bruger-lige-saa-meget-stroem-som-frankrig-og-snart-mere-vand-end-hele-afrika/))
