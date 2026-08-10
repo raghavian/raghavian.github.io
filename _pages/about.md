@@ -13,7 +13,7 @@ Raghavendra Selvan (Raghav) is a Tenure-Track Assistant Professor at the Machine
 
 [![image](images/suai.png){: .align-center style="width: 200px;"}](https://raghavian.github.io/sustainable-ai/)
 
-RS published a book _Sustainable AI_. Check out the webpage for the book [here.](https://raghavian.github.io/sustainable-ai/)
+RS has published _Sustainable AI_, a book that maps the socio-technical aspects of the interplay between sustainability and AI. Check out the webpage for the book [here.](https://raghavian.github.io/sustainable-ai/)
 
 
 
