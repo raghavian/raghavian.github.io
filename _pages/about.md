@@ -20,7 +20,7 @@ RS has published _Sustainable AI_, a book that maps the socio-technical aspects 
 
 ## Hiring
 
-If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://raghavian.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
+If you are interested in joining our team check out the open positions advertised on [UCPH Job Portal](https://employment.ku.dk/). And if no positions are currently being advertised by me, feel free to reach out with a short email about what you are interested in and how the [projects](https://saintslab.github.io/projects/) in my team might be of interest to you. The latter also holds for visiting researchers, and prospective thesis students (enrolled at UCPH). 
 
 <!-- 
 ## Events
