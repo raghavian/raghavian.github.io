@@ -4,7 +4,7 @@ authbefore: "Sophia N. Wilson, Jens Hesselbjerg Christensen, "
 authafter: ""
 collection: publications
 permalink: /publication/2025-10-trading-carbon
-date: 2025-10-01
+date: 2026-01-01
 venue: 'ECCV Workshop on Representation Learning with Very Limited Resources (LIMIT)'
 pubtype: 'conference'
 project: 'sustofai'
