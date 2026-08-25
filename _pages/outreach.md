@@ -54,6 +54,7 @@ Select Invited Talks
 ---
 {% include base_path %}
 * 2026
+    * "Characterizing Learning in Deep Neural Networks using the lens of Algorithmic Information Theory". [Invited talk](https://barc.ku.dk/events/barc-talk-by-raghavendra-selvan/) at Basic Algorithms Research Copenhagen, Denmark.
     * "On the challenges in assessing the sustainability of AI". Invited talk at Green Informatics Seminar,University of Oslo, Norway.
     * "Bridging Practice and Theory in pursuit of Sustainable AI". Guest talk at Southern Denmark University, Denmark
     * "On the challenges in assessing the sustainability of AI". Keynote at SC4RC, CERN, Switzerland
