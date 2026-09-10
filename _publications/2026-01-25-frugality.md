@@ -8,6 +8,7 @@ date: 2026-05-01
 venue: 'International Conference on Machine Learning. (ICML)' 
 pubtype: 'conference'
 project: 'sustofai'
+projectname: 'glean'
 paperurl: https://researchprofiles.ku.dk/en/publications/stop-preaching-and-start-practising-data-frugality-for-responsibl/
 pdf: https://researchprofiles.ku.dk/files/534321266/wilson2026data_frugality.pdf
 ---

@@ -8,6 +8,7 @@ date: 2026-05-01
 venue: 'ACM Conference on Fairness, Accountability, and Transparency. (FAccT)'
 pubtype: 'conference'
 project: 'sustofai'
+projectname: 'glean'
 paperurl: https://dl.acm.org/doi/10.1145/3805689.3812393
 pdf: https://dl.acm.org/doi/pdf/10.1145/3805689.3812393
 ---
