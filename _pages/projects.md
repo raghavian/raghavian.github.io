@@ -28,7 +28,6 @@ Material cost of developing and deploying complex ML models is growing considera
 <ol>
 {% for post in site.publications reversed %}
   {% if post.project == 'sustofai' %}
-     <li> {% include archive-single.html %} </li>
      <li data-projectname="{{ post.projectname }}"> {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
@@ -43,7 +42,6 @@ ML methods can accelerate research and open possibilities of asking novel questi
 <ol>
 {% for post in site.publications reversed %}
   {% if post.project == 'ai4sciences' %}
-     <li> {% include archive-single.html %} </li>
      <li data-projectname="{{ post.projectname }}"> {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
@@ -57,7 +55,6 @@ PhD training of RS was in medical image analysis. RS still holds keen interest i
 <ol>
 {% for post in site.publications reversed %}
   {% if post.project == 'media' %}
-     <li> {% include archive-single.html %} </li>
      <li data-projectname="{{ post.projectname }}"> {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
