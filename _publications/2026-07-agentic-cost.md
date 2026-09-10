@@ -8,6 +8,7 @@ date: 2026-07-12
 venue: 'Nordic Conference on Human-Computer Interaction (NordCHI)'
 pubtype: 'conference'
 project: 'sustofai'
+projectname: 'carbontracker'
 paperurl: 
 pdf:
 ---

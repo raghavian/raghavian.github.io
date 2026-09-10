@@ -8,6 +8,7 @@ date: 2022-03-07
 venue: '25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI).'
 pubtype: 'conference'
 project: 'sustofai'
+projectname: 'carbontracker'
 paperurl: https://link.springer.com/chapter/10.1007/978-3-031-16443-9_49
 pdf: https://arxiv.org/pdf/2203.02202
 ---

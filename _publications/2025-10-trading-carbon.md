@@ -8,6 +8,7 @@ date: 2026-01-01
 venue: 'ECCV Workshop on Representation Learning with Very Limited Resources (LIMIT)'
 pubtype: 'conference'
 project: 'sustofai'
+projectname: 'carbontracker'
 paperurl: https://arxiv.org/abs/2509.24517
 pdf: https://arxiv.org/pdf/2509.24517
 ---
