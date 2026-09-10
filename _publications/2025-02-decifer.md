@@ -8,6 +8,7 @@ date: 2026-04-08
 venue: 'Transactions on Machine Learning Research (TMLR).'
 pubtype: 'journal'
 project: 'ai4sciences'
+projectname: 'aichemy'
 paperurl: https://openreview.net/forum?id=LftFQ35l47
 pdf: https://openreview.net/forum?id=LftFQ35l47
 ---
