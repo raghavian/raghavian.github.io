@@ -33,6 +33,7 @@ We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See 
 -->
 
 ## News
+* 2026-09: [Chen & Selvan](https://arxiv.org/abs/2509.10367), "A Discrepancy-Based Perspective on Dataset Condensation" accepted to <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">TMLR</span> with Survey certification.
 * 2026-08: RS has been awarded the [HC Ørestad Research Talent Prize](https://hcoersted.dk/portfolio-item/raghavendra-selvan-h-c-orsted-forskertalentprisen-2026/) for 2026.
 * 2026-07: [Johansen et al.](https://doi.org/10.1039/D6DD00088F), "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data" accepted to Digital Discovery.
 * 2026-07: RS has been awarded Sapere Aude: DFF Research Leader grant for the new project [CITADL](https://dff.dk/en/our-funded-projects/meet-the-researchers/research-leaders/eksterne-personer-en/research-leaders-2026/raghavendra-selvan/)
