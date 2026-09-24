@@ -33,6 +33,7 @@ We are organizing the first P1 Program on Green AI Workshop on 8 May, 2026. See 
 -->
 
 ## News
+* 2026-09: [Bakhtiarifard et al.](https://arxiv.org/abs/2605.15551), "Characterizing Learning in Deep Neural Networks using Tractable Algorithmic Complexity Analysis" accepted to <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">NeurIPS</span>.
 * 2026-09: [Chen & Selvan](https://arxiv.org/abs/2509.10367), "A Discrepancy-Based Perspective on Dataset Condensation" accepted to <span style="background-color: #4285F4; color: white; padding: 2px 5px; border-radius: 3px;">TMLR</span> with Survey certification.
 * 2026-08: RS has been awarded the [HC Ørestad Research Talent Prize](https://hcoersted.dk/portfolio-item/raghavendra-selvan-h-c-orsted-forskertalentprisen-2026/) for 2026.
 * 2026-07: [Johansen et al.](https://doi.org/10.1039/D6DD00088F), "Tackling Real-World Crystal Structure Prediction from Powder X-ray Diffraction Data" accepted to Digital Discovery.
