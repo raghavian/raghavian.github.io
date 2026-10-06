@@ -9,6 +9,6 @@ venue: 'Nordic Conference on Human-Computer Interaction (NordCHI)'
 pubtype: 'conference'
 project: 'sustofai'
 projectname: 'carbontracker'
-paperurl: 
+paperurl: https://dl.acm.org/doi/full/10.1145/3821402.3830115 
 pdf:
 ---
