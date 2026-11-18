@@ -9,8 +9,8 @@ redirect_from:
 
 ### Sarvajna Archives
 
-Check out the project [here](https://raghavian.github.io/sarvajna/).
+Check out the project [here](https://raghavian.saintslab.org/sarvajna/).
 
-[![image](files/sarvajna.png)](https://raghavian.github.io/sarvajna/)
+[![image](files/sarvajna.png)](https://raghavian.saintslab.org/sarvajna/)
 
 

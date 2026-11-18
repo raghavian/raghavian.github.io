@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Team"
-    url: https://saintslab.github.io/
+    url: https://saintslab.org/
 
   - title: "Publications"
     url: /publications/
 
   - title: "Book"
-    url: https://raghavian.github.io/sustainable-ai/
+    url: https://raghavian.saintslab.org/sustainable-ai/
         
   - title: "Projects"
     url: /projects/

@@ -14,7 +14,7 @@ Media Coverage
 * _Datacentre bruger lige så meget strøm som Frankrig – og snart mere vand end hele Afrika_. Videnskab.dk. 2026.([link](https://videnskab.dk/teknologi/datacentre-bruger-lige-saa-meget-stroem-som-frankrig-og-snart-mere-vand-end-hele-afrika/))
 * _Irritation took me somewhere entirely new_. UCPH article on "Aha" moments of scientists. ([link](https://pkunet-shared.ku.dk/newsroom/news/pages/irritation-took-me-somewhere-entirely-new.aspx)[pdf](files/aha_Moment2026.pdf))
 * _Det koster klimaet dyrt, når vi bruger ChatGPT_. TV2 Kosmopol report. 2026. ([link](https://www.tv2kosmopol.dk/metropolen/unge-dropper-google-til-fordel-for-chatgpt-det-koster-klimaet-dyrt-ff240))
-* _This Computer Scientist Exposed AI's Dirty Secret_. Podcast/Interview. 2025.([link](https://raghavian.github.io/sustainable-ai/))
+* _This Computer Scientist Exposed AI's Dirty Secret_. Podcast/Interview. 2025.([link](https://raghavian.saintslab.org/sustainable-ai/))
 * _ChatGPT-5 er både klogere og hurtigere – men energiforbruget er muligvis uændret, mener ekspert_. Finans.dk ([link](https://finans.dk/tech/ECE18425958/chatgpt5-er-baade-klogere-og-hurtigere-men-energiforbruget-er-muligvis-uaendret-mener-ekspert/))
 * _How the US tech industry is shaping the transition to green energy_. Nature Index 2025 Energy ([link](https://www.nature.com/articles/d41586-025-00743-7) [pdf](files/nature2025.pdf))
 * _AI-revolutionen kræver en sikker hånd på roret_. Danish Datacenter Industry Seminar. ([link](https://www.datacenterindustrien.dk/ai-revolutionen-krver-en-sikker-hand-pa-roret)) ([pdf](files/ddi2024.pdf))

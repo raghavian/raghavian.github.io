@@ -7,6 +7,6 @@ date: 2025-12-31
 project: 'sustofai'
 venue: 'Book'
 pubtype: 'thesis'
-paperurl: https://raghavian.github.io/sustainable-ai/
-pdf: https://raghavian.github.io/sustainable-ai/
+paperurl: https://raghavian.saintslab.org/sustainable-ai/
+pdf: https://raghavian.saintslab.org/sustainable-ai/
 ---

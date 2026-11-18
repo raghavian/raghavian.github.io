@@ -54,7 +54,7 @@ Masters Theses
 **Co-supervisor**
 * Frederik L. Johansen (2022), *Developing a Deep Q-Learning Framework for Atomic Structure Determination of Mono-Metallic Nanoclusters using Pair Distribution Function Data*
 * Ulrik Friis-Jensen (2022), *Using Deep Generative Models for Atomic Structure Solution of Metal Oxide Nanoparticles from Pair Distribution Function Data*
-* Abraham Smith (2018), *Root Segmentation using Convolutional Neural Networks* ([publication](https://raghavian.github.io/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net))
+* Abraham Smith (2018), *Root Segmentation using Convolutional Neural Networks* ([publication](https://raghavian.saintslab.org/publication/2019-01-01-Segmentation-of-roots-in-soil-with-U-Net))
 
 ---
 
@@ -69,7 +69,7 @@ Bachelor projects
 * Kevin Weng (2021), *Self-supervised learning for medical image segmentation in high-resolution microscopy images*
 * Kasper Munk Rasmussen (2021), *Unsupervised learning of objects and concepts with a focus on medical images*
 * Christoffer Winther (2021), *Similarity measures of nanomolecules using self-supervised graph neural networks*
-* Benjamin Kanding & Lasse F. Wolff Anthony (2020), *The Carbon Footprint of Training Deep Learning Models*, ([Python package](https://pypi.org/project/carbontracker/), [Publication](https://raghavian.github.io/publication/2020-07-carbontracker))
+* Benjamin Kanding & Lasse F. Wolff Anthony (2020), *The Carbon Footprint of Training Deep Learning Models*, ([Python package](https://pypi.org/project/carbontracker/), [Publication](https://raghavian.saintslab.org/publication/2020-07-carbontracker))
 * Gilli Fjallstein (2020), *Locomotion behaviour analysis of mice from video sequences*
 
 **Co-supervisor**
@@ -83,7 +83,7 @@ Course Projects
 * Søren Alexander Flensborg (2021), BSc project, *3D image segmentation using strided tensor networks* ([publication](https://www.melba-journal.org/papers/2022:005.html))
 * Justinas Anatanavicius (2021), MSc project, *Identifying 2D brain slices in a 3D reference atlas using Siamese Networks* ([publication](https://openreview.net/forum?id=rRGzrXChq0F))
 * Klas Rydhmer (2021), PhD project, *Dynamic β-VAEs for quantifying biodiversity by clustering optically recorded insect signals* ([publication](https://arxiv.org/abs/2102.05526))
-* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([publication](https://raghavian.github.io/publication/2020-07-characterisingAtomicStrucs))
+* Andy Sode Anker (2020), MSc project, *Using CVAEs to Extract Structural Motifs from X-ray Scattering Data* ([publication](https://raghavian.saintslab.org/publication/2020-07-characterisingAtomicStrucs))
 
 **Co-supervisor**
 * Julian Elisha Schön (2022), MSc project, *Temporal Embeddings in Deep Generative Latent Models for Disease Prediction and Treatment Planning*
